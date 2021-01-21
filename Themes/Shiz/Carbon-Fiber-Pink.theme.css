@@ -1,0 +1,170 @@
+/** 
+ * @name Carbon-Fiber-Pink
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Carbon Fiber Pink Clean theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
+ * @source https://nfld99.com/shiz.html
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+ /* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
+:root {
+  --Main-Colour: rgb(245, 116, 217);
+  --Background-Colour: rgba(10, 9, 10, 0.815);
+  --Secondary-Background-Colour: rgba(243, 69, 214, 0.384);
+  --Secondary-Main-Colour: rgba(230, 127, 230, 0.651);
+  --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
+  --Scroller-Colour: rgba(230, 127, 230, 0);
+  --Notification-Colour: rgba(230, 127, 230, 0.651);
+  --Chat-Input-Background: rgba(230, 127, 230, 0.301);
+  --Chat-Input-Colour:rgb(245, 116, 217) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/lugLCWz.jpg);
+  --Settings-Background: url(https://i.imgur.com/lugLCWz.jpg);
+  --Callout-Background: var(--Chat-Background);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Carbon-Fiber Pink";
+  --Chat-Font-Used: 'Coda', cursive;
+  --Chat-Font-Size: 17px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background:  url(https://i.imgur.com/lugLCWz.jpg);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background:url(https://i.imgur.com/lugLCWz.jpg);
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour:rgb(245, 116, 217);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 40%;
+  --Background-Darkness: 0.22;
+}
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--color-main);
+  border: 1px solid rgb(240, 6, 119);
+  border-bottom-color: #f162de;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+
+/* Small Tweak to message bar */
+.scrollableContainer-2NUZem{
+    border-bottom-left-radius: 95px;
+    border-top-right-radius: 95px;
+  }
+  .emojiButton-pET4wH{
+    margin-right: 20px;
+    margin-top: 3px
+  }
+  
+
+  /* Message area over sized border */
+  
+  .textRow-19NEd_ {
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+  }
+  .theme-dark .channelTextArea-rNsIhG {
+      border-top: 0px solid rgb(245, 6, 205);
+  }
+/* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+.groupStart-23k01U {
+    box-shadow: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+
+.theme-dark .scrollbar-3dvm_9 {
+  background-color: rgba(238, 13, 238, 0.158) !important;
+ }
+ 
+
+.theme-dark .item-1Yvehc {
+  background: rgb(245, 116, 217) !important;
+  background-color: rgb(17, 16, 17) !important;
+  color: rgb(163, 159, 159)!important;
+}
+
+.theme-dark .item-1Yvehc:hover {
+  background: rgb(245, 116, 217) !important;
+  background-color: rgb(20, 19, 20) !important;
+  color: rgb(rgb(245, 116, 217)!important;
+}
+
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+  background: rgb(15, 15, 11) !important;
+  background-color: rgb(245, 116, 217) !important;
+  border: 2px solid rgb(8, 8, 8) !important;
+}
+
+.theme-dark .nameTag-m8r81H, .name-1ug6d4{
+    color: rgb(245, 116, 217) !important;
+  }
+  

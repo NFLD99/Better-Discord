@@ -1,0 +1,78 @@
+﻿/**
+ * @name Battlefield_Four
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+/* Source Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/Yes.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+:root {
+  --Main-Colour: rgba(255,255,255,1);
+  --Background-Colour: rgba(50,50,50,1);
+  --Secondary-Background-Colour: rgba(40,40,40,0.5);
+  --Secondary-Main-Colour: rgba(231,173,37,0.88);
+  --Text-Shadow-Colour: rgba(0,0,0,.73);
+  --Scroller-Colour: rgba(222,222,222,0.9);
+  --Notification-Colour: rgba(231,173,37,1);
+  --Chat-Input-Background: rgba(0,0,0,0.4);
+  --Chat-Input-Colour: rgba(215,215,215,0.8) ;
+  --Unread-Message-1: rgba(235,90,35,1) ;
+  --Unread-Message-2: rgba(235,90,35,1) ;
+  --Chat-Background: url(https://nfld99.com/Bkg/53vHTzJ.jpg);
+  --Settings-Background: url(https://nfld99.com/Bkg/wjeTE1n.jpg);
+  --Callout-Background: url(https://nfld99.com/Bkg/53vHTzJ.jpg);
+  --Title-Background: rgba(40,40,40,1);
+  --Theme-Variant: " Battlefield 4";
+  --Chat-Font-Used: 'Electrolize', sans-serif;
+  --Chat-Font-Size: 17px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://nfld99.com/Bkg/K2Rdals.jpg);
+  --Popout-Text-Shadow-Colour: var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: rgba(0,0,0,0.8);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Darkness: 0.48;
+}
+::-webkit-input-placeholder, body, button, input, select, textarea {  font-family: Electrolize,sans-serif;}
+.textArea-2Spzkt {  font-size: 17px;}
+.wrapper-232cHJ {  background-color: rgb(235,90,35);  color: rgb(255,255,255);  font-size: 13px;}
+.badge-1GsMF2 {  border: 1px solid rgba(235,90,35,0.69);}

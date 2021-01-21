@@ -1,0 +1,40 @@
+/**
+ * @name Avatars
+ * @author NFLD99
+ * @version 4
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+:root{
+  --Radius:20%;
+  --Width: 40px;
+  --Height: 40px;
+}
+
+.wrapper-3t9DeA {
+  width: var(--Width)!important;
+  height: var(--Height)!important;
+  background-size: var(--Width) var(--Height)!important;
+}
+.wrapper-3t9DeA{
+  background-clip: padding-box!important;
+  position: relative!important;
+  background-color: none!important;
+  background-position: 50%!important;
+  border-radius: var(--Radius)!important;
+}
+
+[mask="url(#svg-mask-avatar-default)"],
+[mask="url(#svg-mask-avatar-status-round-32)"]{
+  mask: none!important;
+}
+
+.avatar-VxgULZ{
+  border-radius: var(--Radius)!important;
+}

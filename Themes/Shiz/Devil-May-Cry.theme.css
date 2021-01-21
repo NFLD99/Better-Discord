@@ -1,0 +1,248 @@
+/** 
+ * @name Devil-May-Cry
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Devil May Cry theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
+ * @source https://nfld99.com/shiz.html
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+ /* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
+:root {
+  --Main-Colour: rgb(248, 47, 11);
+  --Background-Colour: rgba(7,0,5,1);
+  --Secondary-Background-Colour: rgba(7,0,5,.3);
+  --Secondary-Main-Colour: rgb(8, 32, 250);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(250, 54, 54, 0);
+  --Notification-Colour: rgb(57, 54, 250);
+  --Chat-Input-Background: rgba(19, 41, 241, 0.2);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/UahyBmw.jpg);
+  --Settings-Background: url(https://i.imgur.com/ssQkxi4.jpg?1);
+  --Callout-Background: url(https://i.imgur.com/9QZ6TaW.jpg);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Devil-May-Cry";
+  --Chat-Font-Used: 'Bubblegum Sans', cursive;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://i.imgur.com/uOG7Kzb.jpg?1);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: url(https://i.imgur.com/rkyO1AB.jpg?1);
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 40%;
+  --Background-Darkness: 0.45;
+}
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+/* Small Tweak to message bar */
+.scrollableContainer-2NUZem{
+    border-bottom-left-radius: 95px;
+    border-top-right-radius: 95px;
+  }
+  .emojiButton-pET4wH{
+    margin-right: 20px;
+    margin-top: 3px
+  }
+  
+ 
+  /* Message area over sized border */
+  
+  .textRow-19NEd_ {
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+  }
+  .theme-dark .channelTextArea-rNsIhG {
+      border-top: 0px solid rgb(245, 6, 205);
+  }
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+/*Channel Borders */
+.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
+  border: 1px var(--Secondary-Main-Colour) solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 200ms;
+}
+.groupStart-23k01U {
+    box-shadow: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
+
+/* sending message area adding a border */
+.da-app .inner-zqa7da {
+	border: 1px solid rgb(8, 88, 247);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #f70b0b;
+}
+
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+border: 0px;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: var(--color-main);
+    border: 1px solid rgb(241, 14, 14);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 2.5px;
+    height: 40px;
+    width: 0px;
+}
+/* connected voice area */
+.container-1UB9sr {
+	background-color: var(--color-main);
+	border: 1px solid rgb(241, 25, 25);
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+/* search button at the top */
+.theme-dark .search .search-bar {
+    background-color: var(--color-main);
+    border: 1px solid rgb(247, 19, 19);
+}
+
+
+/* guild add button */
+.theme-dark .guildsAdd-21_IdK {
+    background: var(--color-main);
+    border-color: rgb(245, 13, 13);
+    color: rgb(55, 92, 167);
+}
+/* makes hover effect on some areas from default discord */
+.scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
+  visibility: visible!important;
+}
+.scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track {
+  visibility: hidden!important;
+}
+/* scroll bar removing background on emoji page */
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* unread messages */
+.wrapper-232cHJ {
+  background-color: #33579e;
+  box-shadow: 0px 0px 10px #33579e;
+}
+
+/* settings my account background */
+.theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
+background: rgba(8, 26, 62, 0.3);
+border-color: rgba(55, 92, 167, 0.4);
+}
+
+/* settings button normal and hover of categories */
+.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+  background-color: #08294f;
+   border: 1px solid #375ca7;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+background-color: rgba(25, 65, 112, 0.63);
+   border: 1px solid #375ca7;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+height: 40px;
+  width: 0px;
+}
+
+/* secondary buttons */
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
+background-color: #08294f;
+}
+
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: rgb(9, 48, 93);
+}
+
+/* profile focused button text border */
+.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
+  border-color: rgba(55, 92, 167, 0.4);
+}
+
+/* profile area of settings question mark normal and hover */
+.da-app .da-questionMark {
+  background-color: #173c6c;
+}
+.da-app .da-questionMark:hover {
+  background-color: #205293;
+}

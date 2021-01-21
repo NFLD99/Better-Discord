@@ -1,0 +1,20 @@
+/* ⛧Bζ͜͡annerBomb⛧#4437 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="269247101697916939"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="269247101697916939"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="269247101697916939"]::before {
+	content: url(https://nfld99.com/Boops/ChaChing.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="269247101697916939"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="269247101697916939"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="269247101697916939"]::after {
+	content: "Hello Im Banner! \a I Am A Developer. \a I run Bots like SBE!"
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="269247101697916939"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/BannerBomb.gif) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="269247101697916939"] * {
+	color: rgb(233, 30, 99) !important;
+	border-color: rgb(233, 30, 99) !important
+}
+/* ⛧Bζ͜͡annerBomb⛧#4437 */

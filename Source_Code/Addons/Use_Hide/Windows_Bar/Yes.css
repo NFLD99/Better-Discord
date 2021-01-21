@@ -1,0 +1,15 @@
+/* Windows Bar */
+.typeWindows-1za-n7{
+	min-height:5px!important;
+	max-height:20px!important;
+	height:5px;
+	transition: all .5s;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.typeWindows-1za-n7:hover{
+	height:20px;
+	transition: all .6s;
+	opacity: 1;
+}

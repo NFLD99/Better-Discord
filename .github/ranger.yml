@@ -1,0 +1,10 @@
+default:
+    close:
+        delay: 15s
+        comment: '$LABEL'
+labels:
+    'DSBD Issue':
+        action: close
+        delay: 15s
+        comment: 'Working as intended. You downloaded a bad file, Do Not use BetterDocs/DiscordSource Please Redownload from: https://nfld99.com The site you downloaded this theme from does not have premission to host my files nor link to my repo(s) and has been asked to remove my themes multiple times. Should you need support please join the support server: https://nfld99.com/discord ~NFLD99'
+    invalid: close

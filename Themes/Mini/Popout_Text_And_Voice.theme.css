@@ -1,0 +1,48 @@
+/**
+ * @name Popout_Text_And_Voice
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+/* Members */
+.membersWrap-2h-GB4{
+	min-width:50px!important;
+	max-width:240px!important;
+	width:50px;
+	transition: width .5s;
+}
+.membersWrap-2h-GB4:hover{
+	width:240px;
+	transition: width .6s;
+}
+/* Giulds */
+.wrapper-1Rf91z:not(:hover){
+	max-width: 10px!important;
+	opacity: 0;
+	transition: all 200ms;
+}
+.wrapper-1Rf91z {
+  width: 60px!important;
+  max-width: 60px!important;
+	transition: all 200ms;
+}
+/* Channels */
+.channels-Ie2l6A{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+.channels-Ie2l6A:hover{
+	width:240px;
+	transition: all .6s;
+	opacity: 1;
+}

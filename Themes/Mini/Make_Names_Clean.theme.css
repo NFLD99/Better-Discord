@@ -1,0 +1,47 @@
+/**
+ * @name Make_Names_Clean
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+:root {
+  --Name-Colour: #7289DA ;
+  /* color|initial|inherit */
+  --Name-Colour-Hover: #99AAB5 ;
+  /* color|initial|inherit */
+  --Name-Font-Used: 'Discord';
+  /* https://nfld99.github.io/Better-Discord/Font_List.txt */
+  --Name-Font-Size: 15px ;
+  /* medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit; */
+  --Name-Font-Style: normal ;
+  /* normal|italic|oblique|initial|inherit; */
+  --Name-Font-Weight: 200 ;
+  /* normal|bold|bolder|lighter|number|initial|inherit */
+  --Name-Font-Variant: normal ;
+  /* normal|small-caps|initial|inherit */
+  --Name-Animation-Time: 200ms ;
+  /* time|initial|inherit */
+}
+
+.username-1A8OIy{
+color: var(--Name-Colour) !important;
+font-size: var(--Name-Font-Size)!important;
+font-family: var(--Name-Font-Used)!important;
+font-style: var(--Name-Style)!important;
+font-weight:  var(--Name-Weight)!important;
+font-variant: var(--Name-Variant)!important;
+transition: all 200ms;
+}
+
+.username-1A8OIy:hover{
+color: var(--Name-Colour-Hover)!important;
+transition: all var(--Name-Animation-Time);
+}

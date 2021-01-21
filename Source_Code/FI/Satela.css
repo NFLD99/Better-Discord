@@ -1,0 +1,20 @@
+/* Satela#1771 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]::before {
+	content: url(https://nfld99.com/Boops/Satela.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]::after {
+	content: "Hi there, I'm Satela! \a Don't be envious of my charms,\a just let me play with you"
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
+}
+/* Satela#1771 */

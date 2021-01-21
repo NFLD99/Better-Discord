@@ -1,0 +1,20 @@
+/* Ansemik_CZE#9175 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]::before {
+	content: url(https://nfld99.com/Boops/ChaChing.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]::after {
+	content: "Just an tiger with wings \a and a furry lover. Im freindly \a and i like to help people."
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
+}
+/* Ansemik_CZE#9175 */

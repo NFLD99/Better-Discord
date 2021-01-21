@@ -1,0 +1,20 @@
+/* Lil Devil ✓#2004 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::before {
+	content: url(https://nfld99.com/Boops/Lil_Devil.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::after {
+	content: "Gabe_watches the twitch streamer \a Not affiliate yet but 30+ followers \a Thanks for following <3"
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Lil_Devil.jpg) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
+}
+/* Lil Devil ✓#2004 */

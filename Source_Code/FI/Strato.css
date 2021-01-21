@@ -1,0 +1,25 @@
+/* Strato#4763 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322758556946530304"]::before {
+	content: url(https://nfld99.com/Boops/Strato.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]:hover::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]:hover::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322758556946530304"]:hover::before {
+	content: url(https://nfld99.com/Boops/Strato.gif)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322758556946530304"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322758556946530304"]::after {
+	content: "Hello, I'm The Strato! \a The man. The myth. The legend."
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
+}
+/* Strato#4763 */

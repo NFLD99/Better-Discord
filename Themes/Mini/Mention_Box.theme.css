@@ -1,0 +1,35 @@
+/**
+ * @name Mentioned_Box
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+:root{
+	--Background: rgba(85, 193, 58, 0.2) ;
+	--Mention: #95da72;
+	--Bar: rgba(26, 250, 93, 0.357);
+}
+.theme-dark .isMentioned-N-h9aa {
+  background: var(--Background) !important;
+}
+.mention {
+  color: var(--Mention) !important;
+}
+.isMentionedCozy-3isp7y:after {
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  content: " ";
+  width: 2px;
+  background: var(--Bar)!important;
+  border-left: 4px solid var(--Bar)!important;
+  border-radius: 2px 0 0 2px;
+}

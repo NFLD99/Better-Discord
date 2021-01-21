@@ -1,0 +1,14 @@
+/* Channels */
+.sidebar-2K8pFh{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+
+.sidebar-2K8pFh:hover{
+	width:240px;
+	transition: all .6s;
+	opacity: 1;
+}

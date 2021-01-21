@@ -1,0 +1,861 @@
+=====================================
+Other
+=====================================
+'Discord'
+
+
+=====================================
+Monospace 
+=====================================
+'Inconsolata', monospace
+'Roboto Mono', monospace
+'Source Code Pro', monospace
+'Ubuntu Mono', monospace
+'PT Mono', monospace
+'Droid Sans Mono', monospace
+'Space Mono', monospace
+'Cousine', monospace
+'Anonymous Pro', monospace
+'VT323', monospace
+'Share Tech Mono', monospace
+'Cutive Mono', monospace
+'Nova Mono', monospace
+'Fira Mono', monospace
+'Oxygen Mono', monospace
+'Overpass Mono', monospace
+
+
+=====================================
+Handwriting
+=====================================
+'Aguafina Script', cursive
+'Aladin', cursive
+'Alex Brush', cursive
+'Allura', cursive
+'Amatic SC', cursive
+'Amita', cursive
+'Annie Use Your Telescope', cursive
+'Architects Daughter', cursive
+'Arizonia', cursive
+'Bad Script', cursive
+'Berkshire Swash', cursive
+'Bilbo', cursive
+'Bilbo Swash Caps', cursive
+'Bonbon', cursive
+'Calligraffitti', cursive
+'Caveat', cursive
+'Caveat Brush', cursive
+'Cedarville Cursive', cursive
+'Clicker Script', cursive
+'Coming Soon', cursive
+'Condiment', cursive
+'Cookie', cursive
+'Courgette', cursive
+'Covered By Your Grace', cursive
+'Crafty Girls', cursive
+'Damion', cursive
+'Dancing Script', cursive
+'Dawning of a New Day', cursive
+'Dekko', cursive
+'Delius', cursive
+'Delius Swash Caps', cursive
+'Delius Unicase', cursive
+'Devonshire', cursive
+'Dr Sugiyama', cursive
+'Eagle Lake', cursive
+'Engagement', cursive
+'Euphoria Script', cursive
+'Fondamento', cursive
+'Give You Glory', cursive
+'Gloria Hallelujah', cursive
+'Gochi Hand', cursive
+'Grand Hotel', cursive
+'Great Vibes', cursive
+'Handlee', cursive
+'Herr Von Muellerhoff', cursive
+'Homemade Apple', cursive
+'Indie Flower', cursive
+'Italianno', cursive
+'Itim', cursive
+'Jim Nightshade', cursive
+'Julee', cursive
+'Just Another Hand', cursive
+'Just Me Again Down Here', cursive
+'Kalam', cursive
+'Kaushan Script', cursive
+'Kavivanar', cursive
+'Kristi', cursive
+'La Belle Aurore', cursive
+'Lakki Reddy', cursive
+'Lateef', cursive
+'League Script', cursive
+'Leckerli One', cursive
+'Loved by the King', cursive
+'Lovers Quarrel', cursive
+'Marck Script', cursive
+'Meddon', cursive
+'Meie Script', cursive
+'Merienda', cursive
+'Merienda One', cursive
+'Miss Fajardose', cursive
+'Molle', cursive
+'Monsieur La Doulaise', cursive
+'Montez', cursive
+'Mr Dafoe', cursive
+'Mr De Haviland', cursive
+'Mrs Saint Delafield', cursive
+'Mrs Sheppards', cursive
+'Neucha', cursive
+'Niconne', cursive
+'Norican', cursive
+'Nothing You Could Do', cursive
+'Over the Rainbow', cursive
+'Pacifico', cursive
+'Pangolin', cursive
+'Parisienne', cursive
+'Patrick Hand', cursive
+'Patrick Hand SC', cursive
+'Permanent Marker', cursive
+'Petit Formal Script', cursive
+'Pinyon Script', cursive
+'Princess Sofia', cursive
+'Quintessential', cursive
+'Qwigley', cursive
+'Rancho', cursive
+'Redressed', cursive
+'Reenie Beanie', cursive
+'Rochester', cursive
+'Rock Salt', cursive
+'Romanesco', cursive
+'Rouge Script', cursive
+'Ruge Boogie', cursive
+'Ruthie', cursive
+'Sacramento', cursive
+'Satisfy', cursive
+'Schoolbell', cursive
+'Sedgwick Ave', cursive
+'Sedgwick Ave Display', cursive
+'Shadows Into Light', cursive
+'Shadows Into Light Two', cursive
+'Short Stack', cursive
+'Sofia', cursive
+'Sriracha', cursive
+'Stalemate', cursive
+'Sue Ellen Francisco', cursive
+'Sunshiney', cursive
+'Swanky and Moo Moo', cursive
+'Tangerine', cursive
+'The Girl Next Door', cursive
+'Tillana', cursive
+'Vibur', cursive
+'Waiting for the Sunrise', cursive
+'Walter Turncoat', cursive
+'Yellowtail', cursive
+'Yesteryear', cursive
+'Zeyada', cursive
+'Felipa', cursive
+'Mr Bedfort', cursive
+'Butterfly Kids', cursive
+
+
+=====================================
+Display
+=====================================
+'Abril Fatface', cursive
+'Alfa Slab One', cursive
+'Allan', cursive
+'Amarante', cursive
+'Amatica SC', cursive
+'Arima Madurai', cursive
+'Audiowide', cursive
+'Averia Libre', cursive
+'Averia Sans Libre', cursive
+'Averia Serif Libre', cursive
+'Bahiana', cursive
+'Baloo', cursive
+'Baloo Bhaina', cursive
+'Baloo Chettan', cursive
+'Baloo Da', cursive
+'Baloo Paaji', cursive
+'Baloo Tamma', cursive
+'Bangers', cursive
+'Barrio', cursive
+'Battambang', cursive
+'Baumans', cursive
+'Bevan', cursive
+'Black Ops One', cursive
+'Boogaloo', cursive
+'Bowlby One', cursive
+'Bowlby One SC', cursive
+'Bubblegum Sans', cursive
+'Bungee', cursive
+'Bungee Inline', cursive
+'Bungee Shade', cursive
+'Cabin Sketch', cursive
+'Carter One', cursive
+'Ceviche One', cursive
+'Changa One', cursive
+'Chelsea Market', cursive
+'Cherry Cream Soda', cursive
+'Cherry Swash', cursive
+'Chewy', cursive
+'Chicle', cursive
+'Chonburi', cursive
+'Cinzel Decorative', cursive
+'Coda', cursive
+'Codystar', cursive
+'Coiny', cursive
+'Comfortaa', cursive
+'Concert One', cursive
+'Contrail One', cursive
+'Corben', cursive
+'Creepster', cursive
+'Crushed', cursive
+'Dynalight', cursive
+'Expletus Sans', cursive
+'Faster One', cursive
+'Finger Paint', cursive
+'Flamenco', cursive
+'Flavors', cursive
+'Fontdiner Swanky', cursive
+'Forum', cursive
+'Freckle Face', cursive
+'Fredericka the Great', cursive
+'Fredoka One', cursive
+'Frijole', cursive
+'Fugaz One', cursive
+'Graduate', cursive
+'Gravitas One', cursive
+'Gruppo', cursive
+'Happy Monkey', cursive
+'Iceland', cursive
+'Kelly Slab', cursive
+'Khmer', cursive
+'Knewave', cursive
+'Kranky', cursive
+'Lalezar', cursive
+'Lemon', cursive
+'Lemonada', cursive
+'Life Savers', cursive
+'Lilita One', cursive
+'Lily Script One', cursive
+'Limelight', cursive
+'Lobster', cursive
+'Lobster Two', cursive
+'Londrina Solid', cursive
+'Love Ya Like A Sister', cursive
+'Luckiest Guy', cursive
+'Macondo', cursive
+'Maiden Orange', cursive
+'McLaren', cursive
+'Medula One', cursive
+'Megrim', cursive
+'Metamorphous', cursive
+'Milonga', cursive
+'Miltonian Tattoo', cursive
+'Mogra', cursive
+'Monoton', cursive
+'Moul', cursive
+'Mountains of Christmas', cursive
+'Mystery Quest', cursive
+'New Rocker', cursive
+'Nixie One', cursive
+'Nosifer', cursive
+'Nova Square', cursive
+'Oleo Script', cursive
+'Oleo Script Swash Caps', cursive
+'Oregano', cursive
+'Overlock', cursive
+'Passion One', cursive
+'Patua One', cursive
+'Pirata One', cursive
+'Plaster', cursive
+'Playball', cursive
+'Poiret One', cursive
+'Poller One', cursive
+'Pompiere', cursive
+'Press Start 2P', cursive
+'Prosto One', cursive
+'Racing Sans One', cursive
+'Raleway Dots', cursive
+'Rammetto One', cursive
+'Righteous', cursive
+'Ruslan Display', cursive
+'Rye', cursive
+'Sail', cursive
+'Salsa', cursive
+'Sancreek', cursive
+'Seaweed Script', cursive
+'Share', cursive
+'Shojumaru', cursive
+'Shrikhand', cursive
+'Sigmar One', cursive
+'Simonetta', cursive
+'Skranji', cursive
+'Slackey', cursive
+'Sniglet', cursive
+'Special Elite', cursive
+'Spirax', cursive
+'Squada One', cursive
+'Stalinist One', cursive
+'Stardos Stencil', cursive
+'Stint Ultra Expanded', cursive
+'Titan One', cursive
+'Unica One', cursive
+'UnifrakturMaguntia', cursive
+'Unkempt', cursive
+'Vampiro One', cursive
+'Vast Shadow', cursive
+'Voces', cursive
+'Yeseva One', cursive
+'Zilla Slab Highlight', cursive
+'Sarina', cursive
+'Wallpoet', cursive
+'Mirza', cursive
+'Buda', cursive
+'Paprika', cursive
+'Farsan', cursive
+'Miniver', cursive
+'Sonsie One', cursive
+'Henny Penny', cursive
+'Rakkas', cursive
+'Yatra One', cursive
+'Trade Winds', cursive
+'Nova Round', cursive
+'Revalia', cursive
+'Overlock SC', cursive
+'UnifrakturCook', cursive
+'Kavoon', cursive
+'Ewert', cursive
+'Fruktur', cursive
+'Ribeye', cursive
+'Elsie', cursive
+'Offside', cursive
+'MedievalSharp', cursive
+'Stint Ultra Condensed', cursive
+'Peralta', cursive
+'Monofett', cursive
+'Baloo Thambi', cursive
+'Croissant One', cursive
+'Nova Slim', cursive
+'Glass Antiqua', cursive
+'Koulen', cursive
+'Emilys Candy', cursive
+'Lancelot', cursive
+'Asset', cursive
+'Autour One', cursive
+'Diplomata', cursive
+'Ravi Prakash', cursive
+'Bigshot One', cursive
+'Nova Flat', cursive
+'Tulpen One', cursive
+'Iceberg', cursive
+'Ranchers', cursive
+'Joti One', cursive
+'Purple Purse', cursive
+'Wellfleet', cursive
+'Uncial Antiqua', cursive
+'Griffy', cursive
+'Original Surfer', cursive
+'Londrina Outline', cursive
+'Snowburst One', cursive
+'Germania One', cursive
+'Galindo', cursive
+'Akronim', cursive
+'Fascinate', cursive
+'Modak', cursive
+'Chango', cursive
+'Bayon', cursive
+'Atomic Age', cursive
+'Spicy Rice', cursive
+'Modern Antiqua', cursive
+'Suwannaphum', cursive
+'Content', cursive
+'Oldenburg', cursive
+'Gorditas', cursive
+'Averia Gruesa Libre', cursive
+'Jomhuria', cursive
+'Smythe', cursive
+'Piedra', cursive
+'Margarine', cursive
+'Caesar Dressing', cursive
+'Keania One', cursive
+'Irish Grover', cursive
+'Odor Mean Chey', cursive
+'Ribeye Marrow', cursive
+'Ranga', cursive
+'Underdog', cursive
+'Diplomata SC', cursive
+'Atma', cursive
+'Astloch', cursive
+'Bokor', cursive
+'Dangrek', cursive
+'Nova Oval', cursive
+'Katibeh', cursive
+'Jacques Francois Shadow', cursive
+'Passero One', cursive
+'Kumar One', cursive
+'Bungee Hairline', cursive
+'Bungee Outline', cursive
+'Kumar One Outline', cursive
+'Macondo Swash Caps', cursive
+'Goblin One', cursive
+'Elsie Swash Caps', cursive
+'Freehand', cursive
+'Jolly Lodger', cursive
+'Miltonian', cursive
+'Smokum', cursive
+'Nova Script', cursive
+'Londrina Sketch', cursive
+'Geostar Fill', cursive
+'Galada', cursive
+'Fascinate Inline', cursive
+'Metal Mania', cursive
+'Kdam Thmor', cursive
+'Siemreap', cursive
+'Combo', cursive
+Sirin Stencil', cursive
+'Nova Cut', cursive
+'Warnes', cursive
+'Sevillana', cursive
+'Sofadi One', cursive
+'Almendra Display', cursive
+'Eater', cursive
+'Metal', cursive
+'Risque', cursive
+'Erica One', cursive
+'Aubrey', cursive
+'Geostar', cursive
+'Bigelow Rules', cursive
+'Taprom', cursive
+'Chela One', cursive
+'Federant', cursive
+'Butcherman', cursive
+'Supermercado One', cursive
+'Hanalei', cursive
+'Emblema One', cursive
+'Unlock', cursive
+'Preahvihear', cursive
+'Hanalei Fill', cursive
+'Chenla', cursive
+'Moulpali', cursive
+'Trochut', cursive
+'Londrina Shadow', cursive
+'Arbutus', cursive
+'Baloo Bhai', cursive
+'Angkor', cursive
+'Kenia', cursive
+
+
+=====================================
+Sans Serif
+=====================================
+'ABeeZee', sans-serif
+'Abel', sans-serif
+'Aclonica', sans-serif
+'Acme', sans-serif
+'Actor', sans-serif
+'Advent Pro', sans-serif
+'Aldrich', sans-serif
+'Alef', sans-serif
+'Alegreya Sans', sans-serif
+'Alegreya Sans SC', sans-serif
+'Allerta', sans-serif
+'Allerta Stencil', sans-serif
+'Amaranth', sans-serif
+'Antic', sans-serif
+'Anton', sans-serif
+'Archivo', sans-serif
+'Archivo Black', sans-serif
+'Archivo Narrow', sans-serif
+'Arimo', sans-serif
+'Armata', sans-serif
+'Arsenal', sans-serif
+'Asap', sans-serif
+'Asap Condensed', sans-serif
+'Assistant', sans-serif
+'Basic', sans-serif
+'BenchNine', sans-serif
+'Bubbler One', sans-serif
+'Cabin', sans-serif
+'Cabin Condensed', sans-serif
+'Cairo', sans-serif
+'Candal', sans-serif
+'Cantarell', sans-serif
+'Carme', sans-serif
+'Carrois Gothic', sans-serif
+'Catamaran', sans-serif
+'Changa', sans-serif
+'Chivo', sans-serif
+'Convergence', sans-serif
+'Cuprum', sans-serif
+'Days One', sans-serif
+'Didact Gothic', sans-serif
+'Dosis', sans-serif
+'Droid Sans', sans-serif
+'Economica', sans-serif
+'Ek Mukta', sans-serif
+'Electrolize', sans-serif
+'Exo', sans-serif
+'Exo 2', sans-serif
+'Federo', sans-serif
+'Fira Sans', sans-serif
+'Fira Sans Condensed', sans-serif
+'Fira Sans Extra Condensed', sans-serif
+'Fjalla One', sans-serif
+'Francois One', sans-serif
+'Frank Ruhl Libre', sans-serif
+'Gudea', sans-serif
+'Hammersmith One', sans-serif
+'Heebo', sans-serif
+'Hind', sans-serif
+'Hind Guntur', sans-serif
+'Hind Siliguri', sans-serif
+'Hind Vadodara', sans-serif
+'Homenaje', sans-serif
+'Istok Web', sans-serif
+'Jaldi', sans-serif
+'Jockey One', sans-serif
+'Josefin Sans', sans-serif
+'Julius Sans One', sans-serif
+'Jura', sans-serif
+'Kanit', sans-serif
+'Karla', sans-serif
+'Khand', sans-serif
+'Khula', sans-serif
+'Lato', sans-serif
+'Libre Franklin', sans-serif
+'Mada', sans-serif
+'Magra', sans-serif
+'Martel Sans', sans-serif
+'Marvel', sans-serif
+'Maven Pro', sans-serif
+'Merriweather Sans', sans-serif
+'Michroma', sans-serif
+'Molengo', sans-serif
+'Monda', sans-serif
+'Montserrat', sans-serif
+'Montserrat Alternates', sans-serif
+'Muli', sans-serif
+'News Cycle', sans-serif
+'Nobile', sans-serif
+'Noto Sans', sans-serif
+'Nunito', sans-serif
+'Nunito Sans', sans-serif
+'Open Sans', sans-serif
+'Open Sans Condensed', sans-serif
+'Orbitron', sans-serif
+'Oswald', sans-serif
+'Oxygen', sans-serif
+'PT Sans', sans-serif
+'PT Sans Caption', sans-serif
+'PT Sans Narrow', sans-serif
+'Pathway Gothic One', sans-serif
+'Paytone One', sans-serif
+'Philosopher', sans-serif
+'Play', sans-serif
+'Pontano Sans', sans-serif
+'Poppins', sans-serif
+'Pragati Narrow', sans-serif
+'Prompt', sans-serif
+'Puritan', sans-serif
+'Quantico', sans-serif
+'Quattrocento Sans', sans-serif
+'Questrial', sans-serif
+'Quicksand', sans-serif
+'Rajdhani', sans-serif
+'Raleway', sans-serif
+'Rambla', sans-serif
+'Reem Kufi', sans-serif
+'Roboto', sans-serif
+'Roboto Condensed', sans-serif
+'Ropa Sans', sans-serif
+'Rosario', sans-serif
+'Rubik', sans-serif
+'Ruda', sans-serif
+'Russo One', sans-serif
+'Saira', sans-serif
+'Saira Condensed', sans-serif
+'Saira Extra Condensed', sans-serif
+'Saira Semi Condensed', sans-serif
+'Sarala', sans-serif
+'Scada', sans-serif
+'Signika', sans-serif
+'Signika Negative', sans-serif
+'Sintony', sans-serif
+'Source Sans Pro', sans-serif
+'Spinnaker', sans-serif
+'Syncopate', sans-serif
+'Teko', sans-serif
+'Telex', sans-serif
+'Titillium Web', sans-serif
+'Ubuntu', sans-serif
+'Ubuntu Condensed', sans-serif
+'Varela', sans-serif
+'Varela Round', sans-serif
+'Viga', sans-serif
+'Voltaire', sans-serif
+'Work Sans', sans-serif
+'Yanone Kaffeesatz', sans-serif
+'Yantramanav', sans-serif
+'Marmelad', sans-serif
+'Metrophobic', sans-serif
+'Average Sans', sans-serif
+'Palanquin', sans-serif
+'Tauri', sans-serif
+'Doppio One', sans-serif
+'Six Caps', sans-serif
+'Cambay', sans-serif
+'Inder', sans-serif
+'Tenor Sans', sans-serif
+'Wire One', sans-serif
+'Overpass', sans-serif
+'Palanquin Dark', sans-serif
+'Anaheim', sans-serif
+'Andika', sans-serif
+'Capriola', sans-serif
+'Belleza', sans-serif
+'Athiti', sans-serif
+'Duru Sans', sans-serif
+'Mitr', sans-serif
+'Lekton', sans-serif
+'Mouse Memoirs', sans-serif
+'Biryani', sans-serif
+'Gafata', sans-serif
+'Mako', sans-serif
+'Miriam Libre', sans-serif
+'Mallanna', sans-serif
+'Orienta', sans-serif
+'Strait', sans-serif
+'Carrois Gothic SC', sans-serif
+'NTR', sans-serif
+'Imprima', sans-serif
+'Chau Philomene One', sans-serif
+'Proza Libre', sans-serif
+'Amiko', sans-serif
+'Montserrat Subrayada', sans-serif
+'Kite One', sans-serif
+'Mandali', sans-serif
+'El Messiri', sans-serif
+'Harmattan', sans-serif
+'Shanti', sans-serif
+'Hind Madurai', sans-serif
+'Rubik Mono One', sans-serif
+'Rationale', sans-serif
+'Ramabhadra', sans-serif
+'Mukta Vaani', sans-serif
+'Sansita', sans-serif
+'Secular One', sans-serif
+'Englebert', sans-serif
+'Coda Caption', sans-serif
+'Geo', sans-serif
+'Cantora One', sans-serif
+'Pattaya', sans-serif
+'Numans', sans-serif
+'Sarpanch', sans-serif
+'Dorsa', sans-serif
+'Text Me One', sans-serif
+'Krona One', sans-serif
+'Galdeano', sans-serif
+'Share Tech', sans-serif
+'Ruluko', sans-serif
+'Wendy One', sans-serif
+'Denk One', sans-serif
+'Port Lligat Sans', sans-serif
+'Padauk', sans-serif
+'Cagliostro', sans-serif
+'Arya', sans-serif
+'Asul', sans-serif
+'Fresca', sans-serif
+'Snippet', sans-serif
+'GFS Neohellenic', sans-serif
+'Pavanam', sans-serif
+'Rum Raisin', sans-serif
+'Seymour One', sans-serif
+'Chathura', sans-serif
+'Meera Inimai', sans-serif
+'Timmana', sans-serif
+'Tenali Ramakrishna', sans-serif
+'Dhurjati', sans-serif
+'Kantumruy', sans-serif
+'Gidugu', sans-serif
+
+
+=====================================
+Serif
+=====================================
+'Slabo 27px', serif
+'Roboto Slab', serif
+'Merriweather', serif
+'Lora', serif
+'Droid Serif', serif
+'Playfair Display', serif
+'PT Serif', serif
+'Noto Serif', serif
+'Faustina', serif
+'Bitter', serif
+'Manuale', serif
+'Crimson Text', serif
+'Arvo', serif
+'Libre Baskerville', serif
+'Bree Serif', serif
+'EB Garamond', serif
+'Alegreya', serif
+'Crete Round', serif
+'Rokkitt', serif
+'Vollkorn', serif
+'Source Serif Pro', serif
+'Josefin Slab', serif
+'Cinzel', serif
+'Zilla Slab', serif
+'Cormorant Garamond', serif
+'Noticia Text', serif
+'Old Standard TT', serif
+'Sanchez', serif
+'Playfair Display SC', serif
+'Spectral', serif
+'Domine', serif
+'Bellefair', serif
+'Quattrocento', serif
+'Amiri', serif
+'Cardo', serif
+'Tinos', serif
+'Arapey', serif
+'Vidaloka', serif
+'Neuton', serif
+'Kreon', serif
+'Antic Slab', serif
+'Volkhov', serif
+'Sorts Mill Goudy', serif
+'Glegoo', serif
+'Adamina', serif
+'Gentium Book Basic', serif
+'Copse', serif
+'Alice', serif
+'Kameron', serif
+'Gentium Basic', serif
+'Enriqueta', serif
+'Fauna One', serif
+'Prata', serif
+'Cantata One', serif
+'Martel', serif
+'Ultra', serif
+'Yrsa', serif
+'Slabo 13px', serif
+'Marcellus SC', serif
+'Lustria', serif
+'PT Serif Caption', serif
+'Lusitana', serif
+'Marcellus', serif
+'Arbutus Slab', serif
+'Coustard', serif
+'Average', serif
+'Halant', serif
+'Oranienbaum', serif
+'Rufina', serif
+'Radley', serif
+'Ovo', serif
+'Goudy Bookletter 1911', serif
+'Alegreya SC', serif
+'Hanuman', serif
+'Cutive', serif
+'Fanwood Text', serif
+'Kurale', serif
+'Artifika', serif
+'Eczar', serif
+'Unna', serif
+'GFS Didot', serif
+'IM Fell English', serif
+'Karma', serif
+'Trirong', serif
+'Gilda Display', serif
+'Taviraj', serif
+'Caudex', serif
+'Cambo', serif
+'IM Fell Double Pica', serif
+'Pridi', serif
+'Vesper Libre', serif
+'Judson', serif
+'Trocchi', serif
+'Quando', serif
+'Brawler', serif
+'Alike', serif
+'Buenard', serif
+'Andada', serif
+'Abhaya Libre', serif
+'Mate', serif
+'Scheherazade', serif
+'Cormorant', serif
+'Prociono', serif
+'Poly', serif
+'Gabriela', serif
+'Tienne', serif
+'Belgrano', serif
+'Bentham', serif
+'Port Lligat Slab', serif
+'Kotta One', serif
+'IM Fell DW Pica', serif
+'Amethysta', serif
+'Holtwood One SC', serif
+'Headland One', serif
+'BioRhyme', serif
+'Italiana', serif
+'David Libre', serif
+'Gurajada', serif
+'Podkova', serif
+'IM Fell English SC', serif
+'Maitree', serif
+'Suranna', serif
+'Alike Angular', serif
+'Aref Ruqaa', serif
+'Ledger', serif
+'Suez One', serif
+'Kadwa', serif
+'Balthazar', serif
+'Rosarivo', serif
+'Sumana', serif
+'Fenix', serif
+'Mate SC', serif
+'Rasa', serif
+'Habibi', serif
+'IM Fell French Canon', serif
+'Scope One', serif
+'IM Fell DW Pica SC', serif
+'Stoke', serif
+'Esteban', serif
+'Nokora', serif
+'Donegal One', serif
+'Almendra', serif
+'Rozha One', serif
+'Junge', serif
+'Fjord One', serif
+'Antic Didone', serif
+'IM Fell Great Primer SC', serif
+'IM Fell French Canon SC', serif
+'Linden Hill', serif
+'IM Fell Great Primer', serif
+'Laila', serif
+'Inika', serif
+'Cormorant Infant', serif
+'Montaga', serif
+'IM Fell Double Pica SC', serif
+'Ramaraja', serif
+'Rhodium Libre', serif
+'Trykker', serif
+'Della Respira', serif
+'Almendra SC', serif
+'Petrona', serif
+'Cormorant SC', serif
+'Sahitya', serif
+'Cormorant Upright', serif
+'Sura', serif
+'Cormorant Unicase', serif
+'Jacques Francois', serif
+'Inknut Antiqua', serif
+'BioRhyme Expanded', serif
+'Asar', serif
+'Marko One', serif
+'Sree Krushnadevaraya', serif
+'Fasthand', serif
+'Peddana', serif
+'Suravaram', serif

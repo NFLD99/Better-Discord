@@ -1,0 +1,41 @@
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+html:first-child:last-child:only-child > head:first-child + body:last-child > div#app-mount:before,html:first-child:last-child:only-child > head:first-child + body:last-child > div#app-mount:after,#user-settings:after{
+	content: "Whoops you downloaded a bad file, Do Not use BetterDocs/DiscordSource \A Please Redownload from: https://nfld99.com \A The site you downloaded this theme from does not have premission \A to host my files nor link to my repo(s) and has been asked \A to remove my themes multiple times. \A ~NFLD99 \A Remove this Theme to remove this message. \A \A if you used CCSS type the below command in console (Ctrl shift i) \A $('#customcss').remove() \A \A if you used a theme file and cant locate it type the below command in console (Ctrl shift i) \A $('#Do_NOT_Use_Better_Docs').remove()" !important;
+	white-space:pre !important;
+	font-size: 1rem !important;
+	line-height: 1.5rem !important;
+	text-align: center !important;
+	background: black!important;
+	box-shadow:inset 0 0 55px 5px goldenrod!important;
+	border:5px solid goldenrod !important;
+	color: goldenrod !important;
+	padding: 0 !important;
+	padding-top: calc(20vh - 1rem) !important;
+	margin: 0 !important;
+	display: inline !important;
+	opacity: 1 !important;
+	cursor: default !important;
+	visibility: visible !important;
+	position: fixed !important;
+	top: 22px !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	z-index: 10000000 !important;
+	pointer-events: none !important;
+	transform:none !important;
+  -webkit-app-region:drag !important;
+  /* font-family: "Discord"!important; */
+  animation: BDDS 3s infinite linear;
+}
+
+@keyframes BDDS {
+  from, to{
+    box-shadow:inset 0 0 55px 5px goldenrod;
+    border:5px solid goldenrod ;
+  }
+  50%{
+    box-shadow:inset 0 0 155px 5px red;
+    border:5px solid red;
+  }
+}

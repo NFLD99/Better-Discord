@@ -1,0 +1,28 @@
+/**
+ * @name Rainbow_Mentions
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapper-3WhCwL:hover, .theme-dark .wrapper-3WhCwL {
+  background: transparent !important;
+}
+.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention,.theme-dark .wrapper-3WhCwL,.theme-dark .wrapper-3WhCwL:hover,.theme-dark .isMentioned-N-h9aa, .theme-dark .isMentioned-N-h9aa {
+  color: #00e5ff;
+  animation: rainbowmention 3s infinite linear;
+}
+@keyframes rainbowmention {
+  from {
+   -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+   -webkit-filter: hue-rotate(360deg);
+  }
+}

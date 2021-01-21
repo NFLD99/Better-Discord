@@ -1,0 +1,37 @@
+/**
+ * @name Font
+ * @author NFLD99
+ * @version 4
+ * @description Thank you for choosing NFLD Inc!
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+:root {
+  --Font-Used: 'Lobster Two', cursive;
+  /* https://nfld99.github.io/Better-Discord/Font_List.txt */
+  --Font-Size: 15px ;
+  /* medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit; */
+  --Font-Style: normal ;
+  /* normal|italic|oblique|initial|inherit; */
+  --Font-Weight: 200 ;
+  /* normal|bold|bolder|lighter|number|initial|inherit */
+  --Font-Variant: normal ;
+  /* normal|small-caps|initial|inherit */
+}
+
+*:not([class*="hljs"]):not(code){
+  font-family: var(--Font-Used)!important;
+  font-style: var(--Font-Style)!important;
+  font-weight:  var(--Font-Weight)!important;
+  font-variant: var(--Font-Variant)!important;
+}
+
+.markup:not(code) {
+  font-size: var(--Font-Size)!important;
+}

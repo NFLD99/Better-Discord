@@ -1,0 +1,15 @@
+/* Title */
+.title-3qD0b-{
+	min-height:5px!important;
+	max-height:48px!important;
+	height:5px;
+	transition: all .5s;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.title-3qD0b-:hover{
+	height:48px;
+	transition: all .6s;
+	opacity: 1;
+}

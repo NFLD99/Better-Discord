@@ -1,0 +1,133 @@
+/** 
+ * @name Jarvis
+ * @author Shiz
+ * @version ersion auto updates
+ * @description Jarvis theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
+ * @source https://nfld99.com/shiz.html
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite 9ArHYa9
+*/
+
+/* Sorce Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/Yes.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+/* User Popout Footer */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/No.css);
+/* Full width roles on profile pop-out */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
+:root { 
+  --Main-Colour: rgba(194, 25, 25, 0.959); 
+  --Background-Colour: rgba(102, 102, 255, 0.226); 
+  --Secondary-Background-Colour: rgba(255, 125, 102, 0.075); 
+  --Secondary-Main-Colour: rgba(102, 255, 102,.5); 
+  --Text-Shadow-Colour: rgba(236, 236, 243, 0); 
+  --Scroller-Colour: rgba(102, 255, 102,.5); 
+  --Notification-Colour: rgba(102, 255, 102,1); 
+  --Chat-Input-Background: rgba(235, 28, 28, 0.212); 
+  --Chat-Input-Colour: rgba(102, 255, 102,1); 
+  --Unread-Message-1: rgba(102, 255, 102,1); 
+  --Unread-Message-2: rgba(102, 102, 255,1); 
+  --Chat-Background: url(https://i.imgur.com/ytkdcIo.jpg); 
+  --Settings-Background: url(https://i.imgur.com/BGMxoom.jpg); 
+  --Callout-Background: var(--Secondary-Background-Colour:); 
+  --Title-Background: Transpanrent; 
+  --Theme-Variant:"Jarvis"; 
+  --Chat-Font-Used: 'Bubblegum Sans', cursive; 
+  --Chat-Font-Size: 17px; 
+  --Unread-Message-Speed: 1.5s; 
+  --Popout-Main-Colour: rgba(255, 102, 102,1); 
+  --Popout-Background: url(https://i.imgur.com/7Dli4og.jpg); 
+  --Popout-Text-Shadow-Colour: rgba(102, 102, 255,.45); 
+  --Emote-Popout-Background: url(https://i.imgur.com/qy471st.jpg);
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour: rgba(102, 255, 102, 0.541); 
+  --Timestamp-Colour: rgba(102, 255, 102,.5); 
+  --Background-Darkness: .1; 
+  --Guild-Columns: 2; 
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 40%; 
+} 
+.groupStart-23k01U {
+  box-shadow: none;
+}
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 15px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+ /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+/* Small Tweak to message bar */
+.scrollableContainer-2NUZem{
+    border-bottom-left-radius: 95px;
+    border-top-right-radius: 95px;
+  }
+  .emojiButton-pET4wH{
+    margin-right: 20px;
+    margin-top: 3px
+  }
+  
+
+  /* Message area over sized border */
+  
+  .textRow-19NEd_ {
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+  }
+  .theme-dark .channelTextArea-rNsIhG {
+      border-top: 0px solid rgb(245, 6, 205);
+  }

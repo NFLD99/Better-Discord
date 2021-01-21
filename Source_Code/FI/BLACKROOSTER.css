@@ -1,0 +1,20 @@
+/* BLACKROOSTER#1395 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="167462879975571456"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="167462879975571456"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="167462879975571456"]::before {
+	content: url(https://nfld99.com/Boops/BLACKROOSTER.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="167462879975571456"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="167462879975571456"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="167462879975571456"]::after {
+	content: "I am the darkest rooster! \a I stream on \a twitch.tv/blackrooster \a 1st Donator"
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="167462879975571456"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="167462879975571456"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
+}
+/* BLACKROOSTER#1395 */
