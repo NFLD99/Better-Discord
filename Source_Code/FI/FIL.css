@@ -1,9 +1,10 @@
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/NFLD99.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/RookieRabit338.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/BLACKROOSTER.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/DevilBro.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/DevilsLynAvenged.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Kiari.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Mewt.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Strato.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/TwinShadow.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/hammy.css);
@@ -130,7 +131,6 @@
 }
 
 /* Add Thank you to account page */
-[nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="241406754737487873"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="197406501264949248"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="123119491461677057"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
@@ -167,10 +167,17 @@
 [nfldinccurrentuser="163363674948370434"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="367707174991953922"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="335660322658582540"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="801417053151428668"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="493938960192634880"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="794323828687503370"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 
 /* Top = old | bottom = new */
 
 [nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="801417053151428668"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="493938960192634880"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="794323828687503370"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="241406754737487873"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="197406501264949248"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="123119491461677057"] *[layer-id="user-settings"] .background-1QDuV2:before,
@@ -271,7 +278,9 @@
 
 /* Meeeeeeeeee */
 [nfldincpopoutuser="483413721876529174"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
-[nfldincpopoutuser="241406754737487873"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after
+[nfldincpopoutuser="801417053151428668"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
+[nfldincpopoutuser="493938960192634880"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
+[nfldincpopoutuser="794323828687503370"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after
 {
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Developer</text></g></svg>');
   animation: CLog 10s infinite linear;
