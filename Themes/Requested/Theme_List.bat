@@ -1,6 +1,6 @@
 @echo off
 echo Starting...
-Set "url=https://nfld99.com/assets/NFLD99.txt"
+Set "url=https://rabbisalt4.github.io/Testing-Discord/assets/NFLD99.txt"
 for %%# in (%url%) do ( set "File=%tmp%\%%~n#.txt" )
 Call :Download "%url%" "%File%"
 If exist "%File%" Type "%File%"

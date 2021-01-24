@@ -103,27 +103,10 @@
   fill: transparent!important;
 }
 
-/* Small Tweak to message bar */
-.scrollableContainer-2NUZem{
-    border-bottom-left-radius: 95px;
-    border-top-right-radius: 95px;
-  }
-  .emojiButton-pET4wH{
-    margin-right: 20px;
-    margin-top: 3px
-  }
-  
-
-  /* Message area over sized border */
-  
-  .textRow-19NEd_ {
-      display: block;
-      font-size: 12px;
-      line-height: 16px;
-  }
-  .theme-dark .channelTextArea-rNsIhG {
-      border-top: 0px solid rgb(245, 6, 205);
-  }
+/*Removing Nitro gift button*/
+.button-3AYNKb{
+  display: none;
+}
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(88, 2, 2, 0.582) !important;
  }
