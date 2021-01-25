@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #550";
+  --Update-Text: " Update #551";
   --File-Updated-2020-5-24: url(https://rabbisalt4.github.io/Testing-Discord/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,7 +57,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
   
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://rabbisalt4.github.io/Testing-Discord/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://rabbisalt4.github.io/Testing-Discord/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://rabbisalt4.github.io/Testing-Discord/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fix __</text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://rabbisalt4.github.io/Testing-Discord/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://rabbisalt4.github.io/Testing-Discord/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://rabbisalt4.github.io/Testing-Discord/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixs __</text><text y="105" style="font-size: 1em;" x="0">__+ New RookieRabbit338 Themes! __</text></g></svg>');
 
   --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"></svg>');
 
@@ -4578,12 +4578,12 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
 
 #app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(4):after{
   font-size: initial;
-  content: "9ArHYa9";
+  content: "zqRpUyepHh";
 }
 
 #app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(2):after{
   font-size: initial;
-  content: "https://discord.gg/9ArHYa9";
+  content: "https://discord.gg/zqRpUyepHh";
 }
 
 .theme-dark .footer-2yfCgX {
@@ -7380,8 +7380,8 @@ body .ace_closeButton:hover::before {
   border-radius: 50%;
 }
 
-.markup-2BOw-j a[href="https://discord.gg/9ArHYa9"]:after,
-.markup-2BOw-j>a[href="https://discord.gg/9ArHYa9"]:after,
+.markup-2BOw-j a[href="https://discord.gg/zqRpUyepHh"]:after,
+.markup-2BOw-j>a[href="https://discord.gg/zqRpUyepHh"]:after,
 .markup-2BOw-j a[href^="https://www.twitch.tv/NFLD99"]:after,
 .markup-2BOw-j a[href^="https://github.com/Inve1951/"]:after,
 .markup-2BOw-j a[href^="https://github.com/rauenzi/"]:after
@@ -7394,8 +7394,8 @@ body .ace_closeButton:hover::before {
   content: " " var(--sourcecheck-official-link-icon) !important;
 }
 
-.markup-2BOw-j a[href="https://discord.gg/9ArHYa9"],
-.markup-2BOw-j>a[href="https://discord.gg/9ArHYa9"],
+.markup-2BOw-j a[href="https://discord.gg/zqRpUyepHh"],
+.markup-2BOw-j>a[href="https://discord.gg/zqRpUyepHh"],
 .markup-2BOw-j a[href^="https://www.twitch.tv/NFLD99"],
 .markup-2BOw-j a[href^="https://github.com/Inve1951/"],
 .markup-2BOw-j a[href^="https://github.com/rauenzi/"],
@@ -10945,4 +10945,45 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ > ul > .scroller-2TZvBN > div[aria-label]:not([
 .theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
   color: var(--Main-Colour);
   background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
+}
+
+.theme-dark .card-o7rAq-,.theme-dark .card-3IImnr {
+  border-color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .card-o7rAq-:hover,.theme-dark .card-3IImnr:hover {
+  border-color: var(--Main-Colour);
+}
+
+.cardPrimaryEditable-3KtE4g {
+  background: var(--Secondary-Background-Colour);
+}
+
+.deny-3nAuT6.selected-2YhbGh,.passthrough-1c2ewQ.selected-2YhbGh,.allow-1PzSY3.selected-2YhbGh{
+  background-color: var(--Main-Colour);
+  color: var(--Background-Colour)!important;
+}
+
+.deny-3nAuT6,.passthrough-1c2ewQ,.allow-1PzSY3{
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+}
+
+.deny-3nAuT6.selected-2YhbGh > svg > path,
+.passthrough-1c2ewQ.selected-2YhbGh > svg > path,
+.allow-1PzSY3.selected-2YhbGh > svg > path
+{
+  fill: var(--Background-Main-Colour)!important;
+}
+
+.theme-dark .changeDetails-bk98pu {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .divider-1pnAR2 {
+  background-color: var(--Secondary-Main-Colour);
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc.error-kKl9o2 {
+  background-color: transparent;
 }
