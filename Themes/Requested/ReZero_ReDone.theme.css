@@ -4,10 +4,10 @@
  * @version ersion auto updates
  * @description Thank you for choosing NFLD Inc!
  * @source https://github.com/NFLD99/Better-Discord
- * @website https://rabbisalt4.github.io/Testing-Discord/
- * @patreon https://rabbisalt4.github.io/Testing-Discord/patreon
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
  * @authorLink https://discordhub.com/profile/483413721876529174
- * @donate https://rabbisalt4.github.io/Testing-Discord/paypal
+ * @donate https://nfld99.com/paypal
  * @authorId 483413721876529174
  * @invite zqRpUyepHh
 */
@@ -49,9 +49,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url("https://rabbisalt4.github.io/Testing-Discord/Bkg/w7UVsOs.jpg");
-  --Settings-Background: url("https://rabbisalt4.github.io/Testing-Discord/Bkg/NUhSyNd.jpg");
-  --Callout-Background: url(https://rabbisalt4.github.io/Testing-Discord/Bkg/eeDIMtw.jpg);
+  --Chat-Background: url("https://nfld99.com/Bkg/w7UVsOs.jpg");
+  --Settings-Background: url("https://nfld99.com/Bkg/NUhSyNd.jpg");
+  --Callout-Background: url(https://nfld99.com/Bkg/eeDIMtw.jpg);
   --Title-Background: rgba(50, 42, 88, 0.64);
   --Theme-Variant: " ReZero ReDone";
   --Chat-Font-Used: "Whitney";

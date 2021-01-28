@@ -4,10 +4,10 @@
  * @version ersion auto updates
  * @description Thank you for choosing NFLD Inc!
  * @source https://github.com/NFLD99/Better-Discord
- * @website https://rabbisalt4.github.io/Testing-Discord/
- * @patreon https://rabbisalt4.github.io/Testing-Discord/patreon
+ * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
  * @authorLink https://discordhub.com/profile/483413721876529174
- * @donate https://rabbisalt4.github.io/Testing-Discord/paypal
+ * @donate https://nfld99.com/paypal
  * @authorId 483413721876529174
  * @invite zqRpUyepHh
 */
@@ -49,9 +49,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://rabbisalt4.github.io/Testing-Discord/Bkg/TWwLS01.png);
-  --Settings-Background: url(https://rabbisalt4.github.io/Testing-Discord/Bkg/TWwLS01.png);
-  --Callout-Background: url(https://rabbisalt4.github.io/Testing-Discord/Bkg/TWwLS01.png);
+  --Chat-Background: url(https://nfld99.com/Bkg/TWwLS01.png);
+  --Settings-Background: url(https://nfld99.com/Bkg/TWwLS01.png);
+  --Callout-Background: url(https://nfld99.com/Bkg/TWwLS01.png);
   --Title-Background: var(--Background-Colour);
   --Theme-Variant: " Houseki No Kuni Gems";
   --Chat-Font-Used: "Whitney";
