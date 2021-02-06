@@ -108,11 +108,7 @@
   fill: transparent!important;
 }
 
-   /* Small Tweak to message bar */
- .scrollableContainer-2NUZem{
-  border-bottom-left-radius: 95px;
-  border-top-right-radius: 95px;
-}
+   
   /* Rainbow Message Box*/
   
   .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
