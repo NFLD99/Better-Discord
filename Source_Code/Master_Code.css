@@ -2830,10 +2830,6 @@ svg[name="Nova_Download"]{
   overflow: visible;
 }
 
-.theme-dark .channelTextArea-rNsIhG {
-  border-top: 0px solid hsla(0, 0%, 100%, .1);
-}
-
 .theme-dark .hasMore-3e72_v button {
   background-color: var(--Background-Colour);
   border-radius: 0 0 5px 5px;
@@ -10779,10 +10775,15 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ > ul > .scroller-2TZvBN > div[aria-label]:not([
   background-color: var(--Background-Colour);
 }
 
+/* Message area over sized border */
+
 .textRow-19NEd_ {
   display: block;
   font-size: 12px;
   line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
 }
 
 .replying-1x3H0T:hover,.replying-1x3H0T {
