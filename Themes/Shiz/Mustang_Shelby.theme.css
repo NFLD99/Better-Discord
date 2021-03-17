@@ -3,23 +3,21 @@
  * @author Shiz
  * @version ersion auto updates
  * @description Mustang Shelby theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
- * * @version ersion auto updates
- * @description Thank you for choosing NFLD Inc!
- * @source https://github.com/NFLD99/Better-Discord
+ * @source https://nfld99.com/shiz.html
  * @website https://nfld99.com/
  * @patreon https://nfld99.com/patreon
- * @authorLink https://discordhub.com/profile/493938960192634880
+ * @authorLink https://discordhub.com/profile/483413721876529174
  * @donate https://nfld99.com/paypal
- * @authorId 493938960192634880
+ * @authorId 483413721876529174
  * @invite zqRpUyepHh
 */
 
 /* Sorce Code */
-@import urlhttps://nfld99.com/Dev_Build.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Settings Dock */
@@ -46,10 +44,10 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
 :root {
-    --Main-Colour: rgb(243, 6, 164);
+    --Main-Colour: rgb(116, 179, 252);
     --Background-Colour: rgba(0,0,0,1);
     --Secondary-Background-Colour: rgba(0,0,0,.3);
-    --Secondary-Main-Colour: rgba(117, 12, 238, 0.322);
+    --Secondary-Main-Colour: rgb(122, 157, 252);
     --Text-Shadow-Colour: rgba(0,0,0,.65);
     --Scroller-Colour: rgba(7, 11, 252, 0);
     --Notification-Colour: rgb(60, 7, 252);
@@ -62,7 +60,7 @@
     --Callout-Background: url(https://i.imgur.com/mRRHtJv.jpg);
     --Title-Background: var(--Background-Colour);
     --Theme-Variant: "Mustang Shelby";
-    --Chat-Font-Used: 'Crushed', cursive;
+    --Chat-Font-Used: 'Amarante', cursive;
     --Chat-Font-Size: 15px;
     --Unread-Message-Speed: 1.5s;
     --Popout-Main-Colour: var(--Main-Colour);
@@ -77,18 +75,6 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.1;
   }
-
-/* Collapsible Member list */
-.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
-  height: 0px;
-  overflow: hidden;
-    transition: height .6s;
-}
-
-.membersWrap-2h-GB4:hover > div .member-3-YXUe{
-  height: 42px;
-    transition: height .6s;
-}
   /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
@@ -151,6 +137,5 @@
   height: 35px!important;
 }
 
-.channelTextArea-2VhZ6z{
-  color: BLUE;
-}
+
+  
