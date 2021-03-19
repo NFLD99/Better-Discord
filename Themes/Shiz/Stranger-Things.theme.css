@@ -105,17 +105,7 @@
 .button-3AYNKb{
   display: none;
 }
-.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: var(--main-colour);
-  border: 2px solid var(--main-colour)
-  border-bottom: 2px solid black;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-width: 2.5px;
-}
-.channel-2QD9_O.selected-1HYmZZ a {
-border: 0px;
-}
+
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
   background-color: var(--Main-Colour);
      border: 1px var(--Main-Colour);
@@ -124,4 +114,36 @@ border: 0px;
   height: 40px;
     width: 0px;
   }
-  
+  /* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+}
+
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
+
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+}
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
+}
