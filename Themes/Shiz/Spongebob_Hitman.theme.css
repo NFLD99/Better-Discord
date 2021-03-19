@@ -75,6 +75,16 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.3;
 }
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
+
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;
@@ -105,30 +115,8 @@
   display: none;
 }
 
-.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: var(--color-main);
-  border: 1px solid rgba(174, 18, 236, 0.014);
-  border-bottom-color: #7a1c6e;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-width: 2.5px;
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
-}
-
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
 .scroller-2FKFPG {border-right: solid rgba(174, 18, 236, 0.11)
 }
-
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(174, 18, 236, 0.164) !important;
  }
@@ -156,3 +144,40 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
     color: rgba(175, 18, 236, 0.651) !important;
   }
 
+                                         /* New things here */
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+}
+
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
+
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+}
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
+}.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
+}
