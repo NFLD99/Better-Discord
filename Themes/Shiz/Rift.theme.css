@@ -1,231 +1,38 @@
-/** 
- * @name Rift
- * @author Shiz
- * @version ersion auto updates
- * @description Rift theme created by Shiz using NFLD99's template.    |   Github: https://git.io/v7ovg
- * @source https://nfld99.com/shiz.html
- * @website https://nfld99.com/
- * @patreon https://nfld99.com/patreon
- * @authorLink https://discordhub.com/profile/483413721876529174
- * @donate https://nfld99.com/paypal
- * @authorId 483413721876529174
- * @invite zqRpUyepHh
-*/
-
-/* Sorce Code */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
-/* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css)
-/* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
-/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
-/* Settings Dock */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
-/* Channels */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
-/* Chat Title Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Invites */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
-/* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
-/* Windows Bar */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
-/* Offline Members */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
-/* User Popout Footer */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
- /* Full width roles on profile pop-out */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
-/* Transparency Patch */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
-/* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
-
-:root {
-  --Main-Colour: rgba(182,35,178,1);
-  --Background-Colour: rgba(3,10,14,1);
-  --Secondary-Background-Colour: rgba(3,10,14,.3);
-  --Secondary-Main-Colour: rgba(182,35,178,.5);
-  --Text-Shadow-Colour: rgba(0,0,0,.65);
-  --Scroller-Colour: rgba(182,35,178,0);
-  --Notification-Colour: rgba(182,35,178,1);
-  --Chat-Input-Background: rgba(0,0,0,0);
-  --Chat-Input-Colour: var(--Main-Colour) ;
-  --Unread-Message-1: var(--Main-Colour) ;
-  --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/9qtvBsg.jpg);
-  --Settings-Background: url(https://i.imgur.com/1rO9kUR.jpg);
-  --Callout-Background: url(https://i.imgur.com/ycQnr7N.jpg);
-  --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Rift";
-  --Chat-Font-Used: 'Bubblegum Sans', cursive;;
-  --Chat-Font-Size: 17px;
-  --Unread-Message-Speed: 1.5s;
-  --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: url(https://i.imgur.com/ycQnr7N.jpg);
-  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: url(https://i.imgur.com/1kGciog.jpg);
-  --File-Updated-2020-5-24: ;
-  --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: rgba(175, 94, 241, 0.986);
-  --Guild-Columns: 2;
-  --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 35%;
-  --Background-Darkness: 0.3;
+.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
 }
-/* Change Avatar Size(also moves username for you) */
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
-  width: 35px !important;
-  height: 35px !important;
-  background-size: cover;
-}
-/* Changes Border-radius Avatar */
-.avatar-VxgULZ {
-  border-radius: 15px;
-}
-.member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
-}
-/*Removing Nitro gift button*/
-.button-3AYNKb{
-  display: none;
-}
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
+                                         /* New things here */
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
 }
 
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
-/* Channel Borders */
-.containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
-  border: 1px var(--Secondary-Main-Colour) solid;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  transition: all 200ms;
-}
-.groupStart-23k01U {
-    box-shadow: none;
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
 }
 
-/* disabling margin between messages */
-.message-1PNnaP {
-    margin-bottom: 0em;
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
 }
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
 
-/* sending message area adding a border */
-.da-app .inner-zqa7da {
-	border: 1px solid rgb(139, 8, 247);
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px #b40bf7;
 }
-
-.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-  background-color: var(--main-colour);
-  border: 2px solid silver;
-  border-bottom: 2px solid black;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-width: 2.5px;
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
 }
-.channel-2QD9_O.selected-1HYmZZ a {
-border: 0px;
-}
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-    background-color: var(--color-main);
-    border: 1px solid rgb(177, 14, 241);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-width: 2.5px;
-    height: 40px;
-    width: 0px;
-}
-/* connected voice area */
-.container-1UB9sr {
-	background-color: var(--color-main);
-	border: 1px solid rgb(205, 25, 241);
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-}
-
-/* search button at the top */
-.theme-dark .search .search-bar {
-    background-color: var(--color-main);
-    border: 1px solid rgb(209, 19, 247);
-}
-
-
-/* guild add button */
-.theme-dark .guildsAdd-21_IdK {
-    background: var(--color-main);
-    border-color: rgb(172, 13, 245);
-    color: rgb(126, 55, 167);
-}
-/* makes hover effect on some areas from default discord */
-.scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
-  visibility: visible!important;
-}
-.scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track {
-  visibility: hidden!important;
-}
-/* scroll bar removing background on emoji page */
-.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-/* unread messages */
-.wrapper-232cHJ {
-  background-color: #85339e;
-  box-shadow: 0px 0px 10px #7c339e;
-}
-
-/* settings my account background */
-.theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
-background: rgba(45, 8, 62, 0.3);
-border-color: rgba(141, 55, 167, 0.4);
-}
-
-/* settings button normal and hover of categories */
-.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: #3b084f;
-   border: 1px solid #7137a7;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-}
-
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-background-color: rgba(77, 25, 112, 0.63);
-   border: 1px solid #7137a7;
-border-top-left-radius: 20px;
-border-bottom-right-radius: 20px;
-height: 40px;
-  width: 0px;
-}
-
-/* secondary buttons */
-.da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
-background-color: #35084f;
-}
-
-.da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: rgb(59, 9, 93);
-}
-
-/* profile focused button text border */
-.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
-  border-color: rgba(126, 55, 167, 0.4);
-}
-
-/* profile area of settings question mark normal and hover */
-.da-app .da-questionMark {
-  background-color: #43176c;
-}
-.da-app .da-questionMark:hover {
-  background-color: #5f2093;
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
 }
