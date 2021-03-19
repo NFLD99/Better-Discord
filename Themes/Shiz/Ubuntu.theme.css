@@ -109,15 +109,6 @@
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-width: 2.5px;
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
 }
 .scroller-2FKFPG {border-right: solid rgba(233, 152, 45, 0.158)
 }
@@ -151,4 +142,36 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
     color: rgb(248, 165, 11) !important;
   }
+  
+  /* Change Home Icon (uses base64 encoding) per Th3-Shiz */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+}
 
+.homeIcon-tEMBK1 > path{
+  fill: transparent!important;
+}
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+}
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
+}
