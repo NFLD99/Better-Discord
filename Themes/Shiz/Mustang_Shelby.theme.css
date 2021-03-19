@@ -17,7 +17,7 @@
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Settings Dock */
@@ -29,7 +29,7 @@
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
 /* Windows Bar */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
 /* Offline Members */ 
@@ -37,30 +37,30 @@
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
  /* Full width roles on profile pop-out */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/No.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/no.css);
 
 :root {
-    --Main-Colour: rgb(116, 179, 252);
-    --Background-Colour: rgba(0,0,0,1);
-    --Secondary-Background-Colour: rgba(0,0,0,.3);
-    --Secondary-Main-Colour: rgb(122, 157, 252);
+    --Main-Colour: rgb(5, 117, 245);
+    --Background-Colour: rgb(35, 5, 56);
+    --Secondary-Background-Colour: rgb(44, 7, 39);
+    --Secondary-Main-Colour: rgb(72, 59, 250);
     --Text-Shadow-Colour: rgba(0,0,0,.65);
     --Scroller-Colour: rgba(7, 11, 252, 0);
-    --Notification-Colour: rgb(60, 7, 252);
-    --Chat-Input-Background: rgba(0,0,0,0);
+    --Notification-Colour: rgb(252, 7, 219);
+    --Chat-Input-Background: rgba(18, 7, 122, 0.425);
     --Chat-Input-Colour: var(--Main-Colour) ;
-    --Unread-Message-1: var(--Main-Colour) ;
-    --Unread-Message-2: var(--Background-Colour) ;
+    --Unread-Message-1: rgb(252, 7, 219);
+    --Unread-Message-2:rgb(72, 59, 250);
     --Chat-Background: url(https://i.imgur.com/uinG3R3.jpg);
     --Settings-Background: url(https://i.imgur.com/jEoWcul.jpg);
     --Callout-Background: url(https://i.imgur.com/mRRHtJv.jpg);
     --Title-Background: var(--Background-Colour);
     --Theme-Variant: "Mustang Shelby";
-    --Chat-Font-Used: 'Amarante', cursive;
+    --Chat-Font-Used: 'Vampire wars';
     --Chat-Font-Size: 15px;
     --Unread-Message-Speed: 1.5s;
     --Popout-Main-Colour: var(--Main-Colour);
@@ -75,13 +75,7 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.1;
   }
-  /* Removing the bottom border in member list*/
-.member-3W1lQa {border-bottom: none;
-}
-  
-.groupStart-23k01U {
-    box-shadow: none;
-}
+
 
 /* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
@@ -94,48 +88,50 @@
   fill: transparent!important;
 }
 
-   
-  /* Rainbow Message Box*/
-  
-  .theme-dark .inner-zqa7da:focus-within {animation: CLog 2s infinite linear }
-  /* Borders around channels*/
-  
-  .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
-    border: 1px var(--Secondary-Main-Colour) solid;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: all 200ms;
-  }
-  .container-0:hover,.container-1:hover,.container-2:hover,.container-3:hover,.container-4:hover,.container-5:hover,.container-6:hover,.container-7:hover,.container-8:hover,.container-9:hover,.container-10:hover,.container-11:hover,.container-12:hover,.container-13:hover,.container-14:hover,.container-15:hover,.container-16:hover,.container-17:hover,.container-18:hover,.container-19:hover,.container-20:hover {
-    border: 1px var(--Main-Colour) solid;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    transition: all 200ms;
-  }
-  .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
-    border: 1px var(--Secondary-Main-Colour) solid;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: all 200ms;
-  }
 /*Removing Nitro gift button*/
 .button-3AYNKb{
   display: none;
 }
-/* Change Avatar Size(also moves username for you) */
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
-  width: 35px !important;
-  height: 35px !important;
-  background-size: cover;
+
+.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
 }
-/* Changes Border-radius Avatar */
-.avatar-VxgULZ {
-  border-radius: 15px;
-}
-.member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
+                                         /* New things here */
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
 }
 
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
 
-  
+.membersWrap-2h-GB4:hover > div .member-3-YXUe{
+  height: 42px;
+    transition: height .6s;
+}
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+}
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
+}
