@@ -42,9 +42,9 @@
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
-  --Main-Colour: rgba(247,248,250,1);
-  --Background-Colour: rgba(16,23,29,1);
-  --Secondary-Background-Colour: rgba(16,23,29,.3);
+  --Main-Colour: rgb(248, 238, 238);
+  --Background-Colour: rgb(1, 6, 10);
+  --Secondary-Background-Colour: rgb(16, 23, 29);
   --Secondary-Main-Colour: rgba(247,248,250,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(247,248,250,0);
@@ -71,7 +71,7 @@
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 35%;
-  --Background-Darkness: 0.4;
+  --Background-Darkness: 0.2;
 }
 /* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
@@ -134,4 +134,42 @@ a.button-OhfaWu.wrapper-1BJsBx{
 }
 .channel-2QD9_O.selected-1HYmZZ a {
 border: 0px;
+}
+.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
+}
+                                         /* New things here */
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+}
+
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
+
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+}
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
 }
