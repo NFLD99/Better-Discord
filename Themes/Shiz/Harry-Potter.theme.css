@@ -151,109 +151,6 @@
     border-radius: 5px;
     box-shadow: 0px 0px 10px #37a0a7;
   }
-  
-  .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-      background-color: var(--color-main);
-      border: 1px solid rgb(55, 167, 167);
-      border-bottom-color: #4ad2d7;
-      border-top-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-bottom-width: 2.5px;
-  }
-  .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-      background-color: var(--color-main);
-      border: 1px solid rgb(55, 163, 167);
-      border-top-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-bottom-width: 2.5px;
-      height: 40px;
-      width: 0px;
-  }
-  /* connected voice area */
-  .container-1UB9sr {
-    background-color: var(--color-main);
-    border: 1px solid rgb(55, 154, 167);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  
-  /* search button at the top */
-  .theme-dark .search .search-bar {
-      background-color: var(--color-main);
-      border: 1px solid rgb(55, 167, 167);
-  }
-  
-  
-  /* guild add button */
-  .theme-dark .guildsAdd-21_IdK {
-      background: var(--color-main);
-      border-color: rgb(55, 163, 167);
-      color: rgb(55, 167, 167);
-  }
-  /* settings button normal and hover of categories */
-
-  .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: rgba(25, 109, 112, 0.63);
-     border: 1px solid #37a0a7;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  height: 40px;
-    width: 0px;
-  }
-  .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
-    border: 1px var(--Secondary-Main-Colour) solid;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: all 200ms;
-  }
-
-/* sending message area adding a border */
-
-
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
-    background-color: var(--color-main);
-    border: 1px solid rgb(55, 154, 167);
-    border-bottom-color: #4aced7;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-width: 2.5px;
-}
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-    background-color: var(--color-main);
-    border: 1px solid rgb(55, 163, 167);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-width: 2.5px;
-    height: 40px;
-    width: 0px;
-}
-/* connected voice area */
-.container-1UB9sr {
-	background-color: var(--color-main);
-	border: 1px solid rgb(55, 160, 167);
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-}
-
-/* search button at the top */
-.theme-dark .search .search-bar {
-    background-color: var(--color-main);
-    border: 1px solid rgb(55, 167, 167);
-}
-
-
-/* guild add button */
-.theme-dark .guildsAdd-21_IdK {
-    background: var(--color-main);
-    border-color: rgb(55, 160, 167);
-    color: rgb(55, 163, 167);
-}
-
-/* makes hover effect on some areas from default discord */
-.scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
-    visibility: visible!important;
-}
-
 /* chat border and backgrounds many changes and positioning */
 
 .theme-dark .timestampCozy-2hLAPV {
@@ -327,3 +224,49 @@
 .hasMore-3e72_v button {
     color: #379aa7;
 }
+/*Removing Nitro gift button*/
+.button-3AYNKb{
+  display: none;
+}
+
+.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
+}
+                                         /* New things here */
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+}
+
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
+
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+}
+/* Caategories */ 
+.container-3w7J-x{
+text-align: center;
+
+}
+/* channels to left */
+.name-23GUGE{
+  text-align: left;
+}
+/* Members area Moves to Center */
+.membersGroup-v9BXpm{
+  text-align: center;
+}.expandedFolderIconWrapper-1xLaU-{
+  background: url(https://i.imgur.com/uinG3R3.jpg) 50% 50%/cover!important;
+  filter: blur(0px);
+}                        
