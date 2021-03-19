@@ -80,21 +80,18 @@
 
 /* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
--webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-background-color: var(--Secondary-Main-Colour)!important;
-  }
-
-.homeIcon-tEMBK1 > path{
-	fill: transparent!important;
-  }
-
+  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+    }
+  
+  .homeIcon-tEMBK1 > path{
+    fill: transparent!important;
+    }
+  
 /*Removing Nitro gift button*/
 .button-3AYNKb{
 display: none;
 }
-
-
-
 /* Collapsible Member list */
 .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
 height: 0px;

@@ -75,6 +75,60 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.3;
 }
+/* New stuff Here */
+
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+    }
+  
+  .homeIcon-tEMBK1 > path{
+    fill: transparent!important;
+    }
+  
+  /*Removing Nitro gift button*/
+  .button-3AYNKb{
+  display: none;
+  }
+  
+  
+  
+  /* Collapsible Member list */
+  .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+  transition: height .6s;
+  }
+   /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+  }
+  .membersWrap-2h-GB4:hover > div .member-3-YXUe{
+   height: 42px;
+   transition: height .6s;
+  }
+   /* Change square avatars to circle*/
+  .avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+  }
+  /* Caategories */ 
+  .container-3w7J-x{
+  text-align: center;
+  
+  }
+  /* channels to left */
+  .name-23GUGE{
+  text-align: left;
+  }
+  /* Members area Moves to Center */
+   .membersGroup-v9BXpm{
+  text-align: center;
+   }
 /*Removing Nitro gift button*/
 .button-3AYNKb{
   display: none;
@@ -93,28 +147,16 @@
   width: 35px!important;
   height: 35px!important;
 }
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
 /* Channel Borders*/
 .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {
   border: 1px var(--Secondary-Main-Colour) solid;
   border-radius: 5px;
   margin-bottom: 5px;
   transition: all 200ms;
-}
 
 .groupStart-23k01U {
     box-shadow: none;
 }
-
 /* disabling margin between messages */
 .message-1PNnaP {
     margin-bottom: 0em;
@@ -126,7 +168,6 @@
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px #0bc0f7;
 }
-
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
   background-color: rgb(19, 247, 236);
   border: 2px solid rgb(43, 181, 245);
@@ -160,8 +201,6 @@ border: 0px;
     background-color: var(--color-main);
     border: 1px solid rgb(19, 247, 236);
 }
-
-
 /* guild add button */
 .theme-dark .guildsAdd-21_IdK {
     background: var(--color-main);
@@ -179,19 +218,16 @@ border: 0px;
 .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
   background-color: transparent;
 }
-
 /* unread messages */
 .wrapper-232cHJ {
   background-color: #25dff8;
   box-shadow: 0px 0px 10px #3fd4ee;
 }
-
 /* settings my account background */
 .theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
 background: rgba(38, 218, 250, 0.3);
 border-color: rgba(58, 243, 243, 0.4);
 }
-
 /* settings button normal and hover of categories */
 .da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
   background-color: #46d8f1;
@@ -199,7 +235,6 @@ border-color: rgba(58, 243, 243, 0.4);
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
 }
-
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 background-color: rgba(71, 191, 238, 0.63);
    border: 1px solid #38dde9;
@@ -208,7 +243,6 @@ border-bottom-right-radius: 20px;
 height: 40px;
   width: 0px;
 }
-
 /* secondary buttons */
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
 background-color: #2abfec;
@@ -217,12 +251,10 @@ background-color: #2abfec;
 .da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: rgb(52, 215, 236);
 }
-
 /* profile focused button text border */
 .theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
   border-color: rgba(44, 221, 245, 0.4);
 }
-
 /* profile area of settings question mark normal and hover */
 .da-app .da-questionMark {
   background-color: #1edaf3;

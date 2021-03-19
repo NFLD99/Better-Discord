@@ -75,6 +75,60 @@
   --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.5;
 }
+/* New stuff Here */
+
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+    }
+  
+  .homeIcon-tEMBK1 > path{
+    fill: transparent!important;
+    }
+  
+  /*Removing Nitro gift button*/
+  .button-3AYNKb{
+  display: none;
+  }
+  
+  
+  
+  /* Collapsible Member list */
+  .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+  transition: height .6s;
+  }
+   /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+  }
+  .membersWrap-2h-GB4:hover > div .member-3-YXUe{
+   height: 42px;
+   transition: height .6s;
+  }
+   /* Change square avatars to circle*/
+  .avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+  }
+  /* Caategories */ 
+  .container-3w7J-x{
+  text-align: center;
+  
+  }
+  /* channels to left */
+  .name-23GUGE{
+  text-align: left;
+  }
+  /* Members area Moves to Center */
+   .membersGroup-v9BXpm{
+  text-align: center;
+   }
 /*Removing Nitro gift button*/
 .button-3AYNKb{
   display: none;
@@ -93,15 +147,6 @@
   width: 35px!important;
   height: 35px!important;
 }
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
 }
 .groupStart-23k01U {
     box-shadow: none;

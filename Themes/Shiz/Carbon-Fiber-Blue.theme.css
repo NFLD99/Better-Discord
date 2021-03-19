@@ -75,6 +75,60 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.22;
 }
+/* New stuff Here */
+
+/* Change Home Icon (uses base64 encoding) */
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+    }
+  
+  .homeIcon-tEMBK1 > path{
+    fill: transparent!important;
+    }
+  
+  /*Removing Nitro gift button*/
+  .button-3AYNKb{
+  display: none;
+  }
+  
+  
+  
+  /* Collapsible Member list */
+  .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+  transition: height .6s;
+  }
+   /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+  }
+  .membersWrap-2h-GB4:hover > div .member-3-YXUe{
+   height: 42px;
+   transition: height .6s;
+  }
+   /* Change square avatars to circle*/
+  .avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+  }
+  /* Caategories */ 
+  .container-3w7J-x{
+  text-align: center;
+  
+  }
+  /* channels to left */
+  .name-23GUGE{
+  text-align: left;
+  }
+  /* Members area Moves to Center */
+   .membersGroup-v9BXpm{
+  text-align: center;
+   }
 /*Removing Nitro gift button*/
 .button-3AYNKb{
   display: none;
@@ -93,16 +147,6 @@
   width: 35px!important;
   height: 35px!important;
 }
-/* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
 .scroller-2FKFPG {border-right: solid rgba(28, 69, 250, 0.158)
 }
 .theme-dark .scrollbar-3dvm_9 {
@@ -111,19 +155,16 @@
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
   color: rgb(4, 29, 247) !important;
 }
-
 .theme-dark .item-1Yvehc {
   background: rgb(16, 73, 230) !important;
   background-color: rgb(17, 16, 17) !important;
   color: rgb(161, 189, 240)!important;
 }
-
 .theme-dark .item-1Yvehc:hover {
   background: rgb(15, 15, 15) !important;
   background-color: rgb(24, 23, 23) !important;
   color: rgb(38, 15, 241)!important;
 }
-
 div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
   background: rgb(15, 15, 11) !important;
   background-color: rgba(71, 96, 236, 0) !important;
@@ -132,14 +173,12 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   .theme-dark .nameTag-m8r81H, .name-1ug6d4{
     color: rgba(248,252,252)!important;
 }
-
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
 .groupStart-23k01U {
     box-shadow: none;
 }
-
 /* disabling margin between messages */
 .message-1PNnaP {
     margin-bottom: 0em;

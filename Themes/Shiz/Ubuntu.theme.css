@@ -142,36 +142,42 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
     color: rgb(248, 165, 11) !important;
   }
-  
-  /* Change Home Icon (uses base64 encoding) per Th3-Shiz */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
-  -webkit-mask: none;
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.homeIcon-tEMBK1 > path{
-  fill: transparent!important;
-}
-/* Unblur Folders*/
-.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
-  filter: blur(0px);
-}
-/* Collapsible Member list */
-.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  /*Removing Nitro gift button*/
+  .button-3AYNKb{
+  display: none;
+  }
+  /* Collapsible Member list */
+  .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
   height: 0px;
   overflow: hidden;
-    transition: height .6s;
-}/* Caategories */ 
-.container-3w7J-x{
-text-align: center;
-
-}
-/* channels to left */
-.name-23GUGE{
-  text-align: left;
-}
-/* Members area Moves to Center */
-.membersGroup-v9BXpm{
+  transition: height .6s;
+  }
+   /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+  filter: blur(0px);
+  }
+  .membersWrap-2h-GB4:hover > div .member-3-YXUe{
+   height: 42px;
+   transition: height .6s;
+  }
+   /* Change square avatars to circle*/
+  .avatar-1BDn8e.clickable-1bVtEA{
+  border: 2.5px solid var(--Main-Colour) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px!important;
+  background-size: cover!important;
+  }
+  /* Caategories */ 
+  .container-3w7J-x{
   text-align: center;
-}
+  
+  }
+  /* channels to left */
+  .name-23GUGE{
+  text-align: left;
+  }
+  /* Members area Moves to Center */
+   .membersGroup-v9BXpm{
+  text-align: center;
+   }
