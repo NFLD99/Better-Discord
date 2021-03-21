@@ -88,16 +88,17 @@
   width: 35px!important;
   height: 35px!important;
 }
-/* Removing the bottom border in member list*/
-.member-3W1lQa {border-bottom: none;
-}
+/* To remove the divider line between messages and Message box extra border */
 .groupStart-23k01U {
-    box-shadow: none;
+  box-shadow: none;
 }
-
-/* disabling margin between messages */
-.message-1PNnaP {
-    margin-bottom: 0em;
+.textRow-19NEd_ {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
 }
 
 /*Removing Nitro gift button*/

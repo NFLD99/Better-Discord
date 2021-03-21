@@ -96,9 +96,8 @@
     box-shadow: none;
 }
 
-/* disabling margin between messages */
-.message-1PNnaP {
-    margin-bottom: 0em;
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
 }
    /*Wrappers*/
 

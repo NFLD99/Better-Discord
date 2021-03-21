@@ -91,7 +91,18 @@
   display: none;
   }
   
-  
+  /* To remove the divider line between messages and Message box extra border */
+.groupStart-23k01U {
+  box-shadow: none;
+}
+.textRow-19NEd_ {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
+}
   
   /* Collapsible Member list */
   .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{

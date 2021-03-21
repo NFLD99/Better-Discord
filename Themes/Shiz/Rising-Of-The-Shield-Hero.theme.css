@@ -96,6 +96,18 @@
 }
 
                                          /* New things here */
+                                         
+/* To remove the divider line between messages and Message box extra border */
+.groupStart-23k01U {
+  box-shadow: none;
+}
+.textRow-19NEd_ {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
 /* Change Home Icon (uses base64 encoding) */
 :not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
   -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
