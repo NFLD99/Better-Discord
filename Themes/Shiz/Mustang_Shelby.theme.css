@@ -79,12 +79,12 @@
 /* New stuff Here */
 
 /* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
   -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
   background-color: var(--Secondary-Main-Colour)!important;
     }
   
-  .homeIcon-tEMBK1 > path{
+    .homeIcon-FuNwkv > path{
     fill: transparent!important;
     }
   
