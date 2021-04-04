@@ -1,0 +1,20 @@
+/*  ldriss7734#3234 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322808739096690691"]::before {
+	content: url(https://nfld99.com/Boops/Shiz.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322808739096690691"]::after {
+	content: "Hey I'm ldriss \a Nobody is innocent, there are,  merely varying levels of guilt."
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322808739096690691"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Shiz.jpg) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322808739096690691"] * {
+	color: pink !important;
+	border-color: pink !important
+}
+/* ldriss7734#3234 */
