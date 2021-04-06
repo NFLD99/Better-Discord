@@ -12,12 +12,12 @@
  * @invite zqRpUyepHh
 */
 
-/* Sorce Code */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Source Code */
+@import url(https://nfld99.com/development/Dev_Build.css);
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Settings Dock */
@@ -67,7 +67,7 @@
     --Popout-Background: url(https://i.imgur.com/9T9oXnh.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/i4tddUv.jpg);
-    --File-Updated-2020-5-24: ;
+    --File-Updated: " 2021-04-06-1224am";
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;
@@ -77,17 +77,45 @@
   }
 
 /* New stuff Here */
+.theme-dark .childWrapper-anI2G9 {
+  background-color: transparent !important;
+  background-image: url(https://i.imgur.com/WTtIcFm.jpg);
+  background-size: cover;
+}
+.homeIcon-FuNwkv > path{
+  fill: transparent!important;
+  }
+
+  
+
+
+.folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
+/* To remove the divider line between messages and Message box extra border */
+.groupStart-23k01U {
+  box-shadow: none;
+}
+.textRow-19NEd_ {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.theme-dark .channelTextArea-rNsIhG {
+  border-top: 0px solid hsla(0, 0%, 100%, .1);
+}
+
 
 /* Change Home Icon (uses base64 encoding) */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
-  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-    }
-  
-    .homeIcon-FuNwkv > path{
-    fill: transparent!important;
-    }
-  
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN).wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx .childWrapper-anI2G9{
+-webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
+background-color: var(--Secondary-Main-Colour)!important;
+  }
+
+.homeIcon-tEMBK1 > path{
+	fill: transparent!important;
+  }
+
 /*Removing Nitro gift button*/
 .button-3AYNKb{
 display: none;
@@ -100,7 +128,7 @@ transition: height .6s;
 }
  /* Unblur Folders*/
 .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
-filter: blur(0px);
+filter: blur(none)!important;
 }
 .membersWrap-2h-GB4:hover > div .member-3-YXUe{
  height: 42px;
@@ -126,16 +154,3 @@ text-align: left;
 /* Members area Moves to Center */
  .membersGroup-v9BXpm{
 text-align: center;
-
-/* To remove the divider line between messages and Message box extra border */
-.groupStart-23k01U {
-  box-shadow: none;
-}
-.textRow-19NEd_ {
-  display: block;
-  font-size: 12px;
-  line-height: 16px;
-}
-.theme-dark .channelTextArea-rNsIhG {
-  border-top: 0px solid hsla(0, 0%, 100%, .1);
-}
