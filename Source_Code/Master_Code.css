@@ -11153,8 +11153,8 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
   background-color: transparent;
 }
 
-.wrapper-3Njo_c > ul > .listItem-GuPuDH > .pill-1z4sAY > .item-2hkk8m[style="opacity: 1; height: 8px; transform: none;"]{
-  margin-left: calc(var(--Guild-Columns) * -8px + 2px);
+.wrapper-3Njo_c > ul > .listItem-GuPuDH > .pill-1z4sAY > .item-2hkk8m[style="opacity: 1; height: 8px; transform: none;"] {
+  margin-left: calc(var(--Guild-Columns) * -3px + 2px);
 }
 
 .wrapper-3Njo_c > ul > .listItem-GuPuDH > .pill-1z4sAY > .item-2hkk8m[style="opacity: 1; height: 20px; transform: none;"]{
