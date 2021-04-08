@@ -12,7 +12,7 @@
  * @invite zqRpUyepHh
 */
 
-/* Source Code */
+/* Sorce Code */
 @import url(https://nfld99.com/development/Dev_Build.css);
 /* Use Chat Bubbles By Shiz */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
@@ -37,37 +37,37 @@
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
  /* Full width roles on profile pop-out */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/no.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
 :root {
-    --Main-Colour: rgb(5, 117, 245);
-    --Background-Colour: rgb(35, 5, 56);
-    --Secondary-Background-Colour: rgb(44, 7, 39);
-    --Secondary-Main-Colour: rgb(72, 59, 250);
-    --Text-Shadow-Colour: rgba(0,0,0,.65);
+    --Main-Colour: rgb(252, 10, 191);
+    --Background-Colour: rgba(149, 19, 255, 0.171);
+    --Secondary-Background-Colour: rgba(0,0,0,.3);
+    --Secondary-Main-Colour: rgb(118, 3, 248);
+    --Text-Shadow-Colour: rgba(245, 11, 206, 0.377);
     --Scroller-Colour: rgba(7, 11, 252, 0);
-    --Notification-Colour: rgb(252, 7, 219);
-    --Chat-Input-Background: rgba(18, 7, 122, 0.425);
+    --Notification-Colour: rgb(252, 7, 142);
+    --Chat-Input-Background: rgba(0,0,0,0);
     --Chat-Input-Colour: var(--Main-Colour) ;
-    --Unread-Message-1: rgb(252, 7, 219);
-    --Unread-Message-2:rgb(72, 59, 250);
+    --Unread-Message-1: var(--Main-Colour) ;
+    --Unread-Message-2: var(--Background-Colour) ;
     --Chat-Background: url(https://i.imgur.com/uinG3R3.jpg);
     --Settings-Background: url(https://i.imgur.com/jEoWcul.jpg);
     --Callout-Background: url(https://i.imgur.com/mRRHtJv.jpg);
     --Title-Background: var(--Background-Colour);
     --Theme-Variant: "Mustang Shelby";
-    --Chat-Font-Used: 'Vampire wars';
+    --Chat-Font-Used: 'Amarante', cursive;
     --Chat-Font-Size: 15px;
     --Unread-Message-Speed: 1.5s;
     --Popout-Main-Colour: var(--Main-Colour);
     --Popout-Background: url(https://i.imgur.com/9T9oXnh.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background:url(https://i.imgur.com/i4tddUv.jpg);
-    --File-Updated: " 2021-04-06-1224am";
+    --File-Updated-2020-5-24: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: var(--Secondary-Main-Colour);
     --Guild-Columns: 1;
@@ -75,27 +75,112 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.1;
   }
+  /* New Code here */ 
 
-/* New stuff Here */
+  /* Change Home Icon (uses base64 encoding) */
 .theme-dark .childWrapper-anI2G9 {
   background-color: transparent !important;
-  background-image: url(https://i.imgur.com/WTtIcFm.jpg);
+  background-image: url(https://i.imgur.com/1hQ2apR.png);
+  background-size: cover;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+  background-color: transparent !important;
+  background-image: url(https://i.imgur.com/1hQ2apR.png);
   background-size: cover;
 }
 .homeIcon-FuNwkv > path{
   fill: transparent!important;
   }
-
-  
-
-
-.folder-1hbNCn:not(:hover) > div > div > div{
-  filter: blur(0px);
+	
+  .wrapper-2Gsate {
+	background:  url(https://i.imgur.com/HV72bjq.jpge);
+  }
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
+	background: linear-gradient(5deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
+	border: 2px solid rgba(187, 1, 224, 0.6);
+	box-shadow: inset 0 0 6px 1px rgba(142, 9, 231, 0.966);
+	background-color: rgba(37, 22, 34, 0.701);
+	border-radius: 4px;
 }
-/* To remove the divider line between messages and Message box extra border */
-.groupStart-23k01U {
-  box-shadow: none;
+  .inspector-S2gM3e {
+	background: url(https://i.imgur.com/HV72bjq.jpge);
+  }
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background-color: rgba(0, 0, 0, .4);
 }
+.navButtonActive-1MkytQ,
+.emote-container:hover {
+	background: linear-gradient(45deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
+	border: 2px solid rgba(187, 1, 224, 0.6);
+	box-shadow: inset 0 0 6px 1px rgba(142, 9, 231, 0.966);
+	background-color: rgba(37, 22, 34, 0.701);
+}
+.contentWrapper-SvZHNd .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+	background: linear-gradient(45deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
+	border: 2px solid rgba(187, 1, 224, 0.6);
+	box-shadow: inset 0 0 6px 1px rgba(142, 9, 231, 0.966);
+	background-color: rgba(37, 22, 34, 0.701);
+}
+  .cozyMessage-3V1Y8y.groupStart-23k01U {
+	padding-top: 5px;
+	padding-bottom: 4px;
+	margin-bottom: 12px;
+	margin-left: 2px;
+}
+
+.theme-dark .embedFull-2tM8--,
+.theme-dark .wrapperAudio-1jDe0Q {
+	background: linear-gradient(5deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
+	border: 2px solid rgba(187, 1, 224, 0.6);
+	box-shadow: inset 0 0 6px 1px rgba(142, 9, 231, 0.966);
+	background-color: rgba(37, 22, 34, 0.701);
+}
+/* Popout Context Menu */
+.menu-3sdvDG {
+  background: rgb(250, 4, 189) !important;
+  background-color: rgb(2, 1, 2) !important;
+  color: rgba(164, 10, 253, 0.37) !important;
+}
+.theme-dark .item-1Yvehc:hover  {
+  background: rgb(0, 0, 0) !important;
+  background-color: rgba(171, 146, 179, 0.75) !important;
+  color: rgb(119, 181, 254) !important;
+}
+.theme-dark .inviteRow-2L02ae:hover {
+	background-color: rgba(136, 14, 236, 0.13);
+}
+.reaction-1hd86g {
+   background-color: rgba(148, 10, 228, 0.327);
+   border-radius: 30px;
+}
+.styleFlexible-wGDiIL,
+.container-3cGP6G,
+.submenu-2-ysNh {
+	background: linear-gradient(45deg, transparent 52%, rgba(243, 4, 136, 0.8) 100%);
+	border: 2px solid rgba(187, 1, 224, 0.6);
+	box-shadow: inset 0 0 6px 1px rgba(142, 9, 231, 0.966);
+	background-color: rgba(37, 22, 34, 0.701);
+	border-radius:20px;
+}
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+  background: rgb(0, 0, 0) !important;
+  background-color: rgba(150, 0, 24, 0.8) !important;
+  border: 2px solid rgb(158, 27, 50) !important;
+}
+/* Removing text shadow between meesages and message bar as well as the Date bar-divider */
+  .groupStart-23k01U {
+    box-shadow: none;
+  }
+  .textRow-19NEd_ {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .theme-dark .channelTextArea-rNsIhG {
+    border-top: 0px solid rgba(255, 255, 255, 0);
+  }
+  /* Message area over sized border */
+
 .textRow-19NEd_ {
   display: block;
   font-size: 12px;
@@ -104,53 +189,60 @@
 .theme-dark .channelTextArea-rNsIhG {
   border-top: 0px solid hsla(0, 0%, 100%, .1);
 }
-
+.folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
+.overflow-WK9Ogt .theme-dark, .membersGroup-v9BXpm{
+  text-align: center;
+}
+.name-23GUGE{
+  text-align: left;
 
 /* Change Home Icon (uses base64 encoding) */
-:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN).wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx .childWrapper-anI2G9{
--webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-background-color: var(--Secondary-Main-Colour)!important;
+.theme-dark .childWrapper-anI2G9 {
+  background-color: transparent !important;
+  background-image: url(https://i.imgur.com/WTtIcFm.jpg);
+  background-size: cover;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+  background-color: transparent !important;
+  background-image: url(https://i.imgur.com/WTtIcFm.jpg);
+  background-size: cover;
+}
+.homeIcon-FuNwkv > path{
+  fill: transparent!important;
   }
-
-.homeIcon-tEMBK1 > path{
-	fill: transparent!important;
+   .theme-dark .bar-2Qqk5Z {
+	background: rgba(255, 255, 255, 0.39);
+}
+.theme-dark .bar-2Qqk5Z[style*="background: rgba(142, 9, 231, 0.966));"] {
+	background: rgba(255, 255, 255, 0.39) !important;
+}
+.barFill-23-gu- {
+	background: rgba(183, 86, 143, 0.82);
+}
+.barFill-23-gu-[style*="background: rgba(142, 9, 231, 0.966));"] {
+	background: rgba(142, 9, 231, 0.966)) !important;
+}
+  /* Borders around channels*/
+  
+  .container-0,.container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12,.container-13,.container-14,.container-15,.container-16,.container-17,.container-18,.container-19,.container-20 {
+    border: 1px var(--Secondary-Main-Colour) solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 200ms;
   }
-
+  .container-0:hover,.container-1:hover,.container-2:hover,.container-3:hover,.container-4:hover,.container-5:hover,.container-6:hover,.container-7:hover,.container-8:hover,.container-9:hover,.container-10:hover,.container-11:hover,.container-12:hover,.container-13:hover,.container-14:hover,.container-15:hover,.container-16:hover,.container-17:hover,.container-18:hover,.container-19:hover,.container-20:hover {
+    border: 1px var(--Main-Colour) solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 200ms;
+  }
 /*Removing Nitro gift button*/
 .button-3AYNKb{
-display: none;
+  display: none;
 }
-/* Collapsible Member list */
-.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
-height: 0px;
-overflow: hidden;
-transition: height .6s;
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
 }
- /* Unblur Folders*/
-.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
-filter: blur(none)!important;
-}
-.membersWrap-2h-GB4:hover > div .member-3-YXUe{
- height: 42px;
- transition: height .6s;
-}
- /* Change square avatars to circle*/
-.avatar-1BDn8e.clickable-1bVtEA{
-border: 2.5px solid var(--Main-Colour) !important;
-width: 35px;
-height: 35px;
-border-radius: 30px!important;
-background-size: cover!important;
-}
-/* Caategories */ 
-.container-3w7J-x{
-text-align: center;
-
-}
-/* channels to left */
-.name-23GUGE{
-text-align: left;
-}
-/* Members area Moves to Center */
- .membersGroup-v9BXpm{
-text-align: center;
