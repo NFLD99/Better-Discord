@@ -33,6 +33,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/mxngxxse.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/square.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/uri.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Idriss7734.css);
 
 
 /* New donator stuff */
@@ -161,9 +162,9 @@
 [nfldinccurrentuser="493938960192634880"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="794323828687503370"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="291079492171071489"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
-
+[nfldinccurrentuser="347156061859348481"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 /* Top = old | bottom = new */
-
+[nfldinccurrentuser="347156061859348481"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="801417053151428668"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="493938960192634880"] *[layer-id="user-settings"] .background-1QDuV2:before,
@@ -202,6 +203,7 @@
   content: var(--Theme-Variant)", "var(--Update-Text)", Thank you for your support! "!important;
 }
 /* Donators */
+[nfldincpopoutuser="347156061859348481"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 [nfldincpopoutuser="197406501264949248"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 [nfldincpopoutuser="123119491461677057"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 [nfldincpopoutuser="167462879975571456"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
