@@ -1,0 +1,21 @@
+
+/* Mio Naruse#0666 */
+
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="259407045734694912"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="259407045734694912"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="259407045734694912"]::before {
+	content: url(https://i.imgur.com/EI53Jgh.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="259407045734694912"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="259407045734694912"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="259407045734694912"]::after {
+	content: "I am Mio \a People are too complicated \a  to have simple labels.”  \a ― Philip Pullman, The Amber Spyglass"
+
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="259407045734694912"] > div {
+	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Shiz.jpg) 50% 50%/cover !important
+}
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="259407045734694912"] * {
+	color: p#CA00F6 !important;
+	border-color:#CA00F6 !important
+}
