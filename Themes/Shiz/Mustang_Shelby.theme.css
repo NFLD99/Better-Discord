@@ -76,7 +76,17 @@
     --Background-Darkness: 0.1;
   }
   /* New Code here */ 
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
+  height: 0px;
+  overflow: hidden;
+    transition: height .6s;
+}
 
+.membersWrap-2h-GB4:hover > div .member-3-YXUe{
+  height: 42px;
+    transition: height .6s;
+}
   /* Change Home Icon (uses base64 encoding) */
 .theme-dark .childWrapper-anI2G9 {
   background-color: transparent !important;
