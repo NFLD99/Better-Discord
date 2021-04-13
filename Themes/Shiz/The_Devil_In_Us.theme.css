@@ -119,15 +119,28 @@
 
 }
                                          /* New things here */
-/* Change Home Icon (uses base64 encoding) */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
-  -webkit-mask: none;	background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-    }
-  
-    .homeIcon-FuNwkv > path{
-    fill: transparent!important;
-    }
+           /* Change Home Icon (uses base64 encoding) */
+            
+            .theme-dark .childWrapper-anI2G9 {
+                background-color: transparent !important;
+                background-image: url(https://i.imgur.com/1hQ2apR.png);
+                background-size: cover;
+            }
+            
+            .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+            .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+                background-color: transparent !important;
+                background-image: url(https://i.imgur.com/1hQ2apR.png);
+                background-size: cover;
+            }
+            
+            .homeIcon-FuNwkv>path {
+                fill: transparent!important;
+            }
+            
+            .wrapper-2Gsate {
+                background: url(https://i.imgur.com/HV72bjq.jpge);
+            }
   
   /*Removing Nitro gift button*/
   .button-3AYNKb{
