@@ -113,15 +113,20 @@
 
 
 /* Change Home Icon (uses base64 encoding) */
-/* Change Home Icon (uses base64 encoding) */
-      .theme-dark .childWrapper-anI2G9 {
-        background-color: transparent !important;
-        background-image: url(https://i.imgur.com/WTtIcFm.jpg);
-        background-size: cover;
-      }
-      .homeIcon-FuNwkv > path{
-        fill: transparent!important;
-        }
+            /* Change Home Icon (uses base64 encoding) */
+            
+            .theme-dark .childWrapper-anI2G9 {
+                background-color: transparent !important;
+                background-image: url(https://i.imgur.com/1hQ2apR.png);
+                background-size: cover;
+            }
+            
+            .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+            .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+                background-color: transparent !important;
+                background-image: url(https://i.imgur.com/1hQ2apR.png);
+                background-size: cover;
+            }
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
   background-color: var(--main-colour);
   border: 2px solid silver;
