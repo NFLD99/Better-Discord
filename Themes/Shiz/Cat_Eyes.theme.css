@@ -117,7 +117,13 @@
   }
   
   
-  
+  /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+    filter: blur(0px);
+  }
+  .folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
   /* Collapsible Member list */
   .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
   height: 0px;

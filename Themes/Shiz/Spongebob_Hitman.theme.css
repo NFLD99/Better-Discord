@@ -90,6 +90,13 @@
                 background-image: url(https://i.imgur.com/1hQ2apR.png);
                 background-size: cover;
             }
+            /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+    filter: blur(0px);
+  }
+  .folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;

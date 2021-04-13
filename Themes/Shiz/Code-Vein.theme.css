@@ -99,7 +99,13 @@
             .wrapper-2Gsate {
                 background: url(https://i.imgur.com/HV72bjq.jpge);
             }
-  
+  /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+    filter: blur(0px);
+  }
+  .folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
   /*Removing Nitro gift button*/
   .button-3AYNKb{
   display: none;
@@ -145,6 +151,13 @@
   text-align: center;
   
   }
+  /* Unblur Folders*/
+  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+    filter: blur(0px);
+  }
+  .folder-1hbNCn:not(:hover) > div > div > div{
+  filter: blur(0px);
+}
   /* channels to left */
   .name-23GUGE{
   text-align: left;
