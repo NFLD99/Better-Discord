@@ -439,7 +439,7 @@ a {
   color: #00e5ff;
   background: #d6ff00;
   font-weight: 500;
-  /* transition: background-color .05s,color .05s; */
+  transition: background-color .05s,color .05s;
 }
 */
 
@@ -766,7 +766,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
     animation: TextScroll 60s infinite linear !important;
 }
 
-}html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm:after {
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm:after {
 	content:  ", "  var(--Theme-Variant) ", " var(--Update-Text) !important;
 	display: inline !important;
 	position: absolute !important;
@@ -2420,7 +2420,7 @@ svg[name="Nova_Download"]{
   color: var(--Main-Colour);
 }
 
-.theme-dark .autocomplete-1vrmpx .bar-AokMp3 {
+.theme-dark .autocomplete-1vrmpx {
   background: var(--Popout-Background) 50% 50%/cover!important;
 }
 
@@ -4316,9 +4316,9 @@ svg[name="Nova_Download"]{
   /* transition: all 200ms; */
 }
 
-.theme-dark .listRow-hutiT_ {
-  /* transition: all 200ms; */
-}
+/* .theme-dark .listRow-hutiT_ {
+  transition: all 200ms;
+} */
 
 .tabBar-2MuP6- {
   height: 50%;
@@ -6319,9 +6319,9 @@ html .upperBadge-2XnnGB.count {
   color: var(--Main-Colour);
 }
 
-.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
-  /* transition: filter .15s ease-in-out; */
-}
+/* .userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
+  transition: filter .15s ease-in-out;
+} */
 
 .userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(:hover):not(.inputWrapper-31_8H8) {
   filter: blur(6px);
@@ -6333,9 +6333,9 @@ html .upperBadge-2XnnGB.count {
   /* transition: filter .15s ease-in-out; */
 }
 
-.userSettingsAccount-2eMFVR > div > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.flexChild-faoVW3 > div:nth-child(2) > div > input:hover{
-  /* transition: filter .15s ease-in-out; */
-}
+/* .userSettingsAccount-2eMFVR > div > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.flexChild-faoVW3 > div:nth-child(2) > div > input:hover{
+  transition: filter .15s ease-in-out;
+} */
 
 .theme-dark .tierHeaderUnlocked-2RhWqn, .theme-light .tierHeaderUnlocked-2RhWqn, .theme-dark .unlockedPerkIcon-1zaaum, .theme-light .unlockedPerkIcon-1zaaum,.theme-dark .subscriberCount-27QHc5,.theme-dark .subscriberCount-27QHc5 strong {
   color: var(--Main-Colour);
@@ -8763,9 +8763,9 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
   color: var(--Main-Colour);
 }
 
-.thumbQuicksave{
-  /* transition: all 250ms; */
-}
+/* .thumbQuicksave{
+  transition: all 250ms;
+} */
 
 [data-ref-id="guildsnav"]{
   display: flex;
@@ -11191,3 +11191,30 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
                                       TEMP FIX 3 25 2021
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 */
+
+[fill="white"][height="20"]{
+  fill: black!important;
+}
+
+.slider-TkfMQL > svg{
+  display: none;
+}
+
+.large-3lXhLH{
+  width:90vw;
+  max-width:90vw;
+}
+
+.colorHeaderSecondary-3Sp3Ft.size14-e6ZScH.footer-2yA7Ep,.textContainer-C0szpm{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y,.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y strong{
+  color: var(--Main-Colour);
+}
+
+.bar-AokMp3 {
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 0 5px var(--Main-Colour);
+}
