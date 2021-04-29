@@ -1,0 +1,21 @@
+/* Tsuki Humura#0008 */
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]::before {
+	content: url(https://i.imgur.com/hzC7Rtb.png)
+}
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]::after {
+  content: "Hello I'm Tsuki \a discord bot developer.";
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="148059412165033984"] > div{
+  background: url(https://i.imgur.com/Eh58pff.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="148059412165033984"] *{
+  color: #A833FF!important;
+  border-color: #A833FF!important;
+}
+/* Tsuki Humura#0008 */
