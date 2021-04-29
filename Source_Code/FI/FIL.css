@@ -34,7 +34,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/square.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/uri.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Idriss7734.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Mio.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Tsuki-Homura.css);
 
 /* New donator stuff */
 
@@ -163,7 +163,8 @@
 [nfldinccurrentuser="794323828687503370"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="291079492171071489"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="347156061859348481"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
-[nfldinccurrentuser="259407045734694912"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after
+[nfldinccurrentuser="259407045734694912"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="302837596600664065"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after
 /* Top = old | bottom = new */
 [nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="801417053151428668"] *[layer-id="user-settings"] .background-1QDuV2:before,
@@ -199,7 +200,8 @@
 [nfldinccurrentuser="335660322658582540"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="291079492171071489"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="347156061859348481"] *[layer-id="user-settings"] .background-1QDuV2:before,
-[nfldinccurrentuser="259407045734694912"] *[layer-id="user-settings"] .background-1QDuV2:before
+[nfldinccurrentuser="259407045734694912"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="302837596600664065"] *[layer-id="user-settings"] .background-1QDuV2:before
 {
   color: var(--Main-Colour)!important;;
   content: var(--Theme-Variant)", "var(--Update-Text)", Thank you for your support! "!important;
@@ -234,7 +236,8 @@
 [nfldincpopoutuser="335660322658582540"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 [nfldincpopoutuser="291079492171071489"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 [nfldincpopoutuser="347156061859348481"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
-[nfldincpopoutuser="259407045734694912"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after
+[nfldincpopoutuser="259407045734694912"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
+[nfldincpopoutuser="302837596600664065"] > div > .topSectionNormal-2-vo2m > header > .headerInfo-30uryT::after,
 {
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Donator</text></g></svg>');
   animation: CLog 10s infinite linear;
