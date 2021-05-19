@@ -8422,8 +8422,8 @@ background-color: var(--Main-Colour);
   border-radius: 5px;
 }
 
-.group-spacing-8 .groupStart-23k01U{
-  border-top: 1px solid var(--Secondary-Main-Colour);
+.group-spacing-8 .groupStart-23k01U {
+    /* border-top: 1px solid var(--Secondary-Main-Colour); */
 }
 
 .theme-dark .inset-3sAvek,.wrapper-3D2qGf {
@@ -11217,4 +11217,13 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
 .bar-AokMp3 {
   background-color: var(--Secondary-Background-Colour);
   box-shadow: 0 0 5px var(--Main-Colour);
+}
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                      TEMP FIX 5 19 2021
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+.group-spacing-8 .groupStart-23k01U {
+    /* border-top: 1px solid var(--Secondary-Main-Colour); */
 }
