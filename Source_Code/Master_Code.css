@@ -8422,6 +8422,10 @@ background-color: var(--Main-Colour);
   border-radius: 5px;
 }
 
+.group-spacing-8 .groupStart-23k01U {
+    display:none
+}
+
 .theme-dark .inset-3sAvek,.wrapper-3D2qGf {
   background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Secondary-Main-Colour);
