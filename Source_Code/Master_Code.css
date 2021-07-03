@@ -11227,3 +11227,12 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
 .group-spacing-8 .groupStart-23k01U {
     /* border-top: 1px solid var(--Secondary-Main-Colour); */
 }
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                      TEMP FIX 7 03 2021
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+.userPopout-xaxa6l,  .bannerOverlayPopout-1clJ34,  .bodyInnerWrapper-26fQXj, .footer-3UKYOU{ 
+    background-color:  var(--Background-Colour);
+}
