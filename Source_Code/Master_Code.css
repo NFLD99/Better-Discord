@@ -928,10 +928,10 @@ svg[name="Nova_Download"]{
 }
 
 .userPopout-3XzG_A {
-  background: var(--Popout-Background) 50% 50%/cover;
-  border: 1px solid var(--Secondary-Main-Colour);
-}
-
+    background: var(--Popout-Background) 50% 50%/cover;
+    border: 1px solid var(--Secondary-Main-Colour);
+  }
+  
 .headerName-fajvi9, .headerTagUsernameNoNickname-2_H881, .headerTag-2pZJzA, .bodyTitle-Y0qMQz, .theme-dark .textarea-2r0oV8 textarea {
   color: var(--Popout-Main-Colour)!important;
 }
