@@ -11235,4 +11235,6 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
 
 .userPopout-xaxa6l,  .bannerOverlayPopout-1clJ34,  .bodyInnerWrapper-26fQXj, .footer-3UKYOU{ 
     background-color:  var(--Background-Colour);
+}.theme-dark .root-1gCeng,.userPopout-xaxa6l{
+  background: var(--Popout-Background) 50% 50%/cover;
 }
