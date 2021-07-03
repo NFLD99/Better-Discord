@@ -214,7 +214,7 @@ body>div:last-of-type{
   font-family: var(--Chat-Font-Used)!important;
 }
 
-.header-2BwW8b, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+.header-2BwW8b, .theme-dark .body-3HBlXn, .theme-dark .footer-1N3bR3 {
   background: rgba(0, 0, 0, var(--Background-Darkness))!important;
 }
 
@@ -913,7 +913,7 @@ svg[name="Nova_Download"]{
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.theme-dark .headerNormal-T_seeN {
+.theme-dark .headerNormal-1mX3KY{
   background-color: transparent;
 }
 
@@ -922,12 +922,12 @@ svg[name="Nova_Download"]{
   line-height: 20px;
 }
 
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+.theme-dark .body-3HBlXn, .theme-dark .footer-1N3bR3{
   background-color: transparent;
   color: var(--Popout-Main-Colour);
 }
 
-.userPopout-3XzG_A {
+.user.userPopout-xaxa6l {
   background: var(--Popout-Background) 50% 50%/cover;
   border: 1px solid var(--Secondary-Main-Colour);
 }
@@ -4082,7 +4082,7 @@ svg[name="Nova_Download"]{
   background: var(--Secondary-Main-Colour)!important;
 }
 
-.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate, .theme-dark [class*='topSection'] .joinedAtDate, .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, .theme-dark .header-2BwW8b .joinedAtDate {
+.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate, .theme-dark [class*='topSection'] .joinedAtDate, .theme-light .header-2BwW8b:not(.headerNormal-1mX3KY) .joinedAtDate, .theme-dark .header-2BwW8b .joinedAtDate {
   color: var(--Main-Colour);
 }
 
@@ -4705,11 +4705,11 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   color: var(--Secondary-Main-Colour);
 }
 
-#app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate,#app-mount .theme-dark [class*='topSection'] .joinedAtDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, #app-mount .theme-dark .header-2BwW8b .joinedAtDate{
+#app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate,#app-mount .theme-dark [class*='topSection'] .joinedAtDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-1mX3KY) .joinedAtDate, #app-mount .theme-dark .header-2BwW8b .joinedAtDate{
   color: var(--Main-Colour);
 }
 
-#app-mount .theme-dark .topSectionNormal-2-vo2m .creationDate, #app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, #app-mount .theme-dark [class*='topSection'] .creationDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, #app-mount .theme-dark .header-2BwW8b .creationDate{
+#app-mount .theme-dark .topSectionNormal-2-vo2m .creationDate, #app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, #app-mount .theme-dark [class*='topSection'] .creationDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-1mX3KY) .creationDate, #app-mount .theme-dark .header-2BwW8b .creationDate{
   color: var(--Main-Colour);
 }
 
@@ -10476,7 +10476,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 	color: var(--Main-Colour);
 }
 
-.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+.avatarWrapperNormal-26WQIb:hover .avatarHint-1qgaV3 {
   opacity: 0;
 }
 
@@ -10911,7 +10911,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ > ul > .scroller-2TZvBN > div[aria-label]:not([
 	border: 1px solid var(--Main-Colour);
 }
 
-.userPopout-3XzG_A > .footer-1fjuF6{
+.userPopout-xaxa6l> .footer-1fjuF6{
 	background: rgba(0, 0, 0, var(--Background-Darkness))!important;
 }
 
@@ -11226,4 +11226,18 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
 
 .group-spacing-8 .groupStart-23k01U {
     /* border-top: 1px solid var(--Secondary-Main-Colour); */
-}
+
+
+
+    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                      TEMP FIX 7 03 2021
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+.avatarWrapperNormal-3wFMbf > .avatarWrapperNormal-26WQIb
+.avatarPositionNormal-1CZUPk > .avatarPositionNormal-aZjAsn
+.footer-1fjuF6 > .footer-1N3bR3
+.body-3iLsc4 > .body-3HBlXn
+.headerNormal-1l1Znk > .headerNormal-1mX3KY
+.userPopout-3XzG_A > .userPopout-xaxa6l
+.avatar-22FtUu > .avatar-37jOim
+.setIdentityLink-OpBDR6 > .setIdentityLink-3lcnXW1
