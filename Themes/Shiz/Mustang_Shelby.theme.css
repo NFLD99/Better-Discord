@@ -112,13 +112,18 @@
                 height: 42px;
                 transition: height .6s;
             }
-            /* Change Home Icon (uses base64 encoding) */
-            
-            .theme-dark .childWrapper-anI2G9 {
-                background-color: transparent !important;
-                background-image: url(https://i.imgur.com/1hQ2apR.png);
-                background-size: cover;
-            }
+/* CHange Home Button Icon */
+
+.theme-dark .childWrapper-anI2G9 {
+    background-color: transparent !important;
+    background-image: url(https://i.imgur.com/rymBnte.jpg);
+    background-size: cover;
+}
+
+.homeIcon-FuNwkv>path {
+    fill: transparent!important;
+}
+
             
             .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
             .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
