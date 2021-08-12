@@ -12,220 +12,258 @@
  * @invite zqRpUyepHh
 */
 
+
 /* Sorce Code */
+
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+
 /* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
-/* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
-/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
-/* Settings Dock */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
-/* Channels */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
-/* Chat Title Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Invites */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
-/* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
-/* Windows Bar */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
-/* Offline Members */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
-/* User Popout Footer */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
- /* Full width roles on profile pop-out */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
-/* Transparency Patch */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
-/* Use Chat Bubbles By Shiz */
+
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
+/* Animations */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
+
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+
+/* Settings Dock */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+
+/* Channels */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+
+/* Chat Title Bar */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+
+/* Invites */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+
+/* Member List */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
+
+/* Windows Bar */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+
+/* Offline Members */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
+
+/* User Popout Footer */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+
+/* Full width roles on profile pop-out */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Full_Width_Roles/Yes.css);
+
+/* Transparency Patch */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+
+/* Use Chat Bubbles By Shiz */
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
-  --Main-Colour: rgb(210, 165, 247);
-  --Background-Colour: rgba(10, 9, 10, 0.815);
-  --Secondary-Background-Colour: rgba(186, 73, 238, 0.103);
-  --Secondary-Main-Colour: rgb(184, 14, 252);
-  --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
-  --Scroller-Colour: rgba(174, 18, 236, 0.014);
-  --Notification-Colour: rgba(181, 15, 247, 0.651);
-  --Chat-Input-Background: rgba(174, 18, 236, 0.13);
-  --Chat-Input-Colour:rgb(248, 245, 250) ;
-  --Unread-Message-1: var(--Main-Colour) ;
-  --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/OCIWVkn.jpg);
-  --Settings-Background: url(https://i.imgur.com/OCIWVkn.jpg);
-  --Callout-Background: url(https://i.imgur.com/o7l8gPm.jpg);
-  --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Spongebob Hitman";
-  --Chat-Font-Used: 'Coda', cursive;
-  --Chat-Font-Size: 17px;
-  --Unread-Message-Speed: 1.5s;
-  --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background:  url(https://i.imgur.com/o7l8gPm.jpg);
-  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background:var(--Callout-Background:);
-  --File-Updated-2020-5-24: ;
-  --Settings-Dock-Colour:rgb(225, 223, 226);
-  --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Guild-Columns: 2;
-  --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 40%;
-  --Background-Darkness: 0.3;
+    --Main-Colour: rgb(210, 165, 247);
+    --Background-Colour: rgba(10, 9, 10, 0.815);
+    --Secondary-Background-Colour: rgba(186, 73, 238, 0.103);
+    --Secondary-Main-Colour: rgb(184, 14, 252);
+    --Text-Shadow-Colour: rgba(10, 10, 10, 0.233);
+    --Scroller-Colour: rgba(174, 18, 236, 0.014);
+    --Notification-Colour: rgba(181, 15, 247, 0.651);
+    --Chat-Input-Background: rgba(174, 18, 236, 0.13);
+    --Chat-Input-Colour: rgb(248, 245, 250);
+    --Unread-Message-1: var(--Main-Colour);
+    --Unread-Message-2: var(--Background-Colour);
+    --Chat-Background: url(https://i.imgur.com/OCIWVkn.jpg);
+    --Settings-Background: url(https://i.imgur.com/OCIWVkn.jpg);
+    --Callout-Background: url(https://i.imgur.com/o7l8gPm.jpg);
+    --Title-Background: var(--Background-Colour);
+    --Theme-Variant: " Spongebob Hitman";
+    --Chat-Font-Used: 'Coda', cursive;
+    --Chat-Font-Size: 17px;
+    --Unread-Message-Speed: 1.5s;
+    --Popout-Main-Colour: var(--Main-Colour);
+    --Popout-Background: url(https://i.imgur.com/o7l8gPm.jpg);
+    --Popout-Text-Shadow-Colour: var(--Text-Shadow-Colour);
+    --Emote-Popout-Background: var(--Callout-Background: );
+    --File-Updated-2020-5-24: ;
+    --Settings-Dock-Colour: rgb(225, 223, 226);
+    --Timestamp-Colour: var(--Secondary-Main-Colour);
+    --Guild-Columns: 2;
+    --ServerFolders-Guild-Columns: var(--Guild-Columns);
+    --Chat-Avatar-Border-Radius: 40%;
+    --Background-Darkness: 0.3;
 }
+
+
 /* Change Home Icon (uses base64 encoding) */
-            /* Change Home Icon (uses base64 encoding) */
-            
-            .theme-dark .childWrapper-anI2G9 {
-                background-color: transparent !important;
-                background-image: url(https://i.imgur.com/1hQ2apR.png);
-                background-size: cover;
-            }
-            
-            .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-            .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-                background-color: transparent !important;
-                background-image: url(https://i.imgur.com/1hQ2apR.png);
-                background-size: cover;
-            }
-            /* Unblur Folders*/
-  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
-    filter: blur(0px);
-  }
-  .folder-1hbNCn:not(:hover) > div > div > div{
-  filter: blur(0px);
+
+.theme-dark .childWrapper-anI2G9 {
+    background-color: transparent !important;
+    background-image: url(https://i.imgur.com/rymBnte.jpg);
+    background-size: cover;
 }
+
+.homeIcon-FuNwkv>path {
+    fill: transparent!important;
+}
+
+kground-size: cover;
+
+}
+
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK>.guildIcon-GuAC7C {
+    filter: blur(0px);
+}
+.folder-1hbNCn:not(:hover)>div>div>div {
+    filter: blur(0px);
+}
+
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
-  width: 35px !important;
-  height: 35px !important;
-  background-size: cover;
+    width: 35px !important;
+    height: 35px !important;
+    background-size: cover;
 }
+
 /* Changes Border-radius Avatar */
 .avatar-VxgULZ {
-  border-radius: 15px;
+    border-radius: 15px;
 }
 .member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
+    width: 35px!important;
+    height: 35px!important;
 }
 
 /* To remove the divider line between messages and Message box extra border */
 .groupStart-23k01U {
-  box-shadow: none;
+    box-shadow: none;
 }
 .textRow-19NEd_ {
-  display: block;
-  font-size: 12px;
-  line-height: 16px;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
 }
 .theme-dark .channelTextArea-rNsIhG {
-  border-top: 0px solid hsla(0, 0%, 100%, .1);
+    border-top: 0px solid hsla(0, 0%, 100%, .1);
+    /*Removing Nitro gift button*/
+    
+    .button-3AYNKb {
+        display: none;
+    }
+    
+    .scroller-2FKFPG {
+        border-right: solid rgba(174, 18, 236, 0.11)
+    }
+    
+    .theme-dark .scrollbar-3dvm_9 {
+        background-color: rgba(174, 18, 236, 0.164) !important;
+    }
+    
+    .theme-dark .item-1Yvehc {
+        background: rgb(157, 20, 248) !important;
+        background-color: rgb(17, 16, 17) !important;
+        color: rgb(157, 20, 248)!important;
+    }
+    
+    .theme-dark .item-1Yvehc:hover {
+        background: rgb(15, 15, 15) !important;
+        background-color: rgb(24, 23, 23) !important;
+        color: rgb(157, 20, 248)!important;
+    }
+    
+    div.option-popout.small-popout-box,
+    div.context-menu,
+    .context-menu .context-menu:not(.item-subMenu),
+    .contextMenu-HLZMGh,
+    .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
+        background: rgb(15, 15, 11) !important;
+        background-color: rgba(175, 18, 236, 0.651) !important;
+        border: 2px solid rgb(8, 8, 8) !important;
+    }
+    
+    .theme-dark .nameTag-m8r81H,
+    .name-1ug6d4 {
+        color: rgba(175, 18, 236, 0.651) !important;
+    }
+    /* New things here */
+    /*Removing Nitro gift button*/
+    
+    .button-3AYNKb {
+        display: none;
+    }
+    
+    .theme-dark .childWrapper-anI2G9 {
+        background-color: transparent !important;
+        background-image: url(https://i.imgur.com/rymBnte.jpg);
+        background-size: cover;
+    }
+    
+    .homeIcon-FuNwkv>path {
+        fill: transparent!important;
+    }
+    
+    kground-size: cover;
+}
+.homeIcon-FuNwkv>path {
+    fill: transparent!important;
+}
+.wrapper-2Gsate {
+    background: url(https://i.imgur.com/HV72bjq.jpge);
+}
 
 /*Removing Nitro gift button*/
-.button-3AYNKb{
-  display: none;
+.button-3AYNKb {
+    display: none;
 }
 
-.scroller-2FKFPG {border-right: solid rgba(174, 18, 236, 0.11)
-}
-.theme-dark .scrollbar-3dvm_9 {
-  background-color: rgba(174, 18, 236, 0.164) !important;
- }
- 
-
-.theme-dark .item-1Yvehc {
-  background: rgb(157, 20, 248) !important;
-  background-color: rgb(17, 16, 17) !important;
-  color: rgb(157, 20, 248)!important;
+/* Collapsible Member list */
+.membersWrap-2h-GB4:not(:hover)>div .member-3-YXUe {
+    height: 0px;
+    overflow: hidden;
+    transition: height .6s;
 }
 
-.theme-dark .item-1Yvehc:hover {
-  background: rgb(15, 15, 15) !important;
-  background-color: rgb(24, 23, 23) !important;
-  color: rgb(157, 20, 248)!important;
+/* Unblur Folders*/
+.closedFolderIconWrapper-15K9MK>.guildIcon-GuAC7C {
+    filter: blur(0px);
+}
+.membersWrap-2h-GB4:hover>div .member-3-YXUe {
+    height: 42px;
+    transition: height .6s;
 }
 
-div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
-  background: rgb(15, 15, 11) !important;
-  background-color: rgba(175, 18, 236, 0.651) !important;
-  border: 2px solid rgb(8, 8, 8) !important;
+/* Change square avatars to circle*/
+.avatar-1BDn8e.clickable-1bVtEA {
+    border: 2.5px solid var(--Main-Colour) !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px!important;
+    background-size: cover!important;
 }
 
-.theme-dark .nameTag-m8r81H, .name-1ug6d4{
-    color: rgba(175, 18, 236, 0.651) !important;
-  }
+/* Caategories */
+.container-3w7J-x {
+    text-align: center;
+}
 
-                                         /* New things here */
-  /*Removing Nitro gift button*/
-  .button-3AYNKb{
-  display: none;
-  }
-  
-  
-            /* Change Home Icon (uses base64 encoding) */
-            
-            .theme-dark .childWrapper-anI2G9 {
-                background-color: transparent !important;
-                background-image: url(https://i.imgur.com/1hQ2apR.png);
-                background-size: cover;
-            }
-            
-            .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-            .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-                background-color: transparent !important;
-                background-image: url(https://i.imgur.com/1hQ2apR.png);
-                background-size: cover;
-            }
-            
-            .homeIcon-FuNwkv>path {
-                fill: transparent!important;
-            }
-            
-            .wrapper-2Gsate {
-                background: url(https://i.imgur.com/HV72bjq.jpge);
-            }
-  
-  /*Removing Nitro gift button*/
-  .button-3AYNKb{
-  display: none;
-  }
-  
+/* channels to left */
+.name-23GUGE {
+    text-align: left;
+}
 
-  /* Collapsible Member list */
-  .membersWrap-2h-GB4:not(:hover) > div .member-3-YXUe{
-  height: 0px;
-  overflow: hidden;
-  transition: height .6s;
-  }
-   /* Unblur Folders*/
-  .closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
-  filter: blur(0px);
-  }
-  .membersWrap-2h-GB4:hover > div .member-3-YXUe{
-   height: 42px;
-   transition: height .6s;
-  }
-   /* Change square avatars to circle*/
-  .avatar-1BDn8e.clickable-1bVtEA{
-  border: 2.5px solid var(--Main-Colour) !important;
-  width: 35px;
-  height: 35px;
-  border-radius: 30px!important;
-  background-size: cover!important;
-  }
-  /* Caategories */ 
-  .container-3w7J-x{
-  text-align: center;
-  
-  }
-  /* channels to left */
-  .name-23GUGE{
-  text-align: left;
-  }
-  /* Members area Moves to Center */
-   .membersGroup-v9BXpm{
-  text-align: center;
-   }
+/* Members area Moves to Center */
+.membersGroup-v9BXpm {
+    text-align: center;
+}
