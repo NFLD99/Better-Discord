@@ -11294,6 +11294,12 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
   box-shadow: none!important;
 }
 
+.pill-1z4sAY {
+    position: absolute;
+    left: 8px;
+    top: -2px;
+}
+
 .circleIconButton-1QV--U.selected-1JjBPm {
   color: var(--Main-Colour);
   background-color: transparent;
