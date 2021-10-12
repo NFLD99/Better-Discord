@@ -1,1 +1,2 @@
-Fixed Guild Columns ~RookieRabbit 
+Fixed Guild Columns. ~RookieRabbit 
+Fixed Misc Bugs. ~RookieRabbit 

@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #559";
+  --Update-Text: " Update #560";
   --File-Updated-2020-5-24: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,7 +57,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
   
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed Guild Columns ~RookieRabbit __</text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed Guild Columns. ~RookieRabbit __</text><text y="95" style="font-size: 1em;" x="0">__+ Fixed Misc Bugs. ~RookieRabbit __</text></g></svg>');
 
   --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"></svg>');
 
@@ -126,6 +126,31 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 }
 
 [layer-id="user-settings"] .userSettingsSecurity-3IYeMF~ :last-child:after{
+  margin-top: 10px;
+  margin-bottom: -3px;
+  padding-top: 10px;
+  padding-left: 10px;
+  left: 20%;
+  margin-left: -5px;
+  position: absolute;
+  display: block;
+  background: linear-gradient(to top, red, violet, indigo, blue, green, yellow, orange, red);
+  border: 1px solid var(--Main-Colour);
+  border-radius: 5px;
+  content: var(--ChangelogSize) var(--Theme-Variant)", "var(--Update-Text);
+  text-align: center;
+  animation: UploaderBG 10s infinite linear;
+  z-index: 9997;
+  color: var(--Main-Colour);
+  width: 50%;
+  -webkit-mask: var(--Changelog);
+  -webkit-mask-repeat: no-repeat;
+  mask: var(--Changelog);
+  mask-repeat: no-repeat;
+  background-size: 200% 200%!important;
+}
+
+.children-rWhLdy > div.baseLayout-2GkbfB > div:nth-child(1):after{
   margin-top: 10px;
   margin-bottom: -3px;
   padding-top: 10px;
@@ -346,13 +371,9 @@ img.image {
   border-top-left-radius: 5px !important;
 }
 
-
 a {
   color: var(--Main-Colour) !important;
 }
-
-
-
 
 .mention-1f5kbO {
   background: linear-gradient(to right, var(--Background-Colour), var(--Secondary-Main-Colour), var(--Secondary-Main-Colour), var(--Background-Colour)) !important;
@@ -436,7 +457,6 @@ a {
   font-style: normal;
   font-weight: normal;
 }
-
 
 /*
 .mention {
@@ -550,7 +570,6 @@ a {
   background-color: var(--Background-Colour);
   border-color: var(--Main-Colour);
 }
-
 
 .theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
   border: 1px Solid var(--Main-Colour);
@@ -871,7 +890,6 @@ svg[name="Nova_Download"]{
 
 /* Tac Nuke */
 
-
 .tooltips {
   left: 0;
   position: absolute;
@@ -1009,7 +1027,6 @@ svg[name="Nova_Download"]{
   background: linear-gradient(to right, var(--Background-Colour), var(--Secondary-Main-Colour), var(--Secondary-Main-Colour), var(--Background-Colour)) !important;
   color: var(--Background-Colour) !important;
 }
-
 
 .theme-dark .gameName-Ivkyss, .theme-dark .sectionTitle-le2fuz, .theme-dark .username-1cRqpK, .theme-dark .activityActivityFeed-2gIGSa .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr, .theme-dark .description-12ntlD, .theme-dark .title-bYqmgP, .theme-dark .gameName-ZXDRa6 {
   color: var(--Main-Colour);
@@ -1462,7 +1479,6 @@ svg[name="Nova_Download"]{
   background-color: rgba(0, 216, 86, 0.8) !important;
   animation: rainbow 20s infinite linear;
 }
-
 
 [class*="lookFilled-"]:hover {
   background-color: var(--Secondary-Background-Colour)!important;
@@ -2313,7 +2329,6 @@ svg[name="Nova_Download"]{
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
   background: transparent;
 }
-
 
 .lookInverted-2D7oAl.colorBrand-3pXr91, .lookOutlined-3sRXeN.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
   background-color: var(--Secondary-Background-Colour);
@@ -4571,7 +4586,6 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   border-color: var(--Main-Colour);
 }
 
-
 .actions-pBaxX6{
   height: auto;
 }
@@ -4674,7 +4688,6 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
 .theme-dark .wrapper-29NfPK {
   background-color: transparent;
 }
-
 
 [class^="reply"] > svg > path:nth-child(2) {
   fill: transparent!important;
@@ -5169,7 +5182,6 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   background-image: none !important;
 }
 
-
 .item-2hkk8m[style*="0; height"] {
   background: transparent;
 }
@@ -5215,7 +5227,6 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
 animation: shakeUnreadv2 2s ease-in-out infinite alternate;
 }
 
-
 .theme-dark .wrapper-2jXpOf:hover .content-1x5b-n{
   background: linear-gradient(to left, var(--Secondary-Background-Colour), var(--Secondary-Main-Colour))!important;
 }
@@ -5252,7 +5263,7 @@ animation: shakeUnreadv2 2s ease-in-out infinite alternate;
 }
 
 .item-PXvHYJ[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"],.item-PXvHYJ[style="color: rgb(114, 137, 218);"]{
-  background: var(--Secondary-Background-Colour)!important;;
+  background: var(--Secondary-Background-Colour)!important;
   border: 1px solid var(--Secondary-Main-Colour);
   /* transition: all 200ms; */
   color: var(--Secondary-Main-Colour)!important;
@@ -6018,7 +6029,7 @@ html .upperBadge-2XnnGB.count {
 /* New Settings */
 
 .theme-dark .wrapper-39oAo3 {
-  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
   color: var(--Main-Colour);
 }
 
@@ -6132,7 +6143,7 @@ html .upperBadge-2XnnGB.count {
 }
 
 .item-PXvHYJ[style="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"]{
-  background: var(--Secondary-Background-Colour)!important;;
+  background: var(--Secondary-Background-Colour)!important;
   border: 1px solid var(--Secondary-Main-Colour);
   /* transition: all 200ms; */
   color: var(--Main-Colour)!important;
@@ -6675,7 +6686,6 @@ html .upperBadge-2XnnGB.count {
   background: var(--Popout-Background) 50% 50%/cover no-repeat!important;
 }
 
-
 .theme-dark .container-3baos1, .theme-light .container-3baos1{
   background: transparent;
 }
@@ -6772,7 +6782,6 @@ html .upperBadge-2XnnGB.count {
 [style*="stroke: red;"]{
   stroke: var(--Main-Colour)!important;
 }
-
 
 #tys_settings :not(input):not(button) {
   color: var(--Main-Colour)!important;
@@ -6934,7 +6943,6 @@ body .ace_closeButton:hover::before {
 .theme-dark .acronym-2mOFsV.nested-1eglu6, .theme-light .acronym-2mOFsV.nested-1eglu6{
   background: transparent;
 }
-
 
 .expandedGuilds-1JMD4M[style="height: 56px;"] {
   height: calc(48px * 2) !important; }
@@ -7508,8 +7516,7 @@ body .ace_closeButton:hover::before {
 .markup-2BOw-j a[href^="https://github.com/hammy1/"]:after,
 .markup-2BOw-j a[href^="https://github.com/DevilsLynAvenged/"]:after,
 .markup-2BOw-j a[href^="https://github.com/mwittrien/"]:after,
-.markup-2BOw-j a[href^="https://nfld99.com/"]:after
-{
+.markup-2BOw-j a[href^="https://nfld99.com/"]:after{
   content: " " var(--sourcecheck-official-link-icon) !important;
 }
 
@@ -7522,8 +7529,7 @@ body .ace_closeButton:hover::before {
 .markup-2BOw-j a[href^="https://github.com/hammy1/"],
 .markup-2BOw-j a[href^="https://github.com/DevilsLynAvenged/"],
 .markup-2BOw-j a[href^="https://github.com/mwittrien/"],
-.markup-2BOw-j a[href^="https://nfld99.com/"]
-{
+.markup-2BOw-j a[href^="https://nfld99.com/"]{
   color: var(--sourcecheck-official) !important;
 }
 
@@ -8563,7 +8569,6 @@ background-color: var(--Main-Colour);
      border-top: 1px solid var(--Secondary-Main-Colour);
 } */
 
-
 .theme-dark .inset-3sAvek,.wrapper-3D2qGf {
   background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Secondary-Main-Colour);
@@ -8784,8 +8789,7 @@ background-color: var(--Main-Colour);
 }
 
 img.icon-3d72ZP[src="/assets/8b47456a037cc496c55ae8f871274018.svg"],
-img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
-{
+img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]{
   display: none;
 }
 
@@ -9093,7 +9097,6 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
 [class*="avatar"] * img{
   border-radius: var(--Chat-Avatar-Border-Radius)!important;
 }
-
 
 .modal-3c3bKg > div.inner-1ilYF7 > div > [class*=".top"],
 .modal-3c3bKg > div.inner-1ilYF7 > div > .body-3ND3kc{
@@ -10626,7 +10629,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   opacity: 0;
 }
 
-
 .container-UC8Ug1 {
   border: 1px solid var(--Secondary-Main-Colour);
   background-color: var(--Secondary-Background-Colour);
@@ -10771,7 +10773,6 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ > ul > .scroller-2TZvBN > div[aria-label]:not([
 .notice-3bPHh-.noticeWrapper-8z511t.colorInfo-2URYW5{
   bottom:0px;
 }
-
 
 /* fix guild unread? */
 .item-2hkk8m[style="opacity: 1; height: 8px; transform: none;"] {
@@ -11094,8 +11095,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ > ul > .scroller-2TZvBN > div[aria-label]:not([
 
 .deny-3nAuT6.selected-2YhbGh > svg > path,
 .passthrough-1c2ewQ.selected-2YhbGh > svg > path,
-.allow-1PzSY3.selected-2YhbGh > svg > path
-{
+.allow-1PzSY3.selected-2YhbGh > svg > path{
   fill: var(--Background-Main-Colour)!important;
 }
 
@@ -11294,12 +11294,6 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
   box-shadow: none!important;
 }
 
-.pill-1z4sAY {
-    position: absolute;
-    left: 8px;
-    top: -2px;
-}
-
 .circleIconButton-1QV--U.selected-1JjBPm {
   color: var(--Main-Colour);
   background-color: transparent;
@@ -11370,7 +11364,6 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
   background-color: var(--Secondary-Background-Colour);
   box-shadow: 0 0 5px var(--Main-Colour);
 }
-
 
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -11528,4 +11521,70 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
 
 .threadSidebar-1o3BTy{
   border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.listItem-1hlISG{
+  margin: 0 6px 8px;
+  width: 45px;
+}
+
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > .listItem-1hlISG,
+.guildSeparator-EOYZLM,
+.tutorialContainer-2sGCg9 > .listItem-1hlISG,
+.expandedFolderBackground-1cujaW{
+  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
+}
+
+[class="circleIconButton-1XqULR circleButtonBase-33sh5_ selected-2jcQaY"]{
+  background-color: transparent!important;
+}
+
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-last-child(2) > .pill-2IYbPt{
+  display: none;
+}
+
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div > .wrapper-3Njo_c > .listItem-1hlISG{
+  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notice-3bPHh-{
+  background: var(--Background-Colour)!important;
+  color: var(--Main-Colour)!important;
+}
+
+#pluginNotice #outdatedPlugins span{
+  color: var(--Main-Colour)!important;
+}
+
+.theme-dark .button-2DhvE9,
+.theme-light .button-2DhvE9 {
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour)!important;
+  background-color: transparent;
+}
+
+.theme-dark .button-2DhvE9:hover,
+.theme-light .button-2DhvE9:hover {
+  border-color: var(--Main-Colour);
+  color: var(--Main-Colour)!important;
+  background-color: transparent;
+}
+
+.theme-dark .content-2CeOl_ ol, .theme-dark .content-2CeOl_ p, .theme-dark .content-2CeOl_ ul li{
+  color: var(--Main-Colour);
+}
+
+.popout-VcNcHB {
+  background: var(--Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.popout-VcNcHB:hover {
+  border: 1px solid var(--Main-Colour);
+}
+
+.role-2irmRk{
+  background: var(--Secondary-Background-Colour);
 }
