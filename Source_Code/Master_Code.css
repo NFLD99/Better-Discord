@@ -11753,16 +11753,6 @@ body>div:last-of-type {
   margin-left: auto !important;
 }
 
-.homeIcon-r0w4ny>path {
-  display: none;
-}
-
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.wrapper-3kah-n:hover .childWrapper-1j_1ub,
-.wrapper-3kah-n .childWrapper-1j_1ub {
-  background: var(--Home-Icon-Mask) 50% 50%/cover;
-}
-
 .tutorialContainer-1pL9QS>.listItem-3SmSlK>.listItemWrapper-3d87LP {
   width: calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
