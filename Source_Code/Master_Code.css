@@ -51,7 +51,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-    --Update-Text: " Update #564";
+    --Update-Text: " Update #565";
     --File-Updated-2020-5-24: url(https://nfld99.com/images/RDLTF.png);
     --Settings-Dock-Colour: var(--Main-Colour);
     --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -13038,4 +13038,39 @@ body>div:last-of-type {
     top: 5px;
     padding-left: 3px;
     font-family: "Discord";
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: var(--Main-Colour);
+    background-color: transparent;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background: var(--Background-Colour);
+}
+
+.colorable-3rVGna.red-3T8maV {
+    background: var(--Background-Colour)
+}
+
+.unread-2wipsx {
+    background-color: var(--Background-Colour);
+    border: 1px inset var(--Secondary-Main-Colour);
+    opacity: .9;
+}
+
+.bar-2eAyLE {
+    color: var(--Main-Colour);
+}
+
+.unreadMentionsIndicatorBottom-3RJMnQ,
+.unreadMentionsIndicatorTop-2bTgUU {
+    width: calc(var(--Guild-Columns) * 60px + 2px) !important;
+}
+
+.mention-3XBnnZ {
+    background-color: var(--Background-Colour);
+    border: 1px inset var(--Secondary-Main-Colour);
+    opacity: .9;
 }
