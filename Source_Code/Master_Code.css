@@ -11841,3 +11841,8 @@ body > div:last-of-type {
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > div > div > div > div > div.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyBetween-wAERV6.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footerSeparator-VzAYwb > button > div {
     color: var(--Main-Colour);
 }
+
+.theme-dark .wrapper-1ZcZW- {
+    background: var(--Secondary-Background-Colour);
+    color: var(--Main-Colour);
+}
