@@ -1,30 +1,15 @@
 /* Invites */
-.wrapper-35wsBm{
-	min-width:10px!important;
-	max-width:400px!important;
-	width:45px;
+[class="wrapper-1HIH0j userSelectNone-3AtPzf cursorDefault-2KkZ5q"] {
+	min-width: 10px !important;
+	max-width: 432px !important;
+	width: 2%;
 	transition: all .5s;
-  opacity: .2;
-  overflow: hidden;
+	opacity: .2;
+	overflow: hidden;
 }
 
-.wrapper-35wsBm:hover{
-	width:400px;
-	transition: all .6s;
-	opacity: 1;
-}
-
-.wrapper-35wsBm{
-	min-height:10px!important;
-	max-height:100px!important;
-	height:10px;
-	transition: all .5s;
-  opacity: .2;
-  overflow: hidden;
-}
-
-.wrapper-35wsBm:hover{
-	height:100px;
+[class="wrapper-1HIH0j userSelectNone-3AtPzf cursorDefault-2KkZ5q"]:hover {
+	width: 432px;
 	transition: all .6s;
 	opacity: 1;
 }

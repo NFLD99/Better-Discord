@@ -1,16 +1,12 @@
 /* Members */
-.membersWrap-2h-GB4:not(#dv-mount),.membersWrap-2h-GB4:not(#dv-mount) > div{
+.container-2o3qEW{
 	min-width:60px!important;
 	max-width:240px!important;
 	width:60px;
   transition: width .5s;
 }
 
-.membersWrap-2h-GB4:hover:not(#dv-mount),.membersWrap-2h-GB4:hover:not(#dv-mount) > div{
+.container-2o3qEW:hover{
 	width:240px;
 	transition: width .6s;
-}
-
-#dv-main .dv-date{
-  white-space: normal;
 }
