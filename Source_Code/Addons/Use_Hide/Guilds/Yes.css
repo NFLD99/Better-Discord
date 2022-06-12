@@ -1,8 +1,11 @@
 /* Guilds */
-
-.wrapper-1Rf91z:not(:hover){
-	max-width: 10px!important;
+.wrapper-1_HaEi:not(:hover) {
+	max-width: 10px !important;
 	opacity: 0;
-	transition: all 200ms;
-  }
-  
+	transition: all 250ms;
+}
+
+.wrapper-1_HaEi:hover {
+	transition: all 250ms;
+	opacity: 1;
+}
