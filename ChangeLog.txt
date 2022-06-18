@@ -1,2 +1,2 @@
 Even More Bug Fixes 
-Fixed Plugin 
+Bug Fixes 
