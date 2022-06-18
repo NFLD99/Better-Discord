@@ -1,25 +1,25 @@
 /* Sleepy#8828 */
-.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::before,
-[nfldincmemberuser="123119491461677057"]::before,
-[nfldincchanneluser="123119491461677057"]::before {
+.NFLDIncChatUser[nfldincchatuser="335660322658582540"]::before,
+[nfldincmemberuser="335660322658582540"]::before,
+[nfldincchanneluser="335660322658582540"]::before {
 	content: url(https://nfld99.com/Boops/Sleepy.png)
 }
 
-.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::after,
-[nfldincmemberuser="123119491461677057"]::after,
-[nfldincchanneluser="123119491461677057"]::after {
+.NFLDIncChatUser[nfldincchatuser="335660322658582540"]::after,
+[nfldincmemberuser="335660322658582540"]::after,
+[nfldincchanneluser="335660322658582540"]::after {
 	content: "Hey I'm sleepy~ \a usually I'm sleeping but if not \a I'm probably running it down on league \a feel free to join or watch if I'm streaming"
 }
 
-[nfldincpopoutuser="123119491461677057"],
-[nfldincmodaluser="123119491461677057"],
-[nfldincfrienduser="123119491461677057"] {
+[nfldincpopoutuser="335660322658582540"],
+[nfldincmodaluser="335660322658582540"],
+[nfldincfrienduser="335660322658582540"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
 
-[nfldincpopoutuser="123119491461677057"] *,
-[nfldincmodaluser="123119491461677057"] *,
-[nfldincfrienduser="123119491461677057"] * {
+[nfldincpopoutuser="335660322658582540"] *,
+[nfldincmodaluser="335660322658582540"] *,
+[nfldincfrienduser="335660322658582540"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
