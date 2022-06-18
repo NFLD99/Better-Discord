@@ -1,20 +1,25 @@
 /* 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘#0923 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]::before {
+.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::before,
+[nfldincmemberuser="486284269652803614"]::before,
+[nfldincchanneluser="486284269652803614"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]::after {
-	content: "Placeholder, \a Placeholder."
+
+.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::after,
+[nfldincmemberuser="486284269652803614"]::after,
+[nfldincchanneluser="486284269652803614"]::after {
+	content: "Placeholder. \a Placeholder. \a Placeholder."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] > div {
+
+[nfldincpopoutuser="486284269652803614"],
+[nfldincmodaluser="486284269652803614"],
+[nfldincfrienduser="486284269652803614"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] * {
+
+[nfldincpopoutuser="486284269652803614"] *,
+[nfldincmodaluser="486284269652803614"] *,
+[nfldincfrienduser="486284269652803614"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘#0923 */

@@ -1,20 +1,25 @@
 /* breadcat#6969 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]::before {
+.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::before,
+[nfldincmemberuser="200330618666483712"]::before,
+[nfldincchanneluser="200330618666483712"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::after,
+[nfldincmemberuser="200330618666483712"]::after,
+[nfldincchanneluser="200330618666483712"]::after {
 	content: "Heya I'm breadcat. \a Yall should be my friend bc \a I'm a good friend \a and bc bread cats are great."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] > div {
+
+[nfldincpopoutuser="200330618666483712"],
+[nfldincmodaluser="200330618666483712"],
+[nfldincfrienduser="200330618666483712"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] * {
+
+[nfldincpopoutuser="200330618666483712"] *,
+[nfldincmodaluser="200330618666483712"] *,
+[nfldincfrienduser="200330618666483712"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* breadcat#6969 */

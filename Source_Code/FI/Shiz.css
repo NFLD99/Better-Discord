@@ -1,23 +1,25 @@
 /* Shiz#9686 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322808739096690691"]::before {
+.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::before,
+[nfldincmemberuser="322808739096690691"]::before,
+[nfldincchanneluser="322808739096690691"]::before {
 	content: url(https://nfld99.com/Boops/Shiz.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="322808739096690691"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="322808739096690691"]::after,
+[nfldincmemberuser="322808739096690691"]::after,
+[nfldincchanneluser="322808739096690691"]::after {
 	content: "Hey I'm The-Shiz \a I'm a Theme Dev \a my teacher is {NFLD99}  \a Knowledge is Power"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322808739096690691"] > div {
+
+[nfldincpopoutuser="322808739096690691"],
+[nfldincmodaluser="322808739096690691"],
+[nfldincfrienduser="322808739096690691"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Shiz.jpg) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322808739096690691"] * {
+
+[nfldincpopoutuser="322808739096690691"] *,
+[nfldincmodaluser="322808739096690691"] *,
+[nfldincfrienduser="322808739096690691"] * {
 	color: pink !important;
 	border-color: pink !important
 }
-/* Shiz#9686 */
-
-
-

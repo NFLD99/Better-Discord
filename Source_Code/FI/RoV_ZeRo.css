@@ -1,20 +1,25 @@
 /* RoV ZeRo#1337 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]::before {
+.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::before,
+[nfldincmemberuser="191595592772747265"]::before,
+[nfldincchanneluser="191595592772747265"]::before {
 	content: url(https://nfld99.com/Boops/RoV_ZeRo.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::after,
+[nfldincmemberuser="191595592772747265"]::after,
+[nfldincchanneluser="191595592772747265"]::after {
 	content: "Hey I'm ZeRo! \a I'm a cute boy who loves \a to play League. \a I host my own Community,\a Representative of Victory"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] > div {
+
+[nfldincpopoutuser="191595592772747265"],
+[nfldincmodaluser="191595592772747265"],
+[nfldincfrienduser="191595592772747265"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] * {
+
+[nfldincpopoutuser="191595592772747265"] *,
+[nfldincmodaluser="191595592772747265"] *,
+[nfldincfrienduser="191595592772747265"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* RoV ZeRo#1337 */

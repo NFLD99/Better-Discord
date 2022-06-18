@@ -1,20 +1,25 @@
 /* Cpt_Corde#1945 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="254843046066257930"]::before {
+.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::before,
+[nfldincmemberuser="254843046066257930"]::before,
+[nfldincchanneluser="254843046066257930"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="254843046066257930"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="254843046066257930"]::after,
+[nfldincmemberuser="254843046066257930"]::after,
+[nfldincchanneluser="254843046066257930"]::after {
 	content: "Borger \a Vorer of Worlds"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="254843046066257930"] > div {
+
+[nfldincpopoutuser="254843046066257930"],
+[nfldincmodaluser="254843046066257930"],
+[nfldincfrienduser="254843046066257930"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="254843046066257930"] * {
+
+[nfldincpopoutuser="254843046066257930"] *,
+[nfldincmodaluser="254843046066257930"] *,
+[nfldincfrienduser="254843046066257930"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* Cpt_Corde#1945 */

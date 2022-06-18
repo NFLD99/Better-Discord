@@ -1,20 +1,25 @@
 /* Ace Rimmer#6993 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]::before {
+.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::before,
+[nfldincmemberuser="197406501264949248"]::before,
+[nfldincchanneluser="197406501264949248"]::before {
 	content: url(https://nfld99.com/Boops/Ace_Rimmer.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]::after {
-	content: "Hey I'm Ace Rimmer. \a Smoke me a kipper, \a I'll be back for breakfast"
+
+.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::after,
+[nfldincmemberuser="197406501264949248"]::after,
+[nfldincchanneluser="197406501264949248"]::after {
+	content: "Placeholder. \a Placeholder. \a Placeholder."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] > div {
+
+[nfldincpopoutuser="197406501264949248"],
+[nfldincmodaluser="197406501264949248"],
+[nfldincfrienduser="197406501264949248"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Ace_Rimmer.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] * {
-	color: rgb(161,10,69) !important;
-	border-color: rgb(161,10,69) !important
+
+[nfldincpopoutuser="197406501264949248"] *,
+[nfldincmodaluser="197406501264949248"] *,
+[nfldincfrienduser="197406501264949248"] * {
+	color: rgb(161, 10, 69) !important;
+	border-color: rgb(161, 10, 69) !important
 }
-/* Ace Rimmer#6993 */

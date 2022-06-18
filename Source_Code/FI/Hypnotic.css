@@ -1,20 +1,25 @@
 /* νHﾒpͥήoͣtͫic#6666 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::before {
+.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::before,
+[nfldincmemberuser="419677528437817345"]::before,
+[nfldincchanneluser="419677528437817345"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::after,
+[nfldincmemberuser="419677528437817345"]::after,
+[nfldincchanneluser="419677528437817345"]::after {
 	content: "It is both a blessing and a curse, \a to feel everything so very deeply."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] > div {
+
+[nfldincpopoutuser="419677528437817345"],
+[nfldincmodaluser="419677528437817345"],
+[nfldincfrienduser="419677528437817345"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] * {
+
+[nfldincpopoutuser="419677528437817345"] *,
+[nfldincmodaluser="419677528437817345"] *,
+[nfldincfrienduser="419677528437817345"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* νHﾒpͥήoͣtͫic#6666 */

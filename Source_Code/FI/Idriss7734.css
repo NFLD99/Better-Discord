@@ -1,21 +1,25 @@
- /* Idriss7734#3234 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="347156061859348481"]::before {
+/* Idriss7734#3234 */
+.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::before,
+[nfldincmemberuser="347156061859348481"]::before,
+[nfldincchanneluser="347156061859348481"]::before {
 	content: url(https://i.imgur.com/3VjcSoT.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="347156061859348481"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="347156061859348481"]::after,
+[nfldincmemberuser="347156061859348481"]::after,
+[nfldincchanneluser="347156061859348481"]::after {
 	content: "Nobody is innocent, there are \a merely varying levels of guilt.\a I'm Idriss"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="347156061859348481"] > div {
+
+[nfldincpopoutuser="347156061859348481"],
+[nfldincmodaluser="347156061859348481"],
+[nfldincfrienduser="347156061859348481"] {
 	background: url(https://i.imgur.com/A6wA3if.jpg) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="347156061859348481"] * {
+
+[nfldincpopoutuser="347156061859348481"] *,
+[nfldincmodaluser="347156061859348481"] *,
+[nfldincfrienduser="347156061859348481"] * {
 	color:  #696969 !important;
 	border-color:  #696969 !important;
 }
-
-/* Idriss7734#3234 */

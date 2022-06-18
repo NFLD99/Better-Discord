@@ -1,20 +1,25 @@
 /* mxngxxse#0666 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]::before {
+.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::before,
+[nfldincmemberuser="150927669809250305"]::before,
+[nfldincchanneluser="150927669809250305"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::after,
+[nfldincmemberuser="150927669809250305"]::after,
+[nfldincchanneluser="150927669809250305"]::after {
 	content: "I run an extremely toxic community \a Find us at \a https://discord.io/toxicgaming/"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] > div {
+
+[nfldincpopoutuser="150927669809250305"],
+[nfldincmodaluser="150927669809250305"],
+[nfldincfrienduser="150927669809250305"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] * {
+
+[nfldincpopoutuser="150927669809250305"] *,
+[nfldincmodaluser="150927669809250305"] *,
+[nfldincfrienduser="150927669809250305"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* mxngxxse#0666 */

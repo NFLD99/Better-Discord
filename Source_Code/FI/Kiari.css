@@ -1,20 +1,25 @@
 /* Kiari#1204 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="73958666050482176"]::before {
+.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::before,
+[nfldincmemberuser="73958666050482176"]::before,
+[nfldincchanneluser="73958666050482176"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="73958666050482176"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="73958666050482176"]::after,
+[nfldincmemberuser="73958666050482176"]::after,
+[nfldincchanneluser="73958666050482176"]::after {
 	content: "Music Artist \a The greatest of all time."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="73958666050482176"] > div {
+
+[nfldincpopoutuser="73958666050482176"],
+[nfldincmodaluser="73958666050482176"],
+[nfldincfrienduser="73958666050482176"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="73958666050482176"] * {
+
+[nfldincpopoutuser="73958666050482176"] *,
+[nfldincmodaluser="73958666050482176"] *,
+[nfldincfrienduser="73958666050482176"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* Kiari#1204 */

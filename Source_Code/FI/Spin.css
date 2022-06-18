@@ -1,20 +1,25 @@
 /* Spin!#1969 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]::before {
+.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::before,
+[nfldincmemberuser="311480381046128641"]::before,
+[nfldincchanneluser="311480381046128641"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::after,
+[nfldincmemberuser="311480381046128641"]::after,
+[nfldincchanneluser="311480381046128641"]::after {
 	content: "Hey I'm Spin! \a I havnt setup my donator perks yet!"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] > div {
+
+[nfldincpopoutuser="311480381046128641"],
+[nfldincmodaluser="311480381046128641"],
+[nfldincfrienduser="311480381046128641"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] * {
-	color: pink !important;
-	border-color: pink !important
+
+[nfldincpopoutuser="311480381046128641"] *,
+[nfldincmodaluser="311480381046128641"] *,
+[nfldincfrienduser="311480381046128641"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
-/* Spin!#1969 */

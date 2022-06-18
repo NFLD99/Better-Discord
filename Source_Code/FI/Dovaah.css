@@ -1,20 +1,25 @@
 /* Dovaah#0101 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="278003549537959939"]::before {
+.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::before,
+[nfldincmemberuser="278003549537959939"]::before,
+[nfldincchanneluser="278003549537959939"]::before {
 	content: url(https://nfld99.com/Boops/Dovaah.gif)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="278003549537959939"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="278003549537959939"]::after,
+[nfldincmemberuser="278003549537959939"]::after,
+[nfldincchanneluser="278003549537959939"]::after {
 	content: "Hail to the king"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="278003549537959939"] > div {
+
+[nfldincpopoutuser="278003549537959939"],
+[nfldincmodaluser="278003549537959939"],
+[nfldincfrienduser="278003549537959939"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/Dovaah.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="278003549537959939"] * {
+
+[nfldincpopoutuser="278003549537959939"] *,
+[nfldincmodaluser="278003549537959939"] *,
+[nfldincfrienduser="278003549537959939"] * {
 	color: purple !important;
 	border-color: purple !important
 }
-/* Dovaah#0101 */

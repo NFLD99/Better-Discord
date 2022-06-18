@@ -1,20 +1,25 @@
 /* FirePhox#5261 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="350845478134611971"]::before {
+.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::before,
+[nfldincmemberuser="350845478134611971"]::before,
+[nfldincchanneluser="350845478134611971"]::before {
 	content: url(https://nfld99.com/Boops/FirePhox.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="350845478134611971"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="350845478134611971"]::after,
+[nfldincmemberuser="350845478134611971"]::after,
+[nfldincchanneluser="350845478134611971"]::after {
 	content: "Hello. My name is FirePhox. \a I am an internet browser."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="350845478134611971"] > div {
+
+[nfldincpopoutuser="350845478134611971"],
+[nfldincmodaluser="350845478134611971"],
+[nfldincfrienduser="350845478134611971"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="350845478134611971"] * {
+
+[nfldincpopoutuser="350845478134611971"] *,
+[nfldincmodaluser="350845478134611971"] *,
+[nfldincfrienduser="350845478134611971"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* FirePhox#5261 */

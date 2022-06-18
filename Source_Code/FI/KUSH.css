@@ -1,20 +1,25 @@
 /* KUSH#0101 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="510928078889943062"]::before {
+.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::before,
+[nfldincmemberuser="510928078889943062"]::before,
+[nfldincchanneluser="510928078889943062"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="510928078889943062"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="510928078889943062"]::after,
+[nfldincmemberuser="510928078889943062"]::after,
+[nfldincchanneluser="510928078889943062"]::after {
 	content: "Hey I'm KUSH! \a Just when you get time \a all i need is error: 404"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="510928078889943062"] > div {
+
+[nfldincpopoutuser="510928078889943062"],
+[nfldincmodaluser="510928078889943062"],
+[nfldincfrienduser="510928078889943062"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="510928078889943062"] * {
+
+[nfldincpopoutuser="510928078889943062"] *,
+[nfldincmodaluser="510928078889943062"] *,
+[nfldincfrienduser="510928078889943062"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* KUSH#0101 */

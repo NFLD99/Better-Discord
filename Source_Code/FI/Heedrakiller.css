@@ -1,20 +1,25 @@
 /* Heedrakiller#1937 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="163363674948370434"]::before {
+.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::before,
+[nfldincmemberuser="163363674948370434"]::before,
+[nfldincchanneluser="163363674948370434"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="163363674948370434"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="163363674948370434"]::after,
+[nfldincmemberuser="163363674948370434"]::after,
+[nfldincchanneluser="163363674948370434"]::after {
 	content: "I Have Not Set Up My Boop Yet!"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="163363674948370434"] > div {
+
+[nfldincpopoutuser="163363674948370434"],
+[nfldincmodaluser="163363674948370434"],
+[nfldincfrienduser="163363674948370434"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="163363674948370434"] * {
-	color: rgb(0,172,234) !important;
-	border-color: rgb(0,172,234) !important
+
+[nfldincpopoutuser="163363674948370434"] *,
+[nfldincmodaluser="163363674948370434"] *,
+[nfldincfrienduser="163363674948370434"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
-/* Heedrakiller#1937 */

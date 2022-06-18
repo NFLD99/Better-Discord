@@ -1,20 +1,25 @@
 /* GhostieSpook#6565 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::before {
+.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
+[nfldincmemberuser="235792008763932672"]::before,
+[nfldincchanneluser="235792008763932672"]::before {
 	content: url(https://nfld99.com/Boops/GhostieSpook.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
+[nfldincmemberuser="235792008763932672"]::after,
+[nfldincchanneluser="235792008763932672"]::after {
 	content: "Tis a spook \a Teh spooky spook :>."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] > div {
+
+[nfldincpopoutuser="235792008763932672"],
+[nfldincmodaluser="235792008763932672"],
+[nfldincfrienduser="235792008763932672"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/GhostieSpook.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] * {
+
+[nfldincpopoutuser="235792008763932672"] *,
+[nfldincmodaluser="235792008763932672"] *,
+[nfldincfrienduser="235792008763932672"] * {
 	color: rgb(140,24,75) !important;
 	border-color: rgb(140,24,75) !important
 }
-/* GhostieSpook#6565 */

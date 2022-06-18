@@ -1,20 +1,25 @@
 /* DragonStryder#7331 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]::before {
+.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::before,
+[nfldincmemberuser="221342508133777408"]::before,
+[nfldincchanneluser="221342508133777408"]::before {
 	content: url(https://nfld99.com/Boops/DragonStryder.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::after,
+[nfldincmemberuser="221342508133777408"]::after,
+[nfldincchanneluser="221342508133777408"]::after {
 	content: "Dragons and legends... \a It would have been difficult for \a any man not to want to fight \a beside a dragon."
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] > div {
+
+[nfldincpopoutuser="221342508133777408"],
+[nfldincmodaluser="221342508133777408"],
+[nfldincfrienduser="221342508133777408"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] * {
+
+[nfldincpopoutuser="221342508133777408"] *,
+[nfldincmodaluser="221342508133777408"] *,
+[nfldincfrienduser="221342508133777408"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* DragonStryder#7331 */

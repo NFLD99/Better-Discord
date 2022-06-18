@@ -1,9 +1,25 @@
 /* Zerebos#7790 */
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="249746236008169473"] > div {
+.NFLDIncChatUser[nfldincchatuser="249746236008169473"]::before,
+[nfldincmemberuser="249746236008169473"]::before,
+[nfldincchanneluser="249746236008169473"]::before {
+	content: url(https://nfld99.com/Boops/ChaChing.png)
+}
+
+.NFLDIncChatUser[nfldincchatuser="249746236008169473"]::after,
+[nfldincmemberuser="249746236008169473"]::after,
+[nfldincchanneluser="249746236008169473"]::after {
+	content: "Hello I'm the BD developer"
+}
+
+[nfldincpopoutuser="249746236008169473"],
+[nfldincmodaluser="249746236008169473"],
+[nfldincfrienduser="249746236008169473"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="249746236008169473"] * {
+
+[nfldincpopoutuser="249746236008169473"] *,
+[nfldincmodaluser="249746236008169473"] *,
+[nfldincfrienduser="249746236008169473"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* Zerebos#7790 */

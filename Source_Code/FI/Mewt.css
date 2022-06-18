@@ -1,20 +1,25 @@
 /* Meowster Mewt#0817 */
-
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::before,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::before,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="325746166518251530"]::before {
+.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::before,
+[nfldincmemberuser="325746166518251530"]::before,
+[nfldincchanneluser="325746166518251530"]::before {
 	content: url(https://nfld99.com/Boops/ChaChing.png)
 }
-.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::after,
-.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::after,
-.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="325746166518251530"]::after {
+
+.NFLDIncChatUser[nfldincchatuser="325746166518251530"]::after,
+[nfldincmemberuser="325746166518251530"]::after,
+[nfldincchanneluser="325746166518251530"]::after {
 	content: "Hello Im Mewt! \a When people hate, I just remember, \a I'm a furry, \a I embarrass myself every day! \a What can people say \a to make it worse?"
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="325746166518251530"] > div {
+
+[nfldincpopoutuser="325746166518251530"],
+[nfldincmodaluser="325746166518251530"],
+[nfldincfrienduser="325746166518251530"] {
 	background: url(https://nfld99.com/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="325746166518251530"] * {
+
+[nfldincpopoutuser="325746166518251530"] *,
+[nfldincmodaluser="325746166518251530"] *,
+[nfldincfrienduser="325746166518251530"] * {
 	color: rgb(0, 172, 234) !important;
 	border-color: rgb(0, 172, 234) !important
 }
-/* Meowster Mewt#0817 */
