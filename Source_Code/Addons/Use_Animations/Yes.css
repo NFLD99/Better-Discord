@@ -477,7 +477,7 @@
   }
   20%, 80% {
     transform: translate(-50%, 10%);
-    opacity: 1
+    opacity: 3
   }
 }
 
