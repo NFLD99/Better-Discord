@@ -1,59 +1,8 @@
 /* Animations For My Themes */
 
-/* Old Loading
-@keyframes Load4 {
-    0% {
-        -webkit-transform: scale(0);
-        transform: rotate(-360deg) scale(0);
-		opacity:1;
-    }
-    25% {
-        -webkit-transform: scale(1);
-        transform: rotate(-315deg) scale(.25);
-		opacity:1;
-    }50% {
-        -webkit-transform: scale(1);
-        transform: rotate(-405deg) scale(.75);
-		opacity:1;
-    }100% {
-        -webkit-transform: scale(1);
-        transform: rotate(-360deg) scale(1);
-		opacity:1;
-    }
-} */
-
-/* 
-@keyframes UnreadGuildpulse {
-  0% {
-    border:2px solid var(--Unread-Message-1);
-  }
-  25%{
-    border:2px solid var(--Unread-Message-2);
-  }
-  50% {
-    border:2px solid var(--Unread-Message-1);
-  }
-  75%{
-    border:2px solid var(--Unread-Message-2);
-  }
-  100% {
-    border:2px solid var(--Unread-Message-1);
-  }
-} 
-*/
-
-/* 
-@keyframes DropDown {
-  from {
-      transform: translate(0, 100vh);
-      opacity: 0;
-  }
-  to {
-      transform: translate(0, 0);
-      opacity: 1;
-  }
-} 
-*/
+:root{
+  --Transitions-Enabled: 250ms all ;
+}
 
 @keyframes Spin {
   0% {
@@ -123,6 +72,15 @@
   }
   100% {
     background-size: 100% 100%;
+  }
+}
+
+@keyframes shakeUnreadv3 {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
   }
 }
 
@@ -537,5 +495,17 @@
   }
   to {
     width: 920px
+  }
+}
+
+@keyframes guildUnread {
+  0% {
+    box-shadow: 0 0 4px 0 var(--Unread-Message-1);
+  }
+  50% {
+    box-shadow: 0 0 8px 0 var(--Unread-Message-2);
+  }
+  100% {
+    box-shadow: 0 0 4px 0 var(--Unread-Message-1);
   }
 }
