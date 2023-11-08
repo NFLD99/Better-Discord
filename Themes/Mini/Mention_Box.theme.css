@@ -16,20 +16,29 @@
 	--Mention: #95da72;
 	--Bar: rgba(26, 250, 93, 0.357);
 }
-.theme-dark .isMentioned-N-h9aa {
-  background: var(--Background) !important;
+.mentioned__58017, .mentioned__58017:hover{
+  /*background: var(--Background) !important;*/
+  background:transparent!important;
 }
-.mention {
-  color: var(--Mention) !important;
+.avatar__08316{
+  position:absolute!important;
 }
-.isMentionedCozy-3isp7y:after {
-  position: absolute;
+.mentioned__58017.cozy_f5c119 .messageContent__21e69 {
+  position: relative;
   top: 0;
-  left: -6px;
+  left: 70px;
+  padding-left: 4px;
   bottom: 0;
   content: " ";
-  width: 2px;
-  background: var(--Bar)!important;
+  /*width: 690px;*/
+  background: var(--Background)!important;
   border-left: 4px solid var(--Bar)!important;
   border-radius: 2px 0 0 2px;
+}
+.mentioned__58017:before{
+  width: 0;
+}
+.repliedTextPreview__90311.clickable_d866f1{
+  flex:content;
+  overflow:visible;
 }
