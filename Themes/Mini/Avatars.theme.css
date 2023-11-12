@@ -16,8 +16,8 @@
   --Width: 40px;
   --Height: 40px;
 }
-
-.wrapper-3t9DeA {
+/* Avatars become square even without this code idk what this code is for lol - Ansem*/
+/*.wrapper-3t9DeA {
   width: var(--Width)!important;
   height: var(--Height)!important;
   background-size: var(--Width) var(--Height)!important;
@@ -29,12 +29,12 @@
   background-position: 50%!important;
   border-radius: var(--Radius)!important;
 }
-
+*/
 [mask="url(#svg-mask-avatar-default)"],
 [mask="url(#svg-mask-avatar-status-round-32)"]{
   mask: none!important;
 }
 
-.avatar-VxgULZ{
+.avatar__08316{
   border-radius: var(--Radius)!important;
 }
