@@ -14399,3 +14399,24 @@ a.anchor-1MIwyf:hover,
 .divider-2rZFJK {
     border-top: thin solid var(--Secondary-Background-Colour);
 }
+/*Fixes by Ansem*/
+.bg__12180 {
+    background: var(--File-Updated-2020-5-24) 50% 50%/contain no-repeat, var(--Chat-Background) 50% 50%/cover !important;
+    animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
+    font-family: var(--Chat-Font-Used) !important;
+}
+.container_ca50b9, .panels__58331{
+  	Background: transparent!important;
+	  background-color: transparent!important;
+}
+.scrollableContainer__33e06 {
+    background: var(--Chat-Input-Background) 50% 50%/cover !important;
+    border-radius: 4px;
+    border: 1px solid var(--Main-Colour) !important;
+    margin-top: 1.6px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    min-height: 3rem;
+    max-height: 90vh;
+}
