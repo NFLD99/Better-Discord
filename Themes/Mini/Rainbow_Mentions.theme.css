@@ -11,12 +11,16 @@
  * @authorId 483413721876529174
  * @invite zqRpUyepHh
 */
-.wrapper_f46140{
+.wrapper_f46140, .mentioned__58017, .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover{
   background: transparent !important;
 }
-.wrapper_f46140,.mentioned__58017,.message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover{
-  color: #00e5ff;
-  animation: rainbowmention 3s infinite linear;
+.mention{
+  color: #00e5ff!important;
+  animation: rainbowmention 3s infinite linear!important;
+}
+.mentioned__58017:before{
+  color: #00e5ff!important;
+  animation: rainbowmention 3s infinite linear!important;
 }
 @keyframes rainbowmention {
   from {
