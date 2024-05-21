@@ -11,19 +11,26 @@
  * @authorId 483413721876529174
  * @invite zqRpUyepHh
 */
-.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapper-3WhCwL:hover, .theme-dark .wrapper-3WhCwL, .mention, .mention:hover {
+.mentioned_fa6fd2{
+  background-color: hsl(var(--yellow-300-hsl) / 0.02) !important;
+  animation: rainbowmention 3s infinite linear!important;
+}
+.wrapper_f46140, .mentioned__58017, .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover{
   background: transparent !important;
 }
-.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention,.theme-dark .wrapper-3WhCwL,.theme-dark .wrapper-3WhCwL:hover,.theme-dark .isMentioned-N-h9aa, .theme-dark .isMentioned-N-h9aa, .mention {
-  color: #00e5ff !important;
-  animation: rainbowmention 3s infinite linear !important;
+.mention{
+  color: #00e5ff!important;
+  animation: rainbowmention 3s infinite linear!important;
 }
-
-.mentioned_fa6fd2::after{
-  background-color: rgba(0, 229, 255, 0.1) !important;
-  animation: rainbowmention 3s infinite linear !important;
+#message-content-1242478636053958666 > span{
+  color: #00e5ff!important;
+  animation: rainbowmention 3s infinite linear!important;
 }
-
+.mentioned_fa6fd2:before{
+  width: 3px;
+  color: #00e5ff!important;
+  animation: rainbowmention 3s infinite linear!important;
+}
 @keyframes rainbowmention {
   from {
    -webkit-filter: hue-rotate(0deg);
