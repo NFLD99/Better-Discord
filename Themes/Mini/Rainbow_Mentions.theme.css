@@ -15,6 +15,9 @@
   background-color: hsl(var(--yellow-300-hsl) / 0.02) !important;
   animation: rainbowmention 3s infinite linear!important;
 }
+.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapper-3WhCwL:hover, .theme-dark .wrapper-3WhCwL, .mention, .mention:hover {
+  background: transparent !important;
+}
 .wrapper_f46140, .mentioned__58017, .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover{
   background: transparent !important;
 }
