@@ -14,10 +14,10 @@
 .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapper-3WhCwL:hover, .theme-dark .wrapper-3WhCwL, .mention, .mention:hover {
   background: transparent !important;
 }
-.mentioned_fa6fd2{
+.mentioned_d5deea{
   background-color: hsl(var(--yellow-300-hsl) / 0.02) !important;
 }
-.wrapper_f46140, .mentioned__58017, .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover{
+.wrapper_a7c28c, .mentioned_d5deea, .message_d5deea.mentioned_d5deea.selected_d5deea, .mouse-mode.full-motion .mentioned_d5deea:hover{
   background: transparent !important;
 }
 .mention{
@@ -29,7 +29,7 @@
   animation: rainbowmention 3s infinite linear!important;
   background-color: transparent!important;
 }
-.mentioned_fa6fd2:before{
+.mentioned_d5deea:before{
   width: 3px;
   color: #00e5ff!important;
   animation: rainbowmention 3s infinite linear!important;
