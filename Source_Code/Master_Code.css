@@ -4713,12 +4713,6 @@ span.botTagRegular-2HEhHi {
     border-radius: var(--Chat-Avatar-Border-Radius) !important;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x,
-.unreadMentionsIndicatorTop-gA6RCh {
-    width: calc(var(--Guild-Columns) * 60px + 2px) !important;
-    max-width: calc(var(--Guild-Columns) * 60px + 2px) !important;
-}
-
 /* Credit to MasicoreLord#5338 (197435711476072449) */
 .wrapper-1Rf91z.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen > div {
     width: calc(var(--Guild-Columns) * 60px + 2px) !important;
@@ -12330,12 +12324,6 @@ body > div:last-of-type {
     justify-content: center;
 }
 
-.listItem_c96c45 {
-    margin: 0 6px 8px;
-    width: 45px !important;
-    height: 45px !important;
-}
-
 [class="scroller_fea3ef none-2-_0dP scrollerBase-_bVAAt"] {
     display: flex;
     flex-flow: row wrap;
@@ -12554,11 +12542,6 @@ body > div:last-of-type {
 
 .bar-2eAyLE {
     color: var(--Main-Colour);
-}
-
-.unreadMentionsIndicatorBottom-3RJMnQ,
-.unreadMentionsIndicatorTop-2bTgUU {
-    width: calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
 
 .mention-3XBnnZ {
@@ -14419,4 +14402,10 @@ a.anchor-1MIwyf:hover,
     vertical-align: middle;
     min-height: 3rem;
     max-height: 90vh;
+}
+.listItem_c96c45{
+  height:auto!important;
+}
+.unreadMentionsIndicatorTop_fea3ef, .unreadMentionsIndicatorBottom_fea3ef{
+  width:auto!important;
 }
