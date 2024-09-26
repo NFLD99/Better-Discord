@@ -14426,3 +14426,6 @@ a.anchor-1MIwyf:hover,
 .guildSeparator_d0c57e{
     width:calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
+.button_df39bd{
+  background:transparent;
+}
