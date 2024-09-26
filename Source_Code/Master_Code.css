@@ -14389,8 +14389,8 @@ a.anchor-1MIwyf:hover,
     font-family: var(--Chat-Font-Used) !important;
 }
 .container_b2ca13, .panels_a4d4d9{
-  	Background: transparent!important;
-	  background-color: transparent!important;
+    Background: transparent!important;
+    background-color: transparent!important;
 }
 .scrollableContainer_d0696b {
     background: var(--Chat-Input-Background) 50% 50%/cover !important;
@@ -14404,8 +14404,25 @@ a.anchor-1MIwyf:hover,
     max-height: 90vh;
 }
 .listItem_c96c45{
-  height:auto!important;
+    height:auto!important;
+    width: auto !important;
+    margin-right: 2px;
 }
 .unreadMentionsIndicatorTop_fea3ef, .unreadMentionsIndicatorBottom_fea3ef{
-  width:auto!important;
+    width:auto!important;
+}
+.container_adcaac {
+    background:transparent;
+}
+.pill_a5ad63{
+    position:relative;
+}
+.pill_f36a5a{
+    position:relative;
+}
+.pill_f9623d{
+    position:relative;
+}
+.guildSeparator_d0c57e{
+    width:calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
