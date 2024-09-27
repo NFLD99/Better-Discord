@@ -14429,3 +14429,23 @@ a.anchor-1MIwyf:hover,
 .button_df39bd{
   background:transparent;
 }
+.modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3{
+  background: linear-gradient(to left, var(--Background-Colour), var(--Secondary-Background-Colour), var(--Notification-Colour));
+  border: 2px var(--Main-Colour) solid !important;
+}
+.modeUnreadImportant_d8bfb3 {
+  border-right: 1px var(--Main-Colour) solid !important;
+  border-left: 1px var(--Main-Colour) solid !important;
+  background: linear-gradient(to right, var(--Background-Colour), var(--Secondary-Background-Colour), var(--Notification-Colour));
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+.unreadImportant_d8bfb3{
+  background: transparent!important;
+}
+.tutorialContainer_f9623d > .listItem_c96c45 > .listItemWrapper_dfb2f8{
+  width:auto!important;
+}
+.autocompleteAttached_bea0d0{
+  background:linear-gradient(var(--Background-Colour), var(--Chat-Input-Background));
+}
