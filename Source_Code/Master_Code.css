@@ -12837,10 +12837,10 @@ body > div:last-of-type {
 .wrapper_f7ecac:hover {
     background-color: var(--Secondary-Background-Colour);
 }
-
+/*
 .sprite__04eed {
     background: var(--Sprite-Sheet) 50% 50%/cover;
-}
+}*/
 
 .root__49fc1 {
     background-color: rgba(0, 0, 0, var(--Background-Darkness));
@@ -13153,10 +13153,10 @@ body > div:last-of-type {
 .inputText__72ba7 {
     background: transparent;
 }
-
+/*
 .inner__74017 {
     background: var(--Chat-Background) 50% 50%/cover;
-}
+}*/
 
 .theme-dark .emptyIconFriends__9d78f {
     display: none;
@@ -14140,11 +14140,11 @@ svg.selectedIcon-19TbzU > circle {
 .channelTextArea_f75fb0 {
     background: var(--Chat-Input-Background) 50% 50%/cover !important;
 }
-
+/*
 .channelTextArea__74017 > div > .inner__74017 {
     background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
 }
-
+*/
 .iconBadge__9293f {
     background-color: var(--Main-Colour);
 }
