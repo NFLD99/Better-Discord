@@ -117,6 +117,9 @@
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
+/* Temp Fixes PR File */
+@import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Temp_Fixes/Fixes.css');
+/* Temp Fixes PR File */
 
 :root {
     --Update-Text: " Update #572";
