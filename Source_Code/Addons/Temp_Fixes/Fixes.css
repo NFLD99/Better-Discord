@@ -11,7 +11,10 @@ Credit: Discord: mr.fluff. (801417053151428668) | GitHub: NFLD99
   background: transparent;
 } */
 
-/* the below should nuke the background forced by the visual refresh update */
+/* 
+the below should nuke the background forced by the visual refresh update 
+Credit: GitHub: RedSousuke
+*/
 .visual-refresh .theme-dark,.visual-refresh.theme-dark {
   --activity-card-background: none;
   --autocomplete-bg: none;
