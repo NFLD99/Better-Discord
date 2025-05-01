@@ -1,5 +1,9 @@
 /* Global Overrides */
-.visual-refresh.theme-dark, .visual-refresh.theme-light{
+.theme-dark, /* so it works on all settings since theres more than just dark/light now*/
+.visual-refresh.theme-dark, .visual-refresh .theme-dark
+.visual-refresh.theme-darker, .visual-refresh .theme-darker, 
+.visual-refresh.theme-midnight, .visual-refresh .theme-midnight,
+.visual-refresh.theme-light, .visual-refresh .theme-light{
   --header-primary: var(--Main-Colour);
 }
 
