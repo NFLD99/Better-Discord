@@ -1,5 +1,5 @@
 /* Channels */
-.sidebar-1tnWFu{
+.sidebar_c48ade{
 	min-width:10px!important;
 	max-width:240px!important;
 	width:10px;
@@ -7,7 +7,7 @@
 	opacity: 0;
 }
 
-.sidebar-1tnWFu:hover{
+.sidebar_c48ade:hover{
 	width:240px;
 	transition: all .6s;
 	opacity: 1;

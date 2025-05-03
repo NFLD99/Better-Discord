@@ -14,10 +14,10 @@
 .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapper-3WhCwL:hover, .theme-dark .wrapper-3WhCwL, .mention, .mention:hover {
   background: transparent !important;
 }
-.mentioned_d5deea{
+.mentioned__5126c{
   background-color: hsl(var(--yellow-300-hsl) / 0.02) !important;
 }
-.wrapper_a7c28c, .mentioned_d5deea, .message_d5deea.mentioned_d5deea.selected_d5deea, .mouse-mode.full-motion .mentioned_d5deea:hover{
+.wrapper_a7c28c, .mentioned__5126c, .message__5126c.mentioned__5126c.selected__5126c, .mouse-mode.full-motion .mentioned__5126c:hover{
   background: transparent !important;
 }
 .mention{
@@ -29,7 +29,7 @@
   animation: rainbowmention 3s infinite linear!important;
   background-color: transparent!important;
 }
-.mentioned_d5deea:before{
+.mentioned__5126c:before{
   width: 3px;
   color: #00e5ff!important;
   animation: rainbowmention 3s infinite linear!important;

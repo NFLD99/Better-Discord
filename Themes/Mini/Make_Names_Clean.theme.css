@@ -31,7 +31,7 @@
   /* time|initial|inherit */
 }
 
-.username_d30d99{
+.username_c19a55{
 color: var(--Name-Colour) !important;
 font-size: var(--Name-Font-Size)!important;
 font-family: var(--Name-Font-Used)!important;
@@ -41,7 +41,7 @@ font-variant: var(--Name-Variant)!important;
 transition: all 200ms;
 }
 
-.username_d30d99:hover{
+.username_c19a55:hover{
 color: var(--Name-Colour-Hover)!important;
 transition: all var(--Name-Animation-Time);
 }

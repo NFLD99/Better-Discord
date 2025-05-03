@@ -12304,13 +12304,13 @@ body > div:last-of-type {
 }
 
 .guilds_c48ade,
-.wrapper__48112 > ul,
-.wrapper__48112 {
+.folderGroup__48112 > ul,
+.folderGroup__48112 {
     width: calc(var(--Guild-Columns) * 60px + 2px) !important;
     max-width: calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
 
-.wrapper__48112 {
+.folderGroup__48112 {
     margin-right: auto !important;
     margin-left: auto !important;
     display: flex;
@@ -12320,7 +12320,7 @@ body > div:last-of-type {
 }
 
 .scroller_ef3116 > div[aria-label],
-.wrapper__48112 > ul {
+.folderGroup__48112 > ul {
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;

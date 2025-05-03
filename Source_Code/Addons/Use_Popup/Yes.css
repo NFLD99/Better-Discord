@@ -3,12 +3,12 @@
 	contain: none;
 }
 
-.container-YkUktl:last-child {
+.container__37e49:last-child {
 	position: relative;
 	overflow: visible;
 }
 
-.container-YkUktl:last-child > div:last-child {
+.container__37e49:last-child > div:last-child {
 	width: 35px;
 	height: 32px;
 	background-color: transparent !important;
@@ -27,30 +27,30 @@
 	box-sizing: border-box;
 }
 
-.container-YkUktl:last-child:not(:hover) > div:last-child > :nth-child(1) {
+.container__37e49:last-child:not(:hover) > div:last-child > :nth-child(1) {
 	opacity: 0;
 }
 
-.container-YkUktl:last-child:not(:hover) > div:last-child > :nth-child(2) {
+.container__37e49:last-child:not(:hover) > div:last-child > :nth-child(2) {
 	opacity: 0;
 }
 
-.container-YkUktl:last-child:hover > div:last-child:hover {
+.container__37e49:last-child:hover > div:last-child:hover {
 	height: 95px;
 	width: 50px;
 	transition: 500ms ease-in-out;
 }
 
-.container-YkUktl:last-child:hover > div:last-child:before {
+.container__37e49:last-child:hover > div:last-child:before {
 	opacity: 0.5;
 }
 
-.container-YkUktl:last-child > div:last-child > div * {
+.container__37e49:last-child > div:last-child > div * {
 	left: 0;
 	display: none;
 }
 
-.container-YkUktl:last-child:hover > div:last-child:hover > div * {
+.container__37e49:last-child:hover > div:last-child:hover > div * {
 	display: block;
 }
 

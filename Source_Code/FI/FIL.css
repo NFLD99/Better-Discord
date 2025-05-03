@@ -38,8 +38,8 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Zerebos.css);
 
 /* Easter Egg */
-.ragingDemon-10qP1U,
-.symbolBackground-3ozYSg {
+.ragingDemon_ac6454,
+.symbolBackground_ac6454 {
   margin-bottom: -3px;
   padding-top: 2%;
   padding-left: 23%;
@@ -59,53 +59,53 @@
   }
 }
 
-.keyboardShortcutList-3VFAYS > div:nth-last-child(1) > div:nth-last-child(1) > .keybindDescription-oXh6w_:after {
+.keyboardShortcutList_f061f6 > div:nth-last-child(1) > div:nth-last-child(1) > .keybindDescription_c0b6a8:after {
   content: "<3 Donator Easter Egg <3";
   font-size: 12px;
 }
 
-.keyboardShortcutList-3VFAYS > div:nth-last-child(1) > div:nth-last-child(1) > .keybindDescription-oXh6w_ {
+.keyboardShortcutList_f061f6 > div:nth-last-child(1) > div:nth-last-child(1) > .keybindDescription_c0b6a8 {
   font-size: 0;
 }
 
-[nfldinccurrentuser="123119491461677057"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="123119491461677057"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="148059412165033984"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="150927669809250305"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="163363674948370434"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="167462879975571456"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="191595592772747265"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="192507720199307265"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="197406501264949248"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="199196567989649408"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="200330618666483712"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="219363409097916416"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="221342508133777408"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="235792008763932672"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="237616896948699136"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="249746236008169473"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="254843046066257930"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="256531049222242304"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="259407045734694912"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="278003549537959939"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="278543574059057154"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="291079492171071489"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="302208662812884993"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="302837596600664065"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="311480381046128641"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="322808739096690691"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="325746166518251530"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="335902720961675275"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="347156061859348481"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="350845478134611971"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="367707174991953922"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="419677528437817345"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="460764041254666245"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="486284269652803614"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="510928078889943062"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="73958666050482176"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="794323828687503370"] * .accountProfileCard-lbN7n-::after,
-[nfldinccurrentuser="801417053151428668"] * .accountProfileCard-lbN7n-::after {
+[nfldinccurrentuser="123119491461677057"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="123119491461677057"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="148059412165033984"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="150927669809250305"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="163363674948370434"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="167462879975571456"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="191595592772747265"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="192507720199307265"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="197406501264949248"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="199196567989649408"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="200330618666483712"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="219363409097916416"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="221342508133777408"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="235792008763932672"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="237616896948699136"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="249746236008169473"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="254843046066257930"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="256531049222242304"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="259407045734694912"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="278003549537959939"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="278543574059057154"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="291079492171071489"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="302208662812884993"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="302837596600664065"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="311480381046128641"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="322808739096690691"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="325746166518251530"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="335902720961675275"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="347156061859348481"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="350845478134611971"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="367707174991953922"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="419677528437817345"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="460764041254666245"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="486284269652803614"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="510928078889943062"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="73958666050482176"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="794323828687503370"] * .accountProfileCard__1fed1::after,
+[nfldinccurrentuser="801417053151428668"] * .accountProfileCard__1fed1::after {
   color: var(--Main-Colour) !important;
   content: var(--Theme-Variant)", " var(--Update-Text)", Thank you for your support! " !important;
 }

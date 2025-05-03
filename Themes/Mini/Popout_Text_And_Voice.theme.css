@@ -12,36 +12,36 @@
  * @invite zqRpUyepHh
 */
 /* Members */
-.container_b2ce9c{
+.container_c8ffbb{
 	min-width:50px!important;
 	max-width:240px!important;
 	width:50px;
 	transition: width .5s;
 }
-.container_b2ce9c:hover{
+.container_c8ffbb:hover{
 	width:240px;
 	transition: width .6s;
 }
 /* Giulds */
-.wrapper_a7e7a8:not(:hover){
+.wrapper_ef3116:not(:hover){
 	max-width: 10px!important;
 	opacity: 0;
 	transition: all 200ms;
 }
-.wrapper_a7e7a8 {
+.wrapper_ef3116 {
   width: 60px!important;
   max-width: 65px!important;
 	transition: all 200ms;
 }
 /* Channels */
-.sidebar_ded4b5{
+.sidebar_c48ade{
 	min-width:10px!important;
 	max-width:245px!important;
 	width:15px;
 	transition: all .5s;
 	opacity: 0;
 }
-.sidebar_ded4b5:hover{
+.sidebar_c48ade:hover{
 	width:245px;
 	transition: all .6s;
 	opacity: 1;

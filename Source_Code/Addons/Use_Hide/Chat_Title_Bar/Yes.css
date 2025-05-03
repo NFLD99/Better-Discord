@@ -1,5 +1,5 @@
 /* Title */
-.container-ZMc96U{
+.container__9293f{
 	min-height:5px!important;
 	max-height:48px!important;
 	height:5px;
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.container-ZMc96U:hover{
+.container__9293f:hover{
 	height:48px;
 	transition: all .6s;
 	opacity: 1;

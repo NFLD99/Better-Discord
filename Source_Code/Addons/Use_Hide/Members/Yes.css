@@ -1,12 +1,12 @@
 /* Members */
-.container-2o3qEW{
+.container_c8ffbb{
 	min-width:60px!important;
 	max-width:240px!important;
 	width:60px;
   transition: width .5s;
 }
 
-.container-2o3qEW:hover{
+.container_c8ffbb:hover{
 	width:240px;
 	transition: width .6s;
 }
