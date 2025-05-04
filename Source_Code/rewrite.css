@@ -420,7 +420,7 @@
 
 /* Chat Background */
 .members_c8ffbb, .visual-refresh .chatContent_f75fb0, .bar_c38106, .sidebar_c48ade {
-  background-color: var(--Secondary-Background-Colour) !important;
+  background-color: transparent !important;
 }
 
 .layer__960e4.baseLayer__960e4 {
@@ -877,6 +877,19 @@ a {
   color: var(--Main-Colour);
 }
 
+:where(.visual-refresh) .tooltipPrimary__382e7 .tooltipPointer__382e7 {
+  border-top-color: var(--Main-Colour);
+}
+
+.guildNameText_b1f768,
+.activityIcon_b1f768 {
+  color: var(--Main-Colour);
+}
+
+.muteText_b1f768 {
+  color: var(--Secondary-Main-Colour);
+}
+
 /* icons */
 .link__7df54 {
   color: var(--Main-Colour);
@@ -893,7 +906,7 @@ a {
 
 /* Call Container */
 .visual-refresh .root_bfe55a {
-  background: var(--Secondary-Background-Colour);
+  background: transparent;
 }
 
 /* Error page */
@@ -902,7 +915,7 @@ a {
 }
 
 .images-dark .wrapper__61a6b>.flexWrapper__61a6b {
-  background-color: rgba(0, 0, 0, var(--Background-Darkness));
+  background: rgba(0, 0, 0, var(--Background-Darkness));
 }
 
 .images-dark .image__61a6b {
@@ -936,6 +949,10 @@ a {
   color: var(--Main-Colour);
 }
 
+.clickable__91a9d.container__91a9d:hover, .clickable__91a9d.container__91a9d:hover .muted__91a9d {
+  color: var(--Main-Colour);
+}
+
 /* Timestamp */
 .visual-refresh .cozy_c19a55 .timestamp_c19a55 {
   color: var(--Timestamp-Colour);
@@ -944,7 +961,7 @@ a {
 /* DM List */
 .visual-refresh .privateChannels__35e86,
 .visual-refresh .scroller__99e7c {
-  background: var(--Secondary-Background-Colour);
+  background: transparent;
 }
 
 .visual-refresh .scroller__99e7c {
@@ -962,7 +979,7 @@ a {
 
 :where(.visual-refresh) .interactive__972a0:active,
 :where(.visual-refresh) .interactiveSelected__972a0 {
-  background: var(--Secondary-Main-Colour);
+  background: rgba(0, 0, 0, var(--Background-Darkness));
 }
 
 .container__13cf1 {
@@ -1037,4 +1054,112 @@ a {
 
 :where(.visual-refresh) .refreshIconStroke__001a7 {
   stroke: var(--Secondary-Main-Colour);
+}
+
+/* Guild List */
+.visual-refresh .wrapper_ef3116 {
+  background: transparent;
+  margin-bottom: 0;
+}
+
+/* Folders */
+.folderGroupBackground__48112 {
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+/* No Pic Guilds */
+.visual-refresh .childWrapperNoHoverBg__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
+.wrapper__6e9f8:hover .childWrapper__6e9f8 {
+  background-color: var(--Background-Colour);
+  color: var(--Main-Colour);
+}
+
+/* Darken BKG */
+.container_c48ade {
+  background: rgba(0, 0, 0, var(--Background-Darkness));
+}
+
+/* Chat Borders */
+.visual-refresh .sidebarList_c48ade,
+.visual-refresh .searchBar__35e86,
+.visual-refresh .content_f75fb0,
+.visual-refresh .subtitleContainer_f75fb0,
+.container_c8ffbb {
+  border-color: transparent !important;
+}
+
+/* Message Hover */
+*.mouse-mode.full-motion.visual-refresh .message__5126c:hover,
+*.visual-refresh .message__5126c.selected__5126c {
+  background: transparent !important;
+}
+
+/* Add/Discuver */
+.circleIconButton__5bc7e,
+.visual-refresh .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
+  color: var(--Main-Colour);
+  background-color: var(--Secondary-Background-Colour);
+}
+
+/* DM List */
+.interactive_bf202d:focus-within, .interactive_bf202d:hover {
+  background: rgba(0, 0, 0, var(--Background-Darkness));
+  color: var(--Main-Colour);
+}
+
+:where(.visual-refresh) .interactive__972a0:hover {
+  background: rgba(0, 0, 0, var(--Background-Darkness));
+}
+
+/* Channel List */
+.visual-refresh .container__2637a {
+  background: transparent;
+}
+
+.name__2ea32,
+.icon__2ea32 {
+  color: var(--Secondary-Main-Colour);
+}
+
+.modeMuted__2ea32 .icon__2ea32,
+.modeMuted__2ea32 .name__2ea32 {
+  color: var(--Secondary-Main-Colour);
+  opacity: 0.5;
+}
+
+:where(.visual-refresh) .modeConnected__2ea32 .name__2ea32,
+:where(.visual-refresh) .modeConnected__2ea32:hover .name__2ea32,
+:where(.visual-refresh) .modeSelected__2ea32 .name__2ea32,
+:where(.visual-refresh) .modeSelected__2ea32:hover .name__2ea32,
+:where(.visual-refresh) .modeConnected__2ea32 .icon__2ea32,
+:where(.visual-refresh) .modeConnected__2ea32:hover .icon__2ea32,
+:where(.visual-refresh) .modeSelected__2ea32 .icon__2ea32,
+:where(.visual-refresh) .modeSelected__2ea32:hover .icon__2ea32 {
+  color: var(--Main-Colour);
+}
+
+.modeSelected__2ea32 .link__2ea32,
+.modeSelected__2ea32:hover .link__2ea32 {
+  background: rgba(0, 0, 0, var(--Background-Darkness));
+}
+
+:where(.visual-refresh) .selectedChannel_c69b6d .actionIcon_c69b6d,
+:where(.visual-refresh) .selectedChannel_c69b6d .actionIcon_c69b6d:hover {
+  color: var(--Main-Colour);
+}
+
+.modeMuted__2ea32:hover .name__2ea32,
+.wrapper__2ea32:hover .name__2ea32 {
+  color: var(--Main-Colour);
+}
+
+:where(.visual-refresh) .actionIcon_c69b6d,
+:where(.visual-refresh) .actionIcon_c69b6d:hover {
+  color: var(--Secondary-Main-Colour);
+}
+
+.wrapper__2ea32:hover .link__2ea32 {
+  background: var(--Secondary-Background-Colour);
 }
