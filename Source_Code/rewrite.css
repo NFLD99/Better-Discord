@@ -29,7 +29,7 @@
   --status-width-popout: 3px;
   --status-width-profile: 4px;
   --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Update-Text: " Update #8";
+  --Update-Text: " Update #9";
 }
 
 /* Global Overrides */
@@ -40,25 +40,36 @@
   --header-primary: var(--Main-Colour);
 }
 /* code added by Ansem */
+
 /* to make slightly darker guild row, channel rows and member list than the chat to divide it */
-.visual-refresh .title_f75fb0{ 
-  background:rgba(0, 0, 0, .36)!important; 
+.visual-refresh .title_f75fb0 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .36));
 }
-.visual-refresh .container__2637a{
-  background:rgba(0, 0, 0, .2)!important;
+
+.visual-refresh .container__2637a {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .3));
 }
-.visual-refresh .wrapper_ef3116{
-  background:rgba(0, 0, 0, .4)!important;
+
+.visual-refresh .wrapper_ef3116 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4));
 }
-.container_c8ffbb{
-  background:rgba(0, 0, 0, .3)!important;
-} 
-.title_c38106{ /*darkness above the title bar (window top part)*/
-  background:rgba(0, 0, 0, .4)!important;
-} 
-.clickable_f37cb1{
-  background:rgba(0, 0, 0, .2)!important;
-} 
+
+.container_c8ffbb {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .3));
+}
+
+.title_c38106 {
+  /*darkness above the title bar (window top part)*/
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4));
+}
+
+.clickable_f37cb1 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .1));
+}
+
+.visual-refresh .chatContent_f75fb0 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.25));
+}
 
 /* make chat be semi transparent with niko effect as well*/
 .visual-refresh .channelTextArea_f75fb0{
@@ -191,15 +202,11 @@
 }
 
 /* Chat Background */
-.members_c8ffbb, .visual-refresh .chatContent_f75fb0, .bar_c38106, .sidebar_c48ade {
-  background-color: transparent !important;
-}
-
 .layer__960e4.baseLayer__960e4 {
   background: var(--Chat-Background) 50% 50%/cover;
 }
 
-.visual-refresh .chat_f75fb0, .members_c8ffbb, .container_c8ffbb {
+.visual-refresh .chat_f75fb0, .container_c8ffbb {
   background: transparent;
 }
 
