@@ -82,6 +82,10 @@
 .button__201d5 .contents__201d5, .icon__29444, .visual-refresh .clickable__9293f .icon__9293f{
   color: var(--Main-Colour);
 }
+:where(.visual-refresh) .linkButtonIcon__972a0{
+  color: var(--Main-Colour);
+}
+
 
 /* title text color*/
 .title__9293f, .visual-refresh .dropdownButton__2637a{
