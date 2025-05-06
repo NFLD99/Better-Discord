@@ -29,6 +29,7 @@
   --status-width-popout: 3px;
   --status-width-profile: 4px;
   --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Update-Text: " Update #7";
 }
 
 /* Global Overrides */
