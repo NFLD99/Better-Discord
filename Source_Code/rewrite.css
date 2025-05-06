@@ -29,7 +29,7 @@
   --status-width-popout: 3px;
   --status-width-profile: 4px;
   --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Update-Text: " Update #9";
+  --Update-Text: " Update #10";
 }
 
 /* Global Overrides */
@@ -159,20 +159,6 @@
   z-index: 9997;
 }
 
-/* Settings Background */
-.contentRegion__23e6b,
-.visual-refresh .sidebarRegionScroller__23e6b {
-  background-color: var(--Secondary-Background-Colour) !important;
-}
-
-.visual-refresh .standardSidebarView__23e6b {
-  background: var(--Settings-Background) 50% 50%/cover;
-}
-
-.visual-refresh .contentRegionScroller__23e6b {
-  background: transparent;
-}
-
 /* Settings Tabs */
 .visual-refresh .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026,
 .visual-refresh .side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
@@ -208,10 +194,6 @@
 
 .visual-refresh .chat_f75fb0, .container_c8ffbb {
   background: transparent;
-}
-
-.member_c8ffbb, .clickable__91a9d:hover .childContainer__91a9d {
-  background: var(--Secondary-Background-Colour, var(--custom-channel-members-bg));
 }
 
 /* Custom Sprite Emotes */
@@ -1161,4 +1143,123 @@ a {
   content: "";
   display: var(--status-phone-visible, block);
   mask: url('data:image/svg+xml; utf-8,<svg...') center no-repeat;
+}
+
+/* File Upload */
+.visual-refresh .channelAttachmentArea_b77158 {
+  background-color: transparent;
+  margin: 0;
+}
+
+.visual-refresh .upload_aa605f {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 5px 1px var(--Secondary-Main-Colour);
+}
+
+.visual-refresh .wrapper_f7ecac {
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0px 0px 5px 1px var(--Secondary-Main-Colour);
+  border: none;
+}
+
+/* scrollbars */
+*::-webkit-scrollbar-track-piece {
+  border: none !important;
+  background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
+}
+
+*:not(:hover)::-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 0px solid transparent !important;
+}
+
+::-webkit-scrollbar {
+  max-width: 10px !important;
+}
+
+/* to make slightly darker guild row, channel rows and member list than the chat to divide it */
+.visual-refresh .title_f75fb0 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .36)) !important;
+}
+
+.visual-refresh .container__2637a {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .36)) !important;
+}
+
+.visual-refresh .wrapper_ef3116 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4)) !important;
+}
+
+.container_c8ffbb {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .36)) !important;
+}
+
+.title_c38106 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4)) !important;
+}
+
+.clickable_f37cb1 {
+  background: transparent !important;
+}
+
+.visual-refresh .chatContent_f75fb0 {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.4)) !important;
+}
+
+.members_c8ffbb {
+  background: transparent !important;
+}
+
+.member_c8ffbb, .clickable__91a9d:hover .childContainer__91a9d {
+  background-color: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.1));
+}
+
+.visual-refresh .privateChannels__35e86 {
+  background-color: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.3));
+}
+
+/* Settings Background */
+.contentRegion__23e6b,
+.visual-refresh .sidebarRegionScroller__23e6b {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.1));
+}
+
+.visual-refresh .standardSidebarView__23e6b {
+  background: var(--Settings-Background) 50% 50%/cover;
+}
+
+.visual-refresh .contentRegionScroller__23e6b {
+  background: transparent;
+}
+
+/* user panel */
+.visual-refresh .panels_c48ade {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.25));
+  border: none;
+  left: calc(1px*(var(--gsv)* var(--cv) + 20*(var(--gsv) / 50) + 14*(var(--gsv) / 50)*(var(--cv) - 1))) !important;
+  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+}
+
+/* Create Channel */
+.footer__49fc1 {
+  background-color: transparent;
+  border-radius: 0 0 5px 5px;
+}
+
+.root__49fc1, :where(.visual-refresh) .itemFilled__001a7[aria-checked=true] {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.25));
+}
+
+.icon_ac72c6, .icon_ac72c6>path {
+  fill: var(--Main-Colour);
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconStroke__001a7 {
+  stroke: transparent;
 }
