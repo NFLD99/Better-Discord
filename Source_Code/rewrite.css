@@ -38,6 +38,62 @@
 .visual-refresh.theme-light, .visual-refresh .theme-light {
   --header-primary: var(--Main-Colour);
 }
+/* code added by Ansem */
+/* to make slightly darker guild row, channel rows and member list than the chat to divide it */
+.visual-refresh .title_f75fb0{ 
+  background:rgba(0, 0, 0, .36)!important; 
+}
+.visual-refresh .container__2637a{
+  background:rgba(0, 0, 0, .2)!important;
+}
+.visual-refresh .wrapper_ef3116{
+  background:rgba(0, 0, 0, .4)!important;
+}
+.container_c8ffbb{
+  background:rgba(0, 0, 0, .3)!important;
+} 
+.title_c38106{ /*darkness above the title bar (window top part)*/
+  background:rgba(0, 0, 0, .4)!important;
+} 
+.clickable_f37cb1{
+  background:rgba(0, 0, 0, .2)!important;
+} 
+
+/* make chat be semi transparent with niko effect as well*/
+.visual-refresh .channelTextArea_f75fb0{
+  background:rgba(0, 0, 0, .5)!important;
+}
+.themedBackground__74017{
+  background:transparent!important;
+}
+/*---*/
+/* removing borders and rounded corners*/
+.visual-refresh .sidebarList_c48ade{
+  border:0!important;
+  border-radius:0!important;
+}
+.visual-refresh.theme-midnight .content_f75fb0, .visual-refresh.theme-midnight .subtitleContainer_f75fb0{
+  border:0!important;
+}
+.visual-refresh .chat_f75fb0[data-has-border=true]{
+  border:0px!important;
+}
+/* buttons color*/
+.button__201d5 .contents__201d5, .icon__29444, .visual-refresh .clickable__9293f .icon__9293f{
+  color: var(--Main-Colour);
+}
+
+/* title text color*/
+.title__9293f, .visual-refresh .dropdownButton__2637a{
+  color: var(--Main-Colour);
+}
+.visual-refresh .icon__9293f{
+  color: var(--Main-Colour);
+}
+.defaultColor__4bd52{
+  color: var(--Main-Colour);
+}
+/* end of ansem code*/
 
 /* Status */
 #app-mount .wrapper__44b0c,
