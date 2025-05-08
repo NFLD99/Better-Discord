@@ -29,7 +29,7 @@
   --status-width-popout: 3px;
   --status-width-profile: 4px;
   --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Update-Text: " Update #10";
+  --Update-Text: " Update #11";
 }
 
 /* Global Overrides */
@@ -43,33 +43,69 @@
 
 /* to make slightly darker guild row, channel rows and member list than the chat to divide it */
 .visual-refresh .title_f75fb0 {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .36));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
 }
 
-.visual-refresh .container__2637a {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .3));
+.visual-refresh .scroller__629e4, .visual-refresh .scroller__99e7c {
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4))!important;
 }
 
 .visual-refresh .wrapper_ef3116 {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
 }
 
 .container_c8ffbb {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .3));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
+}
+.visual-refresh .searchBar__35e86{
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
+}
+.visual-refresh .stackedBars__74017{/* replying to message highlight on top of the chat bar*/
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .0))!important;
+
 }
 
+
+/* darkness for user panel*/
+.visual-refresh .panels_c48ade{
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.5))!important;
+}
 .title_c38106 {
   /*darkness above the title bar (window top part)*/
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .4));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
 }
 
 .clickable_f37cb1 {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .1));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + .5))!important;
 }
 
 .visual-refresh .chatContent_f75fb0 {
-  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.25));
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.3))!important;
 }
+
+.visual-refresh .container__2637a, .visual-refresh .privateChannels__35e86{
+  background:transparent!important;
+}
+/* settings darkness */ 
+.visual-refresh .sidebarRegionScroller__23e6b{
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.4))!important;
+}
+.contentTransitionWrap__23e6b{
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.15))!important;
+}
+/* friendslist */ /* still needs to fix the top bar */
+.visual-refresh .tabBody__133bf{
+  background: rgba(0, 0, 0, calc(var(--Background-Darkness) + 0.3))!important;
+  border:0!important;
+}
+.container__133bf{
+  background:transparent!important;
+  border:0!important;
+}
+.container__7d20c, .nowPlayingColumn__133bf{ /* active now thingy */
+  background:transparent!important;
+}
+
 
 /* make chat be semi transparent with niko effect as well*/
 .visual-refresh .channelTextArea_f75fb0{
@@ -90,6 +126,17 @@
 .visual-refresh .chat_f75fb0[data-has-border=true]{
   border:0px!important;
 }
+.visual-refresh .panels_c48ade{ /* mini user panel */
+  border-radius:0!important;
+  bottom:0!important;
+}
+.visual-refresh .scroller__629e4{/* for in servers */
+  margin:0!important;
+}
+.visual-refresh .scroller__99e7c{ /* for in DMs */
+  margin-bottom:calc(var(--custom-app-panels-height, 0) + 0px);
+}
+
 /* buttons color*/
 .button__201d5 .contents__201d5, .icon__29444, .visual-refresh .clickable__9293f .icon__9293f{
   color: var(--Main-Colour);
@@ -97,6 +144,8 @@
 :where(.visual-refresh) .linkButtonIcon__972a0{
   color: var(--Main-Colour);
 }
+
+
 
 
 /* title text color*/
@@ -109,7 +158,16 @@
 .defaultColor__4bd52{
   color: var(--Main-Colour);
 }
+
+/* text of muted category color? */
+.wrapper__29444.muted__29444, .wrapper__29444.muted__29444 .name__29444{
+  color:var(--Secondary-Main-Colour);
+}
+
+
+
 /* end of ansem code*/
+
 
 /* Home Icon */
 .listItemWrapper__91816>div>svg>foreignObject>div>div {
