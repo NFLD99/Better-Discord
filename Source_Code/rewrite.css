@@ -187,7 +187,7 @@
   color: var(--Main-Colour);
 }
 
-.defaultColor_b717a1 {
+.defaultColor__4bd52 {
   color: var(--Main-Colour);
 }
 
@@ -217,7 +217,7 @@
 }
 
 /* Title bar Update Text */
-.title__85643>.defaultColor_b717a1::after {
+.title__85643>.defaultColor__4bd52::after {
   content: " | " var(--Theme-Variant) " | " var(--Update-Text);
 }
 

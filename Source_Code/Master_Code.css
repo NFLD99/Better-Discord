@@ -13629,13 +13629,13 @@ svg.selectedIcon-19TbzU > circle {
 }
 
 .upsellButton_c0eeaa,
-.tierTitle_f15dca {
+.tierTitle_a36dee {
     color: var(--Main-Colour);
 }
 
-.theme-dark .tierHeaderUnlocked_f15dca,
-.theme-dark .tierBody_f15dca,
-.theme-dark .tierHeaderLocked_f15dca {
+.theme-dark .tierHeaderUnlocked_a36dee,
+.theme-dark .tierBody_a36dee,
+.theme-dark .tierHeaderLocked_a36dee {
     background-color: var(--Secondary-Background-Colour);
 }
 
@@ -13820,7 +13820,7 @@ svg.selectedIcon-19TbzU > circle {
     color: var(--Main-Colour);
 }
 
-.theme-dark .tierBody_f15dca {
+.theme-dark .tierBody_a36dee {
     color: var(--Main-Colour);
 }
 
