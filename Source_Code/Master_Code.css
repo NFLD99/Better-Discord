@@ -14459,3 +14459,23 @@ a.anchor-1MIwyf:hover,
 .autocompleteAttached__6b0e0{
   background:linear-gradient(var(--Background-Colour), var(--Chat-Input-Background));
 }
+                         /*server folders fix*/
+.wrapper_ef3116 .folderGroupBackground__48112{
+  width:120px!important;
+  border-radius: 15px!important;
+}
+.wrapper_ef3116 .folderGroup__48112 [role="group"]{
+  display:flex!important;
+  flex-flow: row wrap!important;
+  border: 0!important;/
+  height:auto!important;
+}
+.folderGuildsList__48112>:first-child{
+  margin-top:0px;
+}
+.folderGroup__48112{
+  margin-left:10px!important;
+}
+.folderHeader__48112{
+  margin-right:10px;
+}
