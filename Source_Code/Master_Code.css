@@ -14479,3 +14479,22 @@ a.anchor-1MIwyf:hover,
 .folderHeader__48112{
   margin-right:10px;
 }
+                      /*text color fixes*/
+.name__2ea32{
+  color: var(--Secondary-Main-Colour);
+}
+.container__13cf1{
+  color: var(--Main-Colour);
+}
+.search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root{
+  color: var(--Secondary-Main-Colour);
+}
+.defaultColor__4bd52{
+  color: var(--Main-Colour);
+}
+.lottieIconColors__5eb9b :not(defs *)[fill][fill-opacity]{
+  color: var(--Main-Colour);
+}
+.lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity]{
+  color: var(--Main-Colour);
+}
