@@ -14498,3 +14498,22 @@ a.anchor-1MIwyf:hover,
 ._5eb9b3cc7c2b1ce8-lottieIconColors :not(defs *)[stroke][stroke-opacity]{
   color: var(--Main-Colour);
 }
+._51fd70792ee2e563-appMount, body{
+  background:transparent!important;
+}
+.abd9a8b9030934e3-container{
+  background: var(--Settings-Background) 80%;
+}
+._409aa1aeee28d5f7-sidebar{
+  background: rgba(0,0,0,.65)!important;
+}
+.e9e3ed8b8badfe05-content{
+  background: rgba(0,0,0,.55);
+}
+.c38106a3f0c3ca76-winButtonMinMax{
+  color: var(--Main-Colour)!important;
+}
+._5e434347c823b592-panels{
+  background: rgba(0,0,0,.20)!important;
+}
+
